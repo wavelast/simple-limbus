@@ -1,0 +1,162 @@
+[
+  {
+    "id": "blade-lineage-mentor-meursault",
+    "note": "If [S3] loses a clash, [D2] counters automatically."
+  },
+  {
+    "id": "blade-of-the-house-of-spiders-ryoshu",
+    "note": "[D] has her kill the last House of Spiders ally with [S1.2] for SP and {entangled-life|more damage}."
+  },
+  {
+    "id": "dawn-office-fixer-faust",
+    "note": "Once {fire-butterfly-coffin|~} reaches 30, [D1] becomes [D2], a stronger counter that heals."
+  },
+  {
+    "id": "dawn-office-rep-gregor",
+    "note": "[D1] {assist-defense|protects allies} with [D2]. Once {light-of-daybreak|~} reaches 30, it fires [S3.2] instead."
+  },
+  {
+    "id": "devyat-assoc-north-section-3-rodion",
+    "note": "Once {courier-trunk-rodion|~} reaches 15, [D1] becomes [D2], which {strategic-r-r-mode|retreats} at turn end."
+  },
+  {
+    "id": "devyat-assoc-north-section-3-sinclair",
+    "note": "Once {courier-trunk-sinclair|~} reaches 15, [D1] becomes [D2], which {strategic-r-r-mode|retreats} at turn end."
+  },
+  {
+    "id": "family-hierarch-candidate-ishmael",
+    "note": "At 3+ {launcher|~}, [D] makes her retreat at turn end and gives allies Offense Level Up."
+  },
+  {
+    "id": "full-stop-office-fixer-heathcliff",
+    "note": "[D1] builds {poise} and {concentration-sniper|~} for [S3]; {ammo|out of ammo}, it becomes [D2] (Guard)."
+  },
+  {
+    "id": "full-stop-office-rep-hong-lu",
+    "note": "{ammo|Out of ammo}, [D1] becomes [D2] (Counter), which reloads."
+  },
+  {
+    "id": "haute-couture-boutique-du-rouge-ishmael",
+    "note": "[D1] costs HP each turn but draws attacks, inflicts {bleed} and builds {pulsation-ally|~}. Near death she switches to [D2], which fully heals."
+  },
+  {
+    "id": "heishou-pack-mao-branch-adept-faust",
+    "note": "[D1] lets her {assist-defense|protect allies} with [D2] (or [S3.2] at 10 {tianjiu-star-s-blade|~}); taking their hits builds {tianjiu-star-s-blade|~}."
+  },
+  {
+    "id": "heishou-pack-wei-branch-don-quixote",
+    "note": "[D] gives {burgeoning-of-horns|~} next turn, making [S2] and [S3] coins Unbreakable."
+  },
+  {
+    "id": "heishou-pack-you-branch-adept-heathcliff",
+    "note": "[D] gives {bloodflame|~} next turn: [S3] gets Unbreakable coins and [S2] can reuse a coin."
+  },
+  {
+    "id": "heishou-pack-you-branch-sinclair",
+    "note": "[D] gives {bloodflame|~} next turn: [S3] gets Unbreakable coins and [S2] can reuse a coin. Losing its clash burns him too."
+  },
+  {
+    "id": "kurokumo-clan-wakashu-rodion",
+    "note": "At 5+ {poise}, she counters with [D2] (her S3)."
+  },
+  {
+    "id": "lcd-osir-team-ishmael",
+    "note": "[D1] {assist-defense|protects allies} with [D2]."
+  },
+  {
+    "id": "lobotomy-e-g-o-faint-aroma-solitude-ryoshu",
+    "note": "[D] gives {petals|~} and {attack-power-up} next turn, but also {fragile}."
+  },
+  {
+    "id": "lobotomy-e-g-o-lamp-gregor",
+    "note": "[D] fills {lamp|~} at once and gives slow allies {haste}; full Lamp draws attacks and inflicts {dazzle}. It costs some HP and gives him {bind} next turn."
+  },
+  {
+    "id": "lobotomy-e-g-o-regret-faust",
+    "note": "[D] gives 6 {tremor} Count, which powers up [S2] and [S3] next turn."
+  },
+  {
+    "id": "lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+    "note": "[D1] and [D2] give {tear-sharpened|~}: more damage and {deep-tears|~} each turn, but it drains SP, pushing her into {despair|~}."
+  },
+  {
+    "id": "s-corp-ch-unokkun-hong-lu",
+    "note": "[D] inflicts {trussed-hong-lu|~}, which [S1] and [S2] need; it only lands if an enemy attacks him."
+  },
+  {
+    "id": "t-corp-class-2-collection-staff-rodion",
+    "note": "[D] gives {borrowed-time|~}: {haste}, Clash Power Up and her passive bonuses on [S3] for a few turns, but {fragile}, then {bind} when it ends."
+  },
+  {
+    "id": "t-corp-class-3-vdcu-staff-outis",
+    "note": "[D] gives {borrowed-time|~}: {haste}, Clash Power Up and a stronger [S3] for a few turns, but {fragile}, then {bind} when it ends."
+  },
+  {
+    "id": "the-house-of-spiders-the-middle-apprentice-ishmael",
+    "note": "At 6+ Envy A-Resonance, [D] counters with [S3]."
+  },
+  {
+    "id": "the-house-of-spiders-the-middle-nursefather-outis",
+    "note": "At 6+ Envy A-Resonance, [D] counters with [S3] or [S3.2]."
+  },
+  {
+    "id": "the-house-of-spiders-the-pinky-apprentice-sinclair",
+    "note": "[D1] builds {poise}, and Poise past 25 turns into {moonlit-azure-blade|~}; at 25+ it becomes [D2] (Evade)."
+  },
+  {
+    "id": "the-house-of-spiders-the-ring-apprentice-faust",
+    "note": "Uses [D1] or [D2] depending on {the-self-unbound-flow-state|her special state}; [D2] {assist-defense|protects allies} with [D3]."
+  },
+  {
+    "id": "the-house-of-spiders-the-ring-nursefather-hong-lu",
+    "note": "[D1] {assist-defense|protects allies} with [D2]."
+  },
+  {
+    "id": "the-house-of-spiders-the-thumb-apprentice-heathcliff",
+    "note": "[D2] protects Thumb Nursefather Rodion once Rodion {eye-of-precognition-overheat-rodion|overheats}."
+  },
+  {
+    "id": "the-house-of-spiders-the-thumb-nursefather-rodion",
+    "note": "[D1] reloads {acceleration-round|~} but drains {eye-of-precognition-rodion|~}. [D2] fires on its own, dodging unopposed and unbreakable attacks and lost clashes."
+  },
+  {
+    "id": "the-lord-of-hongyuan-hong-lu",
+    "note": "[D1] pulls a hurt Heishou ally out to heal; Heishou allies {lordsguard|protect him} with [D2]."
+  },
+  {
+    "id": "the-middle-big-brother-heathcliff",
+    "note": "At 6+ Envy A-Resonance, [D] counters with [S3]."
+  },
+  {
+    "id": "the-middle-little-brother-sinclair",
+    "note": "At 4+ / 6+ Envy A-Resonance, [D] counters with [S2] / [S3]."
+  },
+  {
+    "id": "the-middle-little-sister-don-quixote",
+    "note": "At 6+ Envy A-Resonance, [D] counters with [S3]."
+  },
+  {
+    "id": "the-priest-of-la-manchaland-gregor",
+    "note": "[D] gives {ailing-heart-ally|~}, which grows each turn: more defense, healing at low HP and a stronger [S2] at 5+. Above 40% HP it makes him Bleed; below, it heals him."
+  },
+  {
+    "id": "the-ring-fauvist-docent-rodion",
+    "note": "Against targets with 3+ debuff types, [D1] becomes [D2]."
+  },
+  {
+    "id": "shi-assoc-east-section-3-faust",
+    "note": "[D1] sets up [S3.2] for next turn; {arrow-shi|out of arrows}, it becomes [D2] (Evade)."
+  },
+  {
+    "id": "w-corp-l4-cleanup-agent-cca-heathcliff",
+    "note": "[D] gives {overcharge|~} next turn: less damage taken, an extra [S3] and {charge} Count, but he's Immobilized that turn."
+  },
+  {
+    "id": "wild-hunt-heathcliff",
+    "note": "[D] gives {dullahan|~} next turn: more offense and Speed, and [S3] becomes [S3.2], but less defense and an SP drain. With {dullahan|~} and 15+ SP, [D] counters with [S3.2]."
+  },
+  {
+    "id": "zwei-assoc-west-section-3-ishmael",
+    "note": "[D] puts her in {defensive-stance|~} and gives {tremor} Count: she draws attacks with much more defense, but her Speed drops to its minimum."
+  }
+]

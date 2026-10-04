@@ -1,0 +1,2850 @@
+[
+  {
+    "id": "blade-lineage-mentor-meursault",
+    "passives": [
+      {
+        "name": "In Memoriam",
+        "text": "Gains {swordplay-of-the-homeland} at combat start. Once 3+ other Blade Lineage allies fall, gains +1 extra {poise} from its skills (+2 at 5+)."
+      },
+      {
+        "name": "Swordplay of the Homeland",
+        "text": "Survives one lethal hit per fight. Shares {poise} with 2 Blade Lineage allies when gaining it; all Blade Lineage allies get {swordplay-of-the-homeland}."
+      },
+      {
+        "name": "Swordplay of the Homeland",
+        "text": "At combat start, the ally with the most {poise} deals +15% Slash damage on critical hits."
+      }
+    ]
+  },
+  {
+    "id": "blade-lineage-salsu-don-quixote",
+    "passives": [
+      {
+        "name": "Collective Breathing",
+        "text": "When it gains {poise} Potency from its own skills, it gives 1 {poise} Potency to the ally with the least {poise}."
+      },
+      {
+        "name": "Nightly Stroll",
+        "text": "The ally with the least {poise} gains 2 extra {poise} Potency whenever their own skills give them {poise}."
+      }
+    ]
+  },
+  {
+    "id": "blade-lineage-salsu-faust",
+    "passives": [
+      {
+        "name": "Sanguine Plum Blossoms",
+        "text": "Its critical hits inflict 1 {red-plum-blossom}. On targets with 10 {red-plum-blossom}, they inflict 1 {defense-level-down} instead."
+      },
+      {
+        "name": "Lingering Bladepoint",
+        "text": "When the ally placed first in team setup lands a critical hit with a Slash skill, they inflict 1 {defense-level-down}."
+      }
+    ]
+  },
+  {
+    "id": "blade-lineage-salsu-outis",
+    "passives": [
+      {
+        "name": "Levelheaded",
+        "text": "Deals +20% damage to targets below 25% HP."
+      },
+      {
+        "name": "Double Tap",
+        "text": "The ally with the most SP deals +30% damage to enemies below 25% HP."
+      }
+    ]
+  },
+  {
+    "id": "blade-lineage-salsu-sinclair",
+    "passives": [
+      {
+        "name": "Slayer",
+        "text": "The last Coin of the final chained skill deals +20% damage. 50% chance to gain {poise} Count when another ally gains it."
+      },
+      {
+        "name": "Bloodied Hands",
+        "text": "The slowest ally gets +1 Final Power on their last skill."
+      }
+    ]
+  },
+  {
+    "id": "blade-lineage-salsu-yi-sang",
+    "passives": [
+      {
+        "name": "Poised",
+        "text": "Gains +1 {poise} Count on each clash win, and +1 Coin Power for every 5 {poise} Count."
+      },
+      {
+        "name": "Bestow",
+        "text": "The ally with the most SP gains +1 extra {poise} Count from their skills."
+      }
+    ]
+  },
+  {
+    "id": "blade-of-the-house-of-spiders-ryoshu",
+    "passives": [
+      {
+        "name": "Saikai [再会]",
+        "text": "Sends its HP damage to the lowest-HP House of Spiders ally and survives one lethal hit. Their deaths grant {entanglement} and bonuses."
+      },
+      {
+        "name": "Spacetime Afterimage Collapse",
+        "text": "Each turn, marks a random enemy with {phantom-trace}. Base attacks against it trigger a free S2.2 and turn coins into {unbreakable-coin}."
+      },
+      {
+        "name": "Dihui Star [地慧星]",
+        "text": "At 50+ {dihui-star-s-blade}, uses S3.3 on a random enemy at turn end. Afterward it can't retreat, and gains S3.2 while at 50+."
+      },
+      {
+        "name": "Afterimage Reverberation",
+        "text": "Base attack crits inflict {bladetrail-afterimage} and deal +1% damage per {poise} above 20, up to +10%."
+      },
+      {
+        "name": "The Master's Tutelage [師事]",
+        "text": "When the first-deployed ally uses a base skill, it gains 2 {poise} Potency."
+      }
+    ]
+  },
+  {
+    "id": "cinq-assoc-east-section-3-don-quixote",
+    "passives": [
+      {
+        "name": "Virescent Pyrojade",
+        "text": "Gains 1 {haste} per 3 {poise}. Base attacks inflict {nerve-strike-don-quixote}, and critical hits deal extra damage from the target's {burn}."
+      },
+      {
+        "name": "Featherstride Technique",
+        "text": "When the fastest ally wins a clash against an enemy with {burn}, they gain 1 {haste}, or 2 at 20+ {burn}."
+      }
+    ]
+  },
+  {
+    "id": "cinq-assoc-east-section-3-hong-lu",
+    "passives": [
+      {
+        "name": "A Duel Witnessed",
+        "text": "Starts with {witnessed-eastern-cinq} for each Cinq Association ally on the bench. Inflicts 1 {nerve-strike-hong-lu} next turn on the last enemy it hit."
+      },
+      {
+        "name": "Virescent Pyrojade",
+        "text": "Winning clashes adds {nerve-strike-hong-lu} to enemies already carrying it. Gains {haste} from {poise} Potency; critical hits deal bonus damage from target's {burn}."
+      },
+      {
+        "name": "I'll Melt Open the Way Out",
+        "text": "When the fastest ally wins a clash against an enemy with {burn}, it inflicts 1 {bind} next turn and adds more {burn}."
+      }
+    ]
+  },
+  {
+    "id": "cinq-assoc-south-section-4-director-sinclair",
+    "passives": [
+      {
+        "name": "Too Slow",
+        "text": "When the fastest ally evades an attack, they gain 1 {haste} next turn."
+      },
+      {
+        "name": "Slumbering Bloodthirst",
+        "text": "Gains extra max Speed next turn based on {poise} Count. Gains {pierce-dmg-up} if all allies outspeed all enemies."
+      }
+    ]
+  },
+  {
+    "id": "cinq-assoc-south-section-4-outis",
+    "passives": [
+      {
+        "name": "Redirect",
+        "text": "After a successful evade, gains 1 {haste} next turn and lowers its Stagger threshold by 5, making it harder to Stagger."
+      },
+      {
+        "name": "Mentor's Counsel",
+        "text": "If the fastest ally outspeeds every enemy, they gain +1 Clash Power. If they're a Cinq Fixer, they deal +10% Pierce damage."
+      }
+    ]
+  },
+  {
+    "id": "cinq-assoc-south-section-5-director-don-quixote",
+    "passives": [
+      {
+        "name": "A Noble Duel",
+        "text": "If every ally is faster than every enemy, deals +6% damage per Speed point over the slowest enemy."
+      },
+      {
+        "name": "Dueling Request",
+        "text": "If every ally is faster than every enemy, the fastest ally deals +3% damage per Speed point over the slowest enemy."
+      }
+    ]
+  },
+  {
+    "id": "cinq-assoc-west-section-3-meursault",
+    "passives": [
+      {
+        "name": "Duel Livestream",
+        "text": "Gains {haste} next turn for every 3 {poise} Potency. Hits mark a slot with {focused-attack-meursault}; killing its owner heals 7 SP."
+      },
+      {
+        "name": "One Step Ahead",
+        "text": "The fastest ally gains 1 {haste} next turn when winning a Clash."
+      }
+    ]
+  },
+  {
+    "id": "dawn-office-fixer-faust",
+    "passives": [
+      {
+        "name": "Heatproof Coat",
+        "text": "{burn} can't Stagger or kill this unit, and it takes 50% less {burn} damage (75% less below half HP)."
+      },
+      {
+        "name": "Seonbae",
+        "text": "Gives Dawn Office Fixer Sinclair {high-noon}. If this unit is defeated, Sinclair's {high-noon} turns into {loneliness-at-high-noon}."
+      },
+      {
+        "name": "Feuerfalter [Stigma Workshop]",
+        "text": "When other Dawn Office allies Stagger an enemy or use certain skills, follows up with S1.2. Gains {fire-butterfly-coffin} from {battle-instinct}."
+      },
+      {
+        "name": "The Lone Fixer",
+        "text": "When only one ally remains alive, including backups, it gains 3 {offense-level-up} and 3 {defense-level-up} each turn."
+      }
+    ]
+  },
+  {
+    "id": "dawn-office-fixer-sinclair",
+    "passives": [
+      {
+        "name": "Unstable Shell of Ego",
+        "text": "At 40+ SP, spends 20 SP to enter Volatile E.G.O with {volatile-passion}. Also triggers when 2+ allies die in one turn."
+      },
+      {
+        "name": "Stigma Workshop Weaponry / Passion",
+        "text": "Inflicts +1 extra {burn} Potency and Count with skills. In Volatile E.G.O, gains Coin Power based on SP, up to +3."
+      },
+      {
+        "name": "Flaring Brand",
+        "text": "The first-deployed ally's heads hits inflict extra {burn} Count."
+      }
+    ]
+  },
+  {
+    "id": "dawn-office-rep-gregor",
+    "passives": [
+      {
+        "name": "The Fixer at the Crack of Dawn",
+        "text": "{burn} can't Stagger or kill this unit, and it takes 50% less {burn} damage (75% less below half HP)."
+      },
+      {
+        "name": "Dawn Office",
+        "text": "With 2+ Dawn Office allies, each gains {dawn-office}. Dawn Office Fixer Sinclair gets {from-dawnbreak-to-sunset}, which becomes {blazing-sunset} if this unit dies."
+      },
+      {
+        "name": "Morgenfeuer [Stigma Workshop]",
+        "text": "When other Dawn Office allies Stagger an enemy or use certain skills, follows up with S1. With {dawnherald}, hits build {light-of-daybreak}."
+      },
+      {
+        "name": "Stigma Workshop Prosthesis",
+        "text": "The ally with the highest HP inflicts 2 {tremor} on enemies with {burn}, and triggers {tremor-burst} if they have 10+ {burn}."
+      }
+    ]
+  },
+  {
+    "id": "dead-rabbits-boss-meursault",
+    "passives": [
+      {
+        "name": "Buy Time",
+        "text": "Gets +1 Clash Power against targets with {rupture}, or +2 if they have 5+ {rupture} Count."
+      },
+      {
+        "name": "My Responsibility",
+        "text": "When the fastest ally hits an enemy with 3+ {rupture}, that enemy gets 1 {offense-level-down}."
+      }
+    ]
+  },
+  {
+    "id": "devyat-assoc-north-section-3-rodion",
+    "passives": [
+      {
+        "name": "Lemme go and I swear I'll make it in time!",
+        "text": "In chain battles, if this unit retreats with {strategic-r-r-mode} and later rejoins, its {courier-trunk-rodion} is halved."
+      },
+      {
+        "name": "Speedy Delivery",
+        "text": "At turn start, with 6+ Speed or {haste}, gains a Shield based on {courier-trunk-rodion}. Retreating gives 2 allies {clash-power-up} next turn."
+      },
+      {
+        "name": "Outstanding Courier",
+        "text": "The fastest ally gets +1 Clash Power on skills that inflict {rupture}."
+      }
+    ]
+  },
+  {
+    "id": "devyat-assoc-north-section-3-sinclair",
+    "passives": [
+      {
+        "name": "I'll do better next time…",
+        "text": "In chain battles, if this unit retreats with {strategic-r-r-mode} and later rejoins, its {courier-trunk-sinclair} is halved."
+      },
+      {
+        "name": "A moment, please…",
+        "text": "At turn start, with 6+ Speed or {haste}, gains a Shield based on {courier-trunk-sinclair}. Retreating gives 2 allies {clash-power-up} next turn."
+      },
+      {
+        "name": "Speedy Courier",
+        "text": "When the fastest ally hits an enemy with {rupture}, they inflict 1 {defense-level-down}."
+      }
+    ]
+  },
+  {
+    "id": "dieci-assoc-south-section-4-director-meursault",
+    "passives": [
+      {
+        "name": "Study Hall",
+        "text": "When another ally triggers {discard}, they and this unit gain {erudition}. Next turn, this unit gains {pierce-dmg-up} and {blunt-dmg-up} per discarding ally."
+      },
+      {
+        "name": "Diligent Learning",
+        "text": "When the highest-max-HP ally triggers {discard}, they gain a Shield worth 5% max HP per skill rank (1.5x with {insight})."
+      }
+    ]
+  },
+  {
+    "id": "dieci-assoc-south-section-4-hong-lu",
+    "passives": [
+      {
+        "name": "Peering Through a Key",
+        "text": "When it discards a skill, gains {damage-up} equal to the skill's rank. Gains {insight} when allies discard skills ranked above its {insight}."
+      },
+      {
+        "name": "Enlightenment",
+        "text": "When the ally with the lowest SP Staggers or defeats a target with an attack, they heal 7 SP."
+      }
+    ]
+  },
+  {
+    "id": "dieci-assoc-south-section-4-rodion",
+    "passives": [
+      {
+        "name": "Incandescent Enlightenment",
+        "text": "Gains {blunt-dmg-up} next turn based on damage taken this turn. With 3 {insight} at turn end, removes 1 negative effect."
+      },
+      {
+        "name": "Missionary of Knowledge",
+        "text": "The ally with the highest Max HP gains {blunt-dmg-up} next turn based on the damage they took this turn."
+      }
+    ]
+  },
+  {
+    "id": "dieci-assoc-south-section-4-yi-sang",
+    "passives": [
+      {
+        "name": "Sinking Knowledge",
+        "text": "When attacked, inflicts 1 {sinking} on the attacker, or 2 if this unit has a Shield."
+      },
+      {
+        "name": "Reviewed Knowledge",
+        "text": "When the fastest ally uses {discard} on a skill, they gain Shield equal to 5% Max HP per skill rank."
+      }
+    ]
+  },
+  {
+    "id": "district-20-yurodivy-hong-lu",
+    "passives": [
+      {
+        "name": "Vibroweld Morph-combat Cane (Unauthorized Invention)",
+        "text": "Each {tremor-burst} this unit triggers grants 1 {damage-up} for next turn."
+      },
+      {
+        "name": "In the Culprit's Shoes",
+        "text": "When the first-deployed ally triggers {tremor-burst}, there's a 25% chance to trigger an extra one."
+      }
+    ]
+  },
+  {
+    "id": "district-20-yurodivy-ryoshu",
+    "passives": [
+      {
+        "name": "N.O.",
+        "text": "When another ally Staggers an enemy, this unit follows up with S1 on it, inflicting +1 {tremor} Count and a {tremor-burst}."
+      },
+      {
+        "name": "The A.I.",
+        "text": "The first-deployed ally inflicts +1 extra {tremor} Count with their skills."
+      }
+    ]
+  },
+  {
+    "id": "drifting-blade-of-hongyuan-ryoshu",
+    "passives": [
+      {
+        "name": "I.L.T.L.T. (I would've Liked to walk The Lord's path Together)",
+        "text": "After another ally hits an enemy, follows up with an unopposed S1. Gains 2 {protector-s-stance} the turn it swaps in."
+      },
+      {
+        "name": "Loyal Warrior",
+        "text": "When an ally dies or drops below 25% HP from an attack, hits that enemy with S3. Follow-up S1 heals ally SP."
+      },
+      {
+        "name": "Drifter",
+        "text": "At combat start, the first-deployed ally gains Shield equal to its {poise}."
+      }
+    ]
+  },
+  {
+    "id": "edgar-family-butler-ishmael",
+    "passives": [
+      {
+        "name": "Deep Cleaning",
+        "text": "Its critical hits on slower targets add +1 Potency to the negative effects its skills inflict."
+      },
+      {
+        "name": "Loyal Supporter",
+        "text": "When the fastest ally attacks a target with {sinking}, they deal +1% damage per {sinking} on it."
+      }
+    ]
+  },
+  {
+    "id": "edgar-family-chief-butler-ryoshu",
+    "passives": [
+      {
+        "name": "Clearing Household Chores",
+        "text": "Hitting {b-m} targets grants +1 {poise} Count and {haste}. Crits remove {b-m}, dealing up to +60% damage if faster than the target."
+      },
+      {
+        "name": "Cleaning Command",
+        "text": "When the last-deployed ally wins a Clash, they gain +1 {poise} Count and 1 {haste} next turn."
+      }
+    ]
+  },
+  {
+    "id": "edgar-family-heir-gregor",
+    "passives": [
+      {
+        "name": "Endless Nightmares",
+        "text": "At combat start, gains {damage-up} and {fragile} per 5 SP changed since turn start. Deals +2% damage per {sinking} on the target."
+      },
+      {
+        "name": "Suffering",
+        "text": "At combat start, the ally with the lowest SP loses 5 SP, then gains 1 {gloom-dmg-up}."
+      }
+    ]
+  },
+  {
+    "id": "effloresced-e-g-o-spicebush-yi-sang",
+    "passives": [
+      {
+        "name": "Full Bloom",
+        "text": "Deals +30% damage when hitting 2 or more targets at once."
+      },
+      {
+        "name": "Pungent Spring Breeze",
+        "text": "The ally with the least SP deals +10% damage when hitting 2 or more targets at once."
+      }
+    ]
+  },
+  {
+    "id": "family-hierarch-candidate-ishmael",
+    "passives": [
+      {
+        "name": "Launching Maneuver [始動]",
+        "text": "On retreat, gives allies {offense-level-up} (one ally per {launcher}). On entering, gains {ready} and opens combat with S1.2 on a random enemy."
+      },
+      {
+        "name": "Rupture-breathing Resolve [破吸自桓]",
+        "text": "Kills grant {poise} from the target's {rupture}. If its Offense Level beats the target's, gains +1 Clash Power and inflicts +1 {rupture}."
+      },
+      {
+        "name": "Lingering Resolve [餘桓]",
+        "text": "If it dies, its replacement gets {assist}. While benched, a low-HP ally who defended recovers from Stagger and makes a {battlefield-retreat}."
+      }
+    ]
+  },
+  {
+    "id": "fanghunt-office-fixer-hong-lu",
+    "passives": [
+      {
+        "name": "How to Hunt Cheerfully",
+        "text": "Deals +10% damage to Bloodfiends, Bloodbags, or enemies with 10+ {rupture}. While this unit has {bleed}, its hits inflict 3 {rupture}."
+      },
+      {
+        "name": "Bloodfiend Hunting Manual - Styptics",
+        "text": "Each turn, the ally with the most {bleed} loses 2 {bleed} Count. The fastest ally inflicts {defense-level-down} when hitting enemies with {rupture}."
+      }
+    ]
+  },
+  {
+    "id": "firefist-office-survivor-gregor",
+    "passives": [
+      {
+        "name": "District 12 Special Workshop Fuel",
+        "text": "Starts each fight with 100 {district-12-fuel}. Once it drops to 50 or less, it turns into {overheated-fuel}."
+      },
+      {
+        "name": "I'm the only survivor…",
+        "text": "Deals up to +40% damage from fuel spent (+60% against heavy {burn} targets). Killing or Staggering enemies with {burn} spreads {burn} Count."
+      },
+      {
+        "name": "I hope they're from our Office…",
+        "text": "The fastest ally deals +5% Wrath damage per 6 {burn} on the target, up to +20%."
+      }
+    ]
+  },
+  {
+    "id": "full-stop-office-fixer-heathcliff",
+    "passives": [
+      {
+        "name": "Snipe",
+        "text": "Starts fights with 3 {pierce-power-up} and {ammo-atelier-logic}. When out of {ammo}, goes on {overwatch-assignment}, returning with max {concentration-sniper} and {reload-solemn-lament}."
+      },
+      {
+        "name": "Precision Aim",
+        "text": "Gains 1 {haste} per 10 {poise}. If it doesn't attack, gives an ally 3 {poise} and gains 10 {poise} plus {pierce-power-up}."
+      },
+      {
+        "name": "Spotter",
+        "text": "The ally with the least {ammo} gains +2 {poise} Count when using skills that spend {ammo}; +4 for Full-Stop Office identities."
+      }
+    ]
+  },
+  {
+    "id": "full-stop-office-rep-hong-lu",
+    "passives": [
+      {
+        "name": "Concentration",
+        "text": "Coins that spend {ammo} still attack when out of {ammo}, but their on-hit effects don't trigger."
+      },
+      {
+        "name": "Tactical Fire Support",
+        "text": "S2 and S3 get stronger while Full-Stop Office Fixer Heathcliff is on {overwatch-assignment} or backup. At 20+ {poise}, gains +1 {poise} Count."
+      },
+      {
+        "name": "Suppressing Fire",
+        "text": "The ally with the most {ammo} deals +10% damage with skills that spend {ammo}."
+      }
+    ]
+  },
+  {
+    "id": "g-corp-head-manager-outis",
+    "passives": [
+      {
+        "name": "Morale Boost",
+        "text": "Next turn, this unit and the allies next to it gain 2 {haste}."
+      },
+      {
+        "name": "Valor",
+        "text": "At combat start, the ally with the most HP randomly gains 1 {attack-power-up}, {defense-power-up}, or {protection}."
+      }
+    ]
+  },
+  {
+    "id": "g-corp-manager-corporal-gregor",
+    "passives": [
+      {
+        "name": "Emergency Rations",
+        "text": "Below 25% HP, heals 5% of Max HP after winning a clash."
+      },
+      {
+        "name": "Gene Code G-3",
+        "text": "The ally with the lowest HP heals 5 HP after winning a clash."
+      }
+    ]
+  },
+  {
+    "id": "haute-couture-alteration-shop-rodion",
+    "passives": [
+      {
+        "name": "Inertia of Drifting",
+        "text": "Gains {inertia-of-drifting} Potency per 10 Count spent. When an ally with {second-is-welcome-snipping} attacks, follows up with Patterning or Cutout."
+      },
+      {
+        "name": "Snipping in the Alteration Shop are Blossom Scissors",
+        "text": "Gains a Shield each turn equal to its {inertia-of-drifting} Count. Skills gain up to +3 Final Power from {inertia-of-drifting} Potency."
+      },
+      {
+        "name": "First is Thanks-snipping",
+        "text": "The fastest ally deals +10% damage with Slash skills."
+      }
+    ]
+  },
+  {
+    "id": "haute-couture-boutique-du-rouge-ishmael",
+    "passives": [
+      {
+        "name": "Into the Changing Room…",
+        "text": "Once per fight, survives a lethal hit via {changing-room-ishmael} and a max-HP Shield, then enters {full-makeover}. HP costs can't kill it."
+      },
+      {
+        "name": "Cradle of Change",
+        "text": "Skills gain +2 Clash Power while it has under 10 {pulsation-ally} Count. In {full-makeover}, hits heal 8% HP."
+      },
+      {
+        "name": "[Actrice Haute Couture du Rouge] - Robes",
+        "text": "The first two deployed allies receive 20% more healing, and take 10% less damage on turns with Lust Absolute Resonance."
+      }
+    ]
+  },
+  {
+    "id": "haute-couture-le-noir-footwear-hall-ryoshu",
+    "passives": [
+      {
+        "name": "Le Noir: Gabardine Fabric",
+        "text": "Starts with 25 {le-noir-gabardine-overcoat} and gains a Shield each turn based on it and {armure-eveillee}. With {armure-eveillee}, S3 becomes S3.2."
+      },
+      {
+        "name": "Conservation",
+        "text": "Attacks gain +1 Coin Power against 6+ {tremor} targets and bonus damage from {preservation}. Under 3 Potency, leftover {preservation} becomes Shield."
+      },
+      {
+        "name": "Feedback",
+        "text": "Its {tremor-burst} pushes enemies 15% harder toward Stagger (30% at 12+ {preservation}). Hits taken while Shielded inflict 2 {tremor} on attackers."
+      },
+      {
+        "name": "Le Noir's Virtue and Worth",
+        "text": "For the earliest-deployed ally with {charge}, {tremor-burst} pushes enemies 12.5% harder toward Stagger."
+      }
+    ]
+  },
+  {
+    "id": "heishou-pack-mao-branch-adept-faust",
+    "passives": [
+      {
+        "name": "Tianjiu Star",
+        "text": "When a target's {deathrite-fissure} runs out, inflicts {mark-of-decay} on it."
+      },
+      {
+        "name": "Heishou Mutation [Mao] / Mao Branch Adept",
+        "text": "Deals up to +10% damage when faster than the target. Gains {tianjiu-star-s-blade} whenever allies trigger Deathrite effects or it uses {assist-defense}."
+      },
+      {
+        "name": "Blinkblade",
+        "text": "When the fastest ally deals {rupture} damage, they gain 1 {offense-level-up} next turn."
+      }
+    ]
+  },
+  {
+    "id": "heishou-pack-mao-branch-outis",
+    "passives": [
+      {
+        "name": "Heishou Mutation [Mao]",
+        "text": "Against targets with {deathrite-haste}, deals +5% damage per {strider-mao} it has, up to +15%."
+      },
+      {
+        "name": "A Husk of Hares",
+        "text": "The fastest ally deals +10% damage to enemies with {rupture} and gains 1 {haste} next turn."
+      }
+    ]
+  },
+  {
+    "id": "heishou-pack-mao-branch-ryoshu",
+    "passives": [
+      {
+        "name": "Heishou Mutation [Mao]",
+        "text": "Deals +5% damage while it has {strider-mao}, and another +5% against targets with {deathrite-haste}."
+      },
+      {
+        "name": "Partial Heishou Mutation Training",
+        "text": "At the end of each turn, the fastest ally gains 2 {haste} for next turn."
+      }
+    ]
+  },
+  {
+    "id": "heishou-pack-si-branch-gregor",
+    "passives": [
+      {
+        "name": "Heishou Mutation [Si]",
+        "text": "Against targets with {deathrite-venom}, deals +5% damage per {serpent-arm}, up to +15%. Emptying their {deathrite-venom} grants {pierce-dmg-up} next turn."
+      },
+      {
+        "name": "Like a Serpent: Flexible, Elastic, and Unpredictable",
+        "text": "If this unit dies, the ally who replaces it gains 2 {poise} every turn."
+      }
+    ]
+  },
+  {
+    "id": "heishou-pack-si-branch-rodion",
+    "passives": [
+      {
+        "name": "Heishou Mutation [Si]",
+        "text": "Deals +5% damage while it has {serpent-arm}, and another +5% against targets with {deathrite-venom}."
+      },
+      {
+        "name": "Intravascular Venom",
+        "text": "When the fastest ally deals {rupture} damage, the enemy gets 1 {offense-level-down} and 1 {defense-level-down} next turn."
+      }
+    ]
+  },
+  {
+    "id": "heishou-pack-wei-branch-don-quixote",
+    "passives": [
+      {
+        "name": "Lament of the Lost Sheep [亡羊之嘆]",
+        "text": "{exalted-command} lets Lord Hong Lu inflict {sinking} when inflicting {rupture}. Gains 3 {burgeoning-of-horns} the turn it swaps in."
+      },
+      {
+        "name": "Explosive Battering Ram",
+        "text": "Deals more damage to enemies with negative SP, {rupture}, or {sinking}. With {burgeoning-of-horns}, final coins deal +15% damage, more against defense skills."
+      },
+      {
+        "name": "Flesh-Rending Horn Growth",
+        "text": "The fastest ally's attack hits inflict {defense-level-down} on enemies with 2+ {rupture} or {sinking} Count."
+      }
+    ]
+  },
+  {
+    "id": "heishou-pack-wu-branch-adept-yi-sang",
+    "passives": [
+      {
+        "name": "The Steed's Houndlike Loyalty [狗馬之心]",
+        "text": "{exalted-command} lets Lord Hong Lu trigger {tremor-burst}. Also gives Family Hierarch Ishmael {poise}, {attack-power-up}, and a follow-up attack after this unit's S3.2."
+      },
+      {
+        "name": "Adept Vanguard",
+        "text": "When it applies {commanding-cry}, gains 3 {offense-level-up} this turn and next."
+      },
+      {
+        "name": "Obsidian Stormrider [黑風馬脚]",
+        "text": "Gains {linebreaker} by outspeeding targets by 2+, triggering {tremor-burst} twice, or winning Clashes with {strider-wu}. Gains Defense Level from its Shield."
+      },
+      {
+        "name": "Obsidian Exoskeleton Shall Rend and Protect My Flesh",
+        "text": "The ally with the highest max HP gains Defense Level from Speed changes between turns; may heal 50 HP below 50% HP."
+      }
+    ]
+  },
+  {
+    "id": "heishou-pack-you-branch-adept-heathcliff",
+    "passives": [
+      {
+        "name": "Gamefowl",
+        "text": "{exalted-command} gives Lord Hong Lu bonus Wrath damage. {burn} can't Stagger or kill this unit; swapping in grants {bloodflame} and {burn}."
+      },
+      {
+        "name": "Flame Rooster's Death Defiance [炎鳥不死戦]",
+        "text": "Once per fight, survives a lethal hit at 1 HP; next turn, heals 20%+ HP (more with {burn}) and clears {burn}."
+      },
+      {
+        "name": "Bloody Storm of Blades",
+        "text": "Gains {offense-level-up} and {defense-level-up} as HP drops. Builds {battleblood-instinct} from Clashes, hits, {burn} damage, and kills, faster below 50% HP."
+      },
+      {
+        "name": "Backed Against a River",
+        "text": "If the ally with the lowest HP% is below 50% HP at turn end, it gets +1 Clash Power next turn."
+      }
+    ]
+  },
+  {
+    "id": "heishou-pack-you-branch-sinclair",
+    "passives": [
+      {
+        "name": "Gamefowl",
+        "text": "{exalted-command} lets Lord Hong Lu inflict {burn} when inflicting {rupture}. {burn} can't Stagger or kill this unit; gains {bloodflame} when swapping in."
+      },
+      {
+        "name": "Let's Get Battle-drunk",
+        "text": "Hits on targets with 7+ {rupture} may inflict {burn}. With {burn} on self, gains {bloodflame}; gains {offense-level-up} and {defense-level-up} as HP drops."
+      },
+      {
+        "name": "Bloodflame Blade [血炎刀]",
+        "text": "When the fastest ally inflicts {burn} or {rupture} with a skill, it also inflicts 1 {burn} and 1 {rupture}."
+      }
+    ]
+  },
+  {
+    "id": "hook-office-fixer-hong-lu",
+    "passives": [
+      {
+        "name": "Hook",
+        "text": "After defeating an enemy, gains 1 {attack-power-up} next turn."
+      },
+      {
+        "name": "Mass-produced Bionic Gear",
+        "text": "When the fastest ally defeats an enemy that has {bleed}, they gain 1 {attack-power-up} next turn."
+      }
+    ]
+  },
+  {
+    "id": "jeong-s-office-rep-ishmael",
+    "passives": [
+      {
+        "name": "Koi-Koi [こいこい]",
+        "text": "Holds a Hand suit; using a matching leftmost skill 'forms a Hand', building {bright} and triggering {tremor-burst}. At 5 {bright}, uses S3.2."
+      },
+      {
+        "name": "Stacking the Deck",
+        "text": "Heals 5 SP on a Tails hit. Deals +10% damage to enemies in Low Morale or Panic."
+      },
+      {
+        "name": "Relay",
+        "text": "The ally with the lowest SP heals 5 SP on Heads hits with its attack skills."
+      }
+    ]
+  },
+  {
+    "id": "k-corp-class-3-excision-staff-hong-lu",
+    "passives": [
+      {
+        "name": "Regeneration Ampule Activation",
+        "text": "Once per battle, when hit below 20% HP, heals 90% Max HP and gains {k-corp-ampule}, but gains {fragile} each turn afterward."
+      },
+      {
+        "name": "High-grade Ampule",
+        "text": "At combat start, gives 2 {k-corp-ampule} to the ally with the lowest HP percentage."
+      }
+    ]
+  },
+  {
+    "id": "kurokumo-clan-captain-gregor",
+    "passives": [
+      {
+        "name": "Dark Cloud Blade",
+        "text": "Inflicts 1 {bleed} when it wins a clash."
+      },
+      {
+        "name": "Dark Cloud Style",
+        "text": "When the slowest ally hits an enemy with 7+ {bleed}, that enemy gets 1 {offense-level-down} next turn."
+      }
+    ]
+  },
+  {
+    "id": "kurokumo-clan-captain-ishmael",
+    "passives": [
+      {
+        "name": "Battle Ready",
+        "text": "Gains {slash-power-up} whenever a Kurokumo Clan ally dies. After 3 Kurokumo allies fall, gains {battle-ready}."
+      },
+      {
+        "name": "Gathering Dark Clouds",
+        "text": "At the start of each combat, gains {dark-cloud-blade} with another Kurokumo ally and gives {dark-cloud} to Kurokumo allies next to it."
+      },
+      {
+        "name": "Cloud Workshop Blade",
+        "text": "The fastest ally inflicts +1 extra {bleed} Potency or Count with their skill effects."
+      }
+    ]
+  },
+  {
+    "id": "kurokumo-clan-wakashu-heathcliff",
+    "passives": [
+      {
+        "name": "Battle Ready",
+        "text": "Gains {slash-power-up} whenever a Kurokumo Clan ally dies. After 3 Kurokumo allies fall, gains {battle-ready}."
+      },
+      {
+        "name": "Dark Cloud Blade",
+        "text": "Gains {dark-cloud-blade} with another Kurokumo ally. Counterattacks enemies that hurt allies, and deals +10% damage to defending or full-HP enemies."
+      },
+      {
+        "name": "Impale",
+        "text": "The fastest ally deals +10% damage to enemies that defended or were at full HP this turn."
+      }
+    ]
+  },
+  {
+    "id": "kurokumo-clan-wakashu-hong-lu",
+    "passives": [
+      {
+        "name": "Hēiyúndào",
+        "text": "The final coin of the last skill in the chain inflicts 3 {bleed}."
+      },
+      {
+        "name": "Syndicate Payback",
+        "text": "The fastest ally inflicts +1 extra {bleed}."
+      }
+    ]
+  },
+  {
+    "id": "kurokumo-clan-wakashu-rodion",
+    "passives": [
+      {
+        "name": "Dark Cloud Blade",
+        "text": "At 5+ {poise}, this unit's counter skill becomes S3."
+      },
+      {
+        "name": "Dark Cloud Swordsmanship",
+        "text": "The slowest ally deals +10% Slash damage."
+      }
+    ]
+  },
+  {
+    "id": "kurokumo-clan-wakashu-ryoshu",
+    "passives": [
+      {
+        "name": "Muscle in Charge",
+        "text": "The fastest ally inflicts +1 extra {bleed}."
+      },
+      {
+        "name": "Kokuuntō",
+        "text": "Deals 10% more damage to targets with {bleed}."
+      }
+    ]
+  },
+  {
+    "id": "lca-udjat-vanguard-team-3-leader-outis",
+    "passives": [
+      {
+        "name": "The Scepter of Horus - Replica",
+        "text": "Gains {the-udjat-vanguard} if an enemy's Panic type is changed. With it, attack hits inflict {sheut-fracture}, more when spending {lca-fracture-round}."
+      },
+      {
+        "name": "Vanguard Team",
+        "text": "Deals +5% damage per {protection} on itself and gains 2 {the-udjat-vanguard} at the start of each combat."
+      },
+      {
+        "name": "Eagle Eye",
+        "text": "Each combat, the ally with the lowest HP% gets 1 {protection} next turn."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-don-quixote",
+    "passives": [
+      {
+        "name": "Righteous Retribution",
+        "text": "Skills deal +10% damage after winning a clash."
+      },
+      {
+        "name": "Support",
+        "text": "The ally with the most SP deals +10% Pierce damage."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-faust",
+    "passives": [
+      {
+        "name": "Keen Observation",
+        "text": "The ally with the highest Max HP has a 25% chance to inflict 2 {offense-level-down} when attacking."
+      },
+      {
+        "name": "Analytic Eye",
+        "text": "Deals 10% more damage to targets with any negative status."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-gregor",
+    "passives": [
+      {
+        "name": "Gene Code G-0",
+        "text": "At the start of combat, the ally with the least HP heals 5 HP."
+      },
+      {
+        "name": "Forced Survival",
+        "text": "Heals 5 HP at the start of each combat phase."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-heathcliff",
+    "passives": [
+      {
+        "name": "Ressentiment",
+        "text": "Deals +10% damage to enemies with higher Max HP than this unit."
+      },
+      {
+        "name": "Spite-driven",
+        "text": "The ally with the lowest Max HP deals +10% Blunt damage."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-hong-lu",
+    "passives": [
+      {
+        "name": "Entertainment",
+        "text": "This unit heals 6 SP next turn."
+      },
+      {
+        "name": "Frivolous Jokes",
+        "text": "At the start of combat, the ally with the least SP heals 6 SP."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-ishmael",
+    "passives": [
+      {
+        "name": "Last-ditch Struggle",
+        "text": "Below 25% HP, this unit gains +1 Clash Power in clashes."
+      },
+      {
+        "name": "Determination to Survive",
+        "text": "The ally with the least HP gains +1 Clash Power in clashes while below 50% HP."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-meursault",
+    "passives": [
+      {
+        "name": "Staunchness",
+        "text": "Below 50% HP, this unit gains 1 {protection} at the start of each combat phase."
+      },
+      {
+        "name": "Backup",
+        "text": "The ally with the highest Max HP takes 10% less damage from attacks."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-outis",
+    "passives": [
+      {
+        "name": "Executor",
+        "text": "Deals +10% damage to enemies below 0 SP."
+      },
+      {
+        "name": "Military Mindset",
+        "text": "The ally with the most HP deals +30% damage to enemies below 0 SP."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-rodion",
+    "passives": [
+      {
+        "name": "Gambler",
+        "text": "The ally with the most HP deals +20% damage with Heads coins."
+      },
+      {
+        "name": "Split Evil",
+        "text": "Hits have a 50% chance to inflict 1 {bleed}."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-ryoshu",
+    "passives": [
+      {
+        "name": "Indiscriminate Art",
+        "text": "This unit deals and takes +25% damage."
+      },
+      {
+        "name": "Hustle",
+        "text": "The ally with the lowest Max HP deals and takes +20% damage."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-sinclair",
+    "passives": [
+      {
+        "name": "Pluckiness",
+        "text": "Gains 1 {attack-power-up} next turn whenever an ally is defeated."
+      },
+      {
+        "name": "Grudge",
+        "text": "When an ally falls, the ally with the lowest SP gains 1 {attack-power-up} next turn."
+      }
+    ]
+  },
+  {
+    "id": "lcb-sinner-yi-sang",
+    "passives": [
+      {
+        "name": "Information Relay",
+        "text": "Gives 1 {damage-up} to the 2 allies right after this unit in the team order."
+      },
+      {
+        "name": "Information Neutralization",
+        "text": "At turn end, the ally with the least SP heals 10 SP if they lost SP that turn."
+      }
+    ]
+  },
+  {
+    "id": "lccb-assistant-manager-ishmael",
+    "passives": [
+      {
+        "name": "Eye for Weakness",
+        "text": "Attacks inflict 1 {tremor} after winning a clash."
+      },
+      {
+        "name": "By the Manual",
+        "text": "The slowest ally gains +2 Final Power on guard skills."
+      }
+    ]
+  },
+  {
+    "id": "lccb-assistant-manager-rodion",
+    "passives": [
+      {
+        "name": "Breach Defense",
+        "text": "Deals +10% damage to enemies that used a defense skill this turn."
+      },
+      {
+        "name": "Breaching",
+        "text": "The ally with the most HP deals +20% damage to enemies that used a defense skill this turn."
+      }
+    ]
+  },
+  {
+    "id": "lccb-assistant-manager-ryoshu",
+    "passives": [
+      {
+        "name": "A S.B.",
+        "text": "Starts with 7 {ammo}. With 7+ {poise} at turn end, heals 8 SP, or gains 1 {poise} instead if SP is full."
+      },
+      {
+        "name": "The Lucky Cig",
+        "text": "The ally with the least {ammo} gains 3 {poise} when spending it. The Coin using their last {ammo} deals 50% bonus damage."
+      }
+    ]
+  },
+  {
+    "id": "lcd-osir-team-ishmael",
+    "passives": [
+      {
+        "name": "Demonfire Spinecleaver",
+        "text": "Base attacks at 15+ {mook-workshop-ye-type-ii-bladedraw-thrust-force-dokkaebi-fire} trigger S3.2. Losing a Defense clash at 3+ {haste} prevents Stagger and triggers S2.2."
+      },
+      {
+        "name": "To Where I Must Return",
+        "text": "Gains {bearing-of-a-salsu} per other Blade Lineage ally. If 3+ of them fall, gains {swordplay-of-the-homeland} and extra {poise} from its skills."
+      },
+      {
+        "name": "Limbus Company Specialized Custom Prosthetic Prototype mk5 - Dokkaebi Arms",
+        "text": "Gains {dokkaebi-arms}, heals Blade Lineage allies' SP, and gains {assist-defense} when an ally is under 50% HP. Its {poise} builds {mook-workshop-ye-type-ii-bladedraw-thrust-force-dokkaebi-fire}."
+      },
+      {
+        "name": "Cut Down What Must Be Felled",
+        "text": "The fastest ally deals +10% Slash damage, or +15% if it has {haste}."
+      }
+    ]
+  },
+  {
+    "id": "lce-e-g-o-aedd-gregor",
+    "passives": [
+      {
+        "name": "Undying Persistence",
+        "text": "Gains {charge} per 10 {charge} Count spent, +1 Speed at 3+ {charge}, and {self-charge-gregor} when hit to 0 HP."
+      },
+      {
+        "name": "Alternating Discharge Support",
+        "text": "With 3+ allies in E.G.O Gear, they gain {offense-level-up}. When low on {charge} Count, its E.G.O Gear spends Shield or HP instead."
+      },
+      {
+        "name": "Take the Lead. I'll Provide You Support.",
+        "text": "Gains 10 {charge} Count at the start, then shares {charge} Count with allies deployed before it."
+      },
+      {
+        "name": "Defibrillation",
+        "text": "At turn end, the first 3 deployed allies heal HP equal to the {charge} Count their attacks spent this turn."
+      }
+    ]
+  },
+  {
+    "id": "lce-e-g-o-ardor-blossom-star-faust",
+    "passives": [
+      {
+        "name": "Fireproof",
+        "text": "{burn} damage can't Stagger this unit or drop it below 1 HP."
+      },
+      {
+        "name": "Flame Moth",
+        "text": "Gains 1 {offense-level-up} per 6 {burn} on itself. On death, spreads {burn} to all enemies and grants E.G.O resources."
+      },
+      {
+        "name": "Residual Heat",
+        "text": "When the lowest-SP ally inflicts {burn} on hit, it inflicts 2 extra, or +1 Count against targets with 30+ {burn}."
+      }
+    ]
+  },
+  {
+    "id": "lce-e-g-o-dimension-shredder-yi-sang",
+    "passives": [
+      {
+        "name": "Open Alley",
+        "text": "When another ally hits an enemy, spends {dimensional-castaway} to hit it with S1 and gain {quadricolor-dimensions}. Spending {charge} slowly builds its Potency."
+      },
+      {
+        "name": "VelocityAndCoordinatesAndVelocity",
+        "text": "Deals up to +20% damage when faster than its target, scaling with Speed gap and {charge}. Also gains {haste} from {charge} Potency."
+      },
+      {
+        "name": "LetManOutrunEvenTheRayOfLight",
+        "text": "When the fastest ally uses a skill that gains or spends {charge}, it gains 1 {haste} next turn."
+      }
+    ]
+  },
+  {
+    "id": "lce-e-g-o-lantern-yi-sang",
+    "passives": [
+      {
+        "name": "This is reflected in their appearance, more closely resembling the source Abnormality than E.G.O of the former L Corp. do",
+        "text": "On death, inflicts 5 {rupture} and +3 {rupture} Count on its last attacker and grants E.G.O resources. Potency doubles while in {fairy-lure}."
+      },
+      {
+        "name": "E.G.O disintegration is not unlike decomposition of compost",
+        "text": "When the lowest-HP ally dies, the team gains E.G.O resources."
+      }
+    ]
+  },
+  {
+    "id": "liu-assoc-south-section-3-yi-sang",
+    "passives": [
+      {
+        "name": "Inner Ardor",
+        "text": "At the end of each turn, heals SP for the ally with the least SP, more if their skills inflict {burn}."
+      },
+      {
+        "name": "Liu Defensive Square",
+        "text": "At turn end, the 2 lowest-SP allies heal 5 SP if they lost SP this turn; more if their skills inflict {burn}."
+      }
+    ]
+  },
+  {
+    "id": "liu-assoc-south-section-4-director-rodion",
+    "passives": [
+      {
+        "name": "Burning Passion",
+        "text": "Deals +10% damage per 6 {burn} on the target. At combat start, if all enemies have 6+ {burn}, some allies gain {wrath-dmg-up}."
+      },
+      {
+        "name": "Passionate Cheer",
+        "text": "The ally with the lowest SP deals +5% Pierce damage per 6 {burn} on the target."
+      }
+    ]
+  },
+  {
+    "id": "liu-assoc-south-section-4-ishmael",
+    "passives": [
+      {
+        "name": "Intense Blaze",
+        "text": "Deals +10% Blunt damage for every 3 {burn} Count on the target."
+      },
+      {
+        "name": "Intense Blaze",
+        "text": "The slowest ally deals +5% Blunt damage for every 3 {burn} Count on the target."
+      }
+    ]
+  },
+  {
+    "id": "liu-assoc-south-section-4-ryoshu",
+    "passives": [
+      {
+        "name": "Flame Spread",
+        "text": "When it defeats an enemy with {burn}, applies 4 {burn} to 2 random enemies with little or no {burn}."
+      },
+      {
+        "name": "Spread Flame",
+        "text": "When the slowest ally defeats an enemy with {burn}, inflicts 3 {burn} on 2 random enemies."
+      }
+    ]
+  },
+  {
+    "id": "liu-assoc-south-section-5-hong-lu",
+    "passives": [
+      {
+        "name": "Flaring Up~",
+        "text": "At 30+ SP, this unit's attack skills and coins inflict +1 extra {burn} Count."
+      },
+      {
+        "name": "Isn’t It Warm?",
+        "text": "The ally with the most SP inflicts +1 extra {burn} Count with their attack skills."
+      }
+    ]
+  },
+  {
+    "id": "liu-assoc-south-section-6-gregor",
+    "passives": [
+      {
+        "name": "Ignition",
+        "text": "The 3rd and later Coins of each skill inflict 1 {burn} on hit."
+      },
+      {
+        "name": "Rushing Heart",
+        "text": "The slowest ally deals +30% damage with the 4th and later Coins of their skills."
+      }
+    ]
+  },
+  {
+    "id": "liu-assoc-south-section-6-meursault",
+    "passives": [
+      {
+        "name": "Great Mountain",
+        "text": "When attacked, inflicts 1 {burn} on a random enemy."
+      },
+      {
+        "name": "Friction Point",
+        "text": "The slowest ally inflicts +1 extra {burn}."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-corp-remnant-faust",
+    "passives": [
+      {
+        "name": "Resolution",
+        "text": "At turn start, if this unit has 4+ {poise} Count, it gains 2 {haste}."
+      },
+      {
+        "name": "Backing",
+        "text": "The ally with the lowest Max HP gains +2 Final Power on defense skills."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-faint-aroma-solitude-ryoshu",
+    "passives": [
+      {
+        "name": "A Void that Cannot be Filled",
+        "text": "Starts with 6 {bullet-solitude}. Fires S1 as a bonus attack on low-SP or Staggered enemies; when empty, uses S1.2 and reloads."
+      },
+      {
+        "name": "Unwithering Flower",
+        "text": "Gains {petals} from {sinking} damage, {faint-aroma}, and {tremor-burst}; at 30+ {petals}, uses S3.2. Deals bonus damage to Staggered targets based on {faint-aroma}."
+      },
+      {
+        "name": "Spring's Genesis",
+        "text": "When the fastest ally hits with a skill that inflicts {sinking}, the enemy gets 2 {tremor} and a {tremor-burst}."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-hornet-alteration-meursault",
+    "passives": [
+      {
+        "name": "E.G.O Alteration / Spore Round",
+        "text": "Starts fights with {spore-round-base} and {spore-round-buckshot}; coins using them inflict {spore}. Running out forces a reload. Killing {spore} targets gives {loyalty-pheromone}."
+      },
+      {
+        "name": "Spore Diffusion",
+        "text": "Killing an enemy with {spore} doubles {spore} inflicted next turn; base attack kills also refund some Spore Rounds."
+      },
+      {
+        "name": "Worker Bee",
+        "text": "Allies' Pierce base attacks heal 10% of damage dealt as HP. If all equipped attacks are Pierce, allies heal 10 SP."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote",
+    "passives": [
+      {
+        "name": "In the Name of Love and Hate - !ALERT: E.G.O GEAR SYNC THRESHOLD EXCEEDED!",
+        "text": "Starts fights with {hysteria} and {love-hate}. Each turn, gains {here-comes-magical-girl} at 0+ SP, or {regressive-transformation-reversed} below 0 SP."
+      },
+      {
+        "name": "Magical Girl of Love / Queen of Hatred",
+        "text": "Deals +2% damage per {love-hate}, up to +10%, and gains {magical-arcana} at the start of each combat."
+      },
+      {
+        "name": "Magical Power Charging Support",
+        "text": "The ally with the least {charge} Count gains +2 more from base attacks, and heals HP, or SP when below 0 SP."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-lamp-gregor",
+    "passives": [
+      {
+        "name": "Dazzling Lamp",
+        "text": "Gains {lamp} each turn and ignores outside Speed changes. Can pull enemy attacks onto itself, and turns {haste} into {clash-power-up}."
+      },
+      {
+        "name": "E.G.O Gear Proficiency Manual",
+        "text": "Gains {defense-level-up} for each ally wearing E.G.O Gear. When an ally dies, gains 2 {pierce-dmg-up} next turn."
+      },
+      {
+        "name": "Eyes Bright Like Lamps",
+        "text": "Gains more {lamp} with Gloom Resonance and heals 5 SP if an enemy has {dazzle}. Gives {guardians-of-the-forest} to one ally each turn."
+      },
+      {
+        "name": "Were There More Lives to be Saved?",
+        "text": "At turn end, the first-deployed ally with a negative effect gets +4 {aggro} on its leftmost slot and {blunt-dmg-up} next turn."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-lantern-don-quixote",
+    "passives": [
+      {
+        "name": "Om Nom Nom",
+        "text": "Gets +1 Clash Power on skill slots with {aggro}. Heals 6 HP each time it hits an enemy that targeted it."
+      },
+      {
+        "name": "Illumilantern",
+        "text": "The ally with the most {aggro} heals 4 HP each time they hit an enemy targeting them."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-magic-bullet-outis",
+    "passives": [
+      {
+        "name": "The Marksman's Smoking Pipe",
+        "text": "Before attacking a target whose Defense Level is lowered by 4+, gains {poise} equal to the target's {burn}."
+      },
+      {
+        "name": "Request Work",
+        "text": "The ally with the most SP deals +10% damage with E.G.O skills, or +15% if the E.G.O costs 7+ resources."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-red-eyes-penitence-ryoshu",
+    "passives": [
+      {
+        "name": "E.G.O Assimilation",
+        "text": "Instead of gaining {charge} Count, this unit gains {red-eyes} or {penitence}."
+      },
+      {
+        "name": "Spiderhead/Skullface",
+        "text": "Coins that gain {red-eyes} or {penitence} deal bonus damage from those stacks, more if faster or higher SP. Getting hit grants {penitence}."
+      },
+      {
+        "name": "Eat and Sleep",
+        "text": "Each turn, the lowest-HP ally heals 3 HP and the lowest-SP ally heals 3 SP."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-red-sheet-sinclair",
+    "passives": [
+      {
+        "name": "Unfixing Talismans",
+        "text": "When this unit hits a target that has {rupture}, it gains 1 {talisman-old}."
+      },
+      {
+        "name": "Wishing Talisman",
+        "text": "The ally with the highest current HP inflicts +1 {rupture} Potency with their attacks and counters."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-regret-faust",
+    "passives": [
+      {
+        "name": "Coerced Regret",
+        "text": "Enemies with many negative effects lose Clash Power; {tremor-burst} also gives enemies 2 {defense-level-down}. Below -25 SP, gains {bind} and {blunt-power-up}."
+      },
+      {
+        "name": "Repression Work",
+        "text": "The slowest ally's target gets -1 Clash Power in clashes if it has 3+ kinds of negative effects."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-sloshing-ishmael",
+    "passives": [
+      {
+        "name": "Filling Fluid",
+        "text": "If this unit's attacks deal no HP damage in a turn, it gains a Shield worth 10% Max HP next turn."
+      },
+      {
+        "name": "Corrosive Slime",
+        "text": "When the fastest ally triggers {tremor-burst}, they also inflict 2 {rupture}."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-solemn-lament-yi-sang",
+    "passives": [
+      {
+        "name": "ISeeTheDyingButterfly.",
+        "text": "Starts fights with 10 {the-living-the-departed} ammo, spent to inflict {butterfly}. Running out mid-skill cancels remaining coins and triggers {reload-solemn-lament}."
+      },
+      {
+        "name": "Fire.IShallFire.",
+        "text": "Killing a target with a skill triggers {reload-solemn-lament}. Gaining {the-living-the-departed} grants 2 {haste} next turn."
+      },
+      {
+        "name": "Hand of Salvation",
+        "text": "When an ally hits with a skill, spends 2 {sinking} on the target to inflict 1 {butterfly}."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-sunshower-heathcliff",
+    "passives": [
+      {
+        "name": "Rain of Tears",
+        "text": "Each turn, spends 1 {sinking} Count and loses SP equal to its {sinking}. When hit, gains {protection} equal to {sinking}, plus {blunt-dmg-up}."
+      },
+      {
+        "name": "Ragged Umbrella",
+        "text": "When the ally with the least SP is hit, they lose 10 SP but gain {blunt-dmg-up} next turn."
+      }
+    ]
+  },
+  {
+    "id": "lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+    "passives": [
+      {
+        "name": "The Sword Sharpened with Tears - !ALERT: E.G.O GEAR SYNC THRESHOLD EXCEEDED!",
+        "text": "Gains {blessing} and Plus Coin skills at 0+ SP, or {despair} and Minus Coin skills below 0. {charge} Count becomes {deep-tears}."
+      },
+      {
+        "name": "Whispers of the Betrayed Knight",
+        "text": "Most SP-loss effects can't drop this unit's SP below -40; once per fight, SP damage reaching -45 stops at -44."
+      },
+      {
+        "name": "Break, Tear, and Pierce",
+        "text": "Hits spend {piercing-sword} to inflict {sinking}. At 3 {tear-sharpened}, the final coin spends them for extra {sinking}, +50% damage, and SP recovery."
+      },
+      {
+        "name": "Magical Girl of Justice / Knight of Despair",
+        "text": "In {blessing}, takes less damage and gains {protection} from {protecting-sword}. In {despair}, deals more damage and gains {damage-up} from {piercing-sword}."
+      },
+      {
+        "name": "For All Those Who Despair…",
+        "text": "The first-deployed ally gets +1 Final Power on Minus Coins at -15 SP or lower, plus +15% damage at -30 or lower."
+      }
+    ]
+  },
+  {
+    "id": "los-mariachis-jefe-sinclair",
+    "passives": [
+      {
+        "name": "Júbilo Hedonista",
+        "text": "After a successful evade, may lower this unit's Stagger threshold by the evade's Power, so it staggers less easily."
+      },
+      {
+        "name": "Jugar con Enemigos",
+        "text": "The ally with the most SP deals +10% damage to enemies that have less SP than them."
+      }
+    ]
+  },
+  {
+    "id": "molar-boatworks-fixer-ishmael",
+    "passives": [
+      {
+        "name": "Crushin' Crabs",
+        "text": "Hits on enemies with {tremor} inflict +1 extra {sinking} Count."
+      },
+      {
+        "name": "Crab Driver",
+        "text": "When the ally with the lowest Max HP inflicts {tremor} Count with Heads coins, they also inflict +1 {sinking} Count."
+      }
+    ]
+  },
+  {
+    "id": "molar-boatworks-fixer-sinclair",
+    "passives": [
+      {
+        "name": "Unstable Power Output",
+        "text": "While this unit has 10+ {tremor} Count, its Coins that hit on heads inflict +1 {tremor} Potency and Count."
+      },
+      {
+        "name": "Modified Power Output",
+        "text": "The ally with the highest Max HP inflicts +1 {tremor} with their attack skills and Coin effects."
+      }
+    ]
+  },
+  {
+    "id": "molar-office-fixer-outis",
+    "passives": [
+      {
+        "name": "Drinking Boast",
+        "text": "When this unit triggers {tremor-burst} on an enemy, it deals extra Sloth damage equal to 30% of the Stagger threshold raised."
+      },
+      {
+        "name": "Carrot & Stick",
+        "text": "The ally with the most {tremor} Count gains +1 extra {tremor} Count from skill effects."
+      }
+    ]
+  },
+  {
+    "id": "molar-office-fixer-yi-sang",
+    "passives": [
+      {
+        "name": "In Times Like These...",
+        "text": "When this unit triggers {tremor-burst}, it inflicts 1 {defense-level-down} for every 4 Stagger Threshold raised."
+      },
+      {
+        "name": "Cleaning Up the Mess",
+        "text": "When the ally with the lowest Max HP triggers {tremor-burst}, they inflict 1 {defense-level-down} per 4 Stagger Threshold raised."
+      }
+    ]
+  },
+  {
+    "id": "multicrack-office-fixer-heathcliff",
+    "passives": [
+      {
+        "name": "Charge Model L37",
+        "text": "At turn end with 2+ {charge}, gains {haste} next turn; at 3+ {charge}, gains extra {haste} and {clash-power-up} too."
+      },
+      {
+        "name": "Charging Module Installation",
+        "text": "The first-deployed ally's max {charge} Count increases by 5."
+      }
+    ]
+  },
+  {
+    "id": "multicrack-office-rep-faust",
+    "passives": [
+      {
+        "name": "Electrocurrent Dismantling",
+        "text": "At 2+ {charge}, deals more damage, especially to enemies under 50% HP. Kills give this unit and 2 allies {charge} Count."
+      },
+      {
+        "name": "Auxiliary Dismantling Current",
+        "text": "When the ally with the least {charge} Count kills an enemy, they gain +3 {charge} Count."
+      }
+    ]
+  },
+  {
+    "id": "n-corp-e-g-o-contempt-awe-ryoshu",
+    "passives": [
+      {
+        "name": "Grasp that Forbids Falling",
+        "text": "When Staggered, gains 4 {protection} and {contempt-of-the-gaze}. On death, inflicts {bind}, {bleed}, and {tremor} on enemies with the most {gaze} or {contempt-ryoshu}."
+      },
+      {
+        "name": "Let me show everyone something very interesting",
+        "text": "Pairs with Fell Bullet Yi Sang: before his 'Target Readjustment Fire', Ryōshū hits his target with S1, or uses S4 with {contempt-of-the-gaze}."
+      },
+      {
+        "name": "@#$'s Hand I Let Slip",
+        "text": "Hits inflict {gaze} on enemies, and attackers get {gaze} too. Consuming enemy {gaze} or {contempt-ryoshu} grants {gaze-of-contempt} next turn."
+      },
+      {
+        "name": "It flows and cries",
+        "text": "The first-deployed ally inflicts {bleed} when hitting enemies and {tremor} on attackers that hit it, adding Count if already present."
+      }
+    ]
+  },
+  {
+    "id": "n-corp-e-g-o-fell-bullet-yi-sang",
+    "passives": [
+      {
+        "name": "Volatilized Memory",
+        "text": "At turn end, loses all {torn-memory}, then gets the same amount back next turn."
+      },
+      {
+        "name": "Fell Bullet",
+        "text": "Killing an ally grants {fell-bullet} next turn. Using its Fell Bullet E.G.O returns the {torn-memory} spent next turn."
+      },
+      {
+        "name": "Designate Target",
+        "text": "When the slowest ally attacks another ally, they gain {damage-up} next turn, or for the whole fight if it kills."
+      }
+    ]
+  },
+  {
+    "id": "n-corp-gro-hammer-meursault",
+    "passives": [
+      {
+        "name": "Obsessive Hammer",
+        "text": "At combat start below 50% HP, removes 1 negative effect and gains 1 {fanatic}, 1 {attack-power-up} and 3 {protection}."
+      },
+      {
+        "name": "Highest Honor",
+        "text": "The ally with the least HP, if below 50%, gains 1 {attack-power-up} and 1 {protection}. N Corp. allies also gain 1 {fanatic}."
+      }
+    ]
+  },
+  {
+    "id": "n-corp-kleinhammer-heathcliff",
+    "passives": [
+      {
+        "name": "Bugger…",
+        "text": "When an ally dies, loses 10 SP but gains {blunt-power-up} next turn. Has +1 Coin Power with 4+ N Corp. teammates alive."
+      },
+      {
+        "name": "Cantillation",
+        "text": "The fastest ally inflicts +1 extra {nails}."
+      }
+    ]
+  },
+  {
+    "id": "n-corp-mittelhammer-don-quixote",
+    "passives": [
+      {
+        "name": "Thou Shalt Hammer!",
+        "text": "Inflicts +1 {tremor} Count on targets with {nails}. While this unit has {fanatic}, it also inflicts +1 {nails}."
+      },
+      {
+        "name": "Hammer of Zealotry",
+        "text": "The {fanatic} ally with the least SP deals +10% damage."
+      }
+    ]
+  },
+  {
+    "id": "n-corp-mittelhammer-rodion",
+    "passives": [
+      {
+        "name": "Joy of Execution",
+        "text": "When an enemy dies, gains 1 {haste} and 1 {damage-up} next turn, plus 1 {fanatic} if this unit got the kill."
+      },
+      {
+        "name": "Rising Faith",
+        "text": "When an enemy dies, the ally with the most SP gains 1 {haste} and 1 {damage-up}."
+      }
+    ]
+  },
+  {
+    "id": "night-awls-capitano-gregor",
+    "passives": [
+      {
+        "name": "Painless Mercy",
+        "text": "Can use S1.2 up to twice per turn."
+      },
+      {
+        "name": "Purge Enforcer of the Famiglie",
+        "text": "Kills grant {pierce-power-up} next turn. Outspeeding targets inflicts {defense-power-down}. After ally attacks, uses S1.2 on enemies at 20% HP or less."
+      },
+      {
+        "name": "Aim for the Gap",
+        "text": "The fastest ally's attack skills inflict {defense-power-down} for every 3 Speed it has over its target."
+      }
+    ]
+  },
+  {
+    "id": "oufi-assoc-south-section-3-heathcliff",
+    "passives": [
+      {
+        "name": "Grave Attendance",
+        "text": "Deals +10% damage per 6 {tremor} on the target. Turning {tremor} into {tremor-decay} with its skills also triggers {tremor-burst}."
+      },
+      {
+        "name": "Verify Obligation Fulfillment",
+        "text": "The fastest ally gets +1 Clash Power on skills that apply {tremor}."
+      }
+    ]
+  },
+  {
+    "id": "r-b-chef-de-cuisine-ryoshu",
+    "passives": [
+      {
+        "name": "Rustle Up",
+        "text": "After killing an enemy, heals the ally with the least HP for 15 HP. Spends {appetite} to heal even more."
+      },
+      {
+        "name": "Artistic Flavor",
+        "text": "When an enemy dies, the ally with the least HP heals 15 HP."
+      }
+    ]
+  },
+  {
+    "id": "r-b-sous-chef-gregor",
+    "passives": [
+      {
+        "name": "Packed Pies",
+        "text": "Heals 8 HP at combat start each turn."
+      },
+      {
+        "name": "Culinary Aid",
+        "text": "At combat start, the lowest-HP ally heals 5 HP. Also boosts R.B. Chef de Cuisine Ryōshū's healing passive by 5."
+      }
+    ]
+  },
+  {
+    "id": "r-corp-4th-pack-rabbit-heathcliff",
+    "passives": [
+      {
+        "name": "Raring to Graze",
+        "text": "Gains {charge} Count equal to Wrath Resonance; at 5+, also gains {haste} and {attack-power-up}. Always starts with +3 {ammo}."
+      },
+      {
+        "name": "Doggedness",
+        "text": "The fastest ally deals +10% Pierce damage."
+      }
+    ]
+  },
+  {
+    "id": "r-corp-4th-pack-reindeer-hong-lu",
+    "passives": [
+      {
+        "name": "Brainwave Charge-focusing Antlers",
+        "text": "Gains 1 {charge} per 10 {charge} Count spent. At 2+ {charge}, base attacks deal up to +25% damage and inflict extra {sinking}."
+      },
+      {
+        "name": "Charged Pulverization Support",
+        "text": "The ally with the most {charge} deals +15% damage on the final coin of base attacks that gain {charge} Count."
+      }
+    ]
+  },
+  {
+    "id": "r-corp-4th-pack-reindeer-ishmael",
+    "passives": [
+      {
+        "name": "Brainwave Focus",
+        "text": "At combat start, gains {attack-power-up} equal to Gloom Resonance divided by 3. Loses 15 SP if it deals no damage that turn."
+      },
+      {
+        "name": "Tenacity",
+        "text": "The ally with the least SP deals +10% Blunt damage."
+      }
+    ]
+  },
+  {
+    "id": "r-corp-4th-pack-reindeer-rodion",
+    "passives": [
+      {
+        "name": "Jolly Antlers",
+        "text": "Gains {charge} for every 10 {charge} Count spent. Doubles {sinking} on targets without any, and skills get +1 power below 35% HP."
+      },
+      {
+        "name": "Carol of Dying Comrades",
+        "text": "The ally with the lowest SP deals +10% damage with skills that spend {charge} and inflict {sinking}."
+      }
+    ]
+  },
+  {
+    "id": "r-corp-4th-pack-rhino-meursault",
+    "passives": [
+      {
+        "name": "Activate rrR-#4 Suit Pressurization",
+        "text": "Gains +2 Max Speed next turn per 5 {charge} Count. At 5+ {charge} Count, gains 3 {aggro} to draw enemy attacks."
+      },
+      {
+        "name": "Maneuver Training",
+        "text": "The ally with the most {charge} gains +1 Max Speed next turn per 5 {charge} Count."
+      }
+    ]
+  },
+  {
+    "id": "rosespanner-workshop-fixer-gregor",
+    "passives": [
+      {
+        "name": "Sawblade Fired Up",
+        "text": "Inflicts +1 {rupture} on targets that have {tremor}."
+      },
+      {
+        "name": "Sawblade Maintenance",
+        "text": "The slowest ally inflicts +1 {rupture} on targets that have {tremor}."
+      }
+    ]
+  },
+  {
+    "id": "rosespanner-workshop-fixer-meursault",
+    "passives": [
+      {
+        "name": "Chronic Fatigue",
+        "text": "Enemies with 5+ {tremor} get -1 Clash Power against this unit. Heals 5% Max HP when recovering from Stagger."
+      },
+      {
+        "name": "Leave by Suggestion",
+        "text": "Enemies with {tremor} get -1 Clash Power when clashing with the fastest ally."
+      }
+    ]
+  },
+  {
+    "id": "rosespanner-workshop-rep-rodion",
+    "passives": [
+      {
+        "name": "Here’s to Getting Off Early~",
+        "text": "On {tremor-burst}, spends 3 {charge} Count to make it 40% stronger, then gains 1 {haste} and 1 {blunt-dmg-up} next turn."
+      },
+      {
+        "name": "Resonant Spanner",
+        "text": "When the slowest ally triggers {tremor-burst}, the Burst raises the Stagger Threshold 20% more."
+      }
+    ]
+  },
+  {
+    "id": "s-corp-ch-unokkun-hong-lu",
+    "passives": [
+      {
+        "name": "Ch'unokkun",
+        "text": "Gains {prisoner-transport-arrangements-hong-lu} when a target has {trussed-hong-lu}. In Focused Encounters, can pull attacks from enemies with its {trussed-hong-lu} onto itself."
+      },
+      {
+        "name": "Scouring Hunterband [推刷巾]",
+        "text": "Deals more damage when faster than the target, doubled against {trussed-hong-lu}, plus +5% per ally with a Slash Pride skill equipped."
+      },
+      {
+        "name": "Spiteful Pursuit",
+        "text": "The first-deployed ally deals +10% damage to enemies with {bind}."
+      }
+    ]
+  },
+  {
+    "id": "seven-assoc-south-section-4-faust",
+    "passives": [
+      {
+        "name": "Before the Tea Cools...",
+        "text": "When attacking an enemy weak to the attack's damage type, gains 1 {poise} per {rupture} on that enemy."
+      },
+      {
+        "name": "Seven Association Tea Time",
+        "text": "The fastest ally deals +1.5% damage per {rupture} on targets weak to their attack; Seven Association allies get more."
+      }
+    ]
+  },
+  {
+    "id": "seven-assoc-south-section-4-heathcliff",
+    "passives": [
+      {
+        "name": "Instinctive Read",
+        "text": "Inflicts +1 extra {rupture} on enemies Fatal to the attack's damage type; +1 more with 4+ Seven Association teammates alive."
+      },
+      {
+        "name": "Connect The Dots",
+        "text": "The ally with the highest Max HP inflicts +1 extra {rupture} on enemies Fatal to their attack; +2 if they're Seven Association."
+      }
+    ]
+  },
+  {
+    "id": "seven-assoc-south-section-6-director-outis",
+    "passives": [
+      {
+        "name": "Grasping Vulnerabilities",
+        "text": "Deals +10% damage when hitting a target that is Weak or Fatal to its damage type."
+      },
+      {
+        "name": "Relay Intelligence",
+        "text": "The fastest ally deals +10% damage when hitting a target that is Weak or Fatal to their damage type."
+      }
+    ]
+  },
+  {
+    "id": "seven-assoc-south-section-6-ryoshu",
+    "passives": [
+      {
+        "name": "C.I.H.",
+        "text": "This unit deals +10% Slash damage."
+      },
+      {
+        "name": "Ice Breaker",
+        "text": "The ally with the lowest Max HP inflicts +1 extra {rupture}."
+      }
+    ]
+  },
+  {
+    "id": "seven-assoc-south-section-6-yi-sang",
+    "passives": [
+      {
+        "name": "Acute Studies",
+        "text": "Enemies clashing with this unit get -2 Clash Power."
+      },
+      {
+        "name": "Observational Eye",
+        "text": "The ally with the highest Max HP gains +1 Clash Power in clashes."
+      }
+    ]
+  },
+  {
+    "id": "shi-assoc-east-section-3-faust",
+    "passives": [
+      {
+        "name": "Snipe - Archery",
+        "text": "With {ready-to-loose}, converts its leftmost attack skill into S3.2 and fires it at combat start; converting S3 gives the biggest boost."
+      },
+      {
+        "name": "Shi-no-Yumi",
+        "text": "At 4 {arrow-shi}, gains extra {poise} Count from its skills. Using S3.2 at 2+ {target-aim} gives 2 {slash-dmg-up} next turn."
+      },
+      {
+        "name": "Aiming for the Bullseye",
+        "text": "At turn end, the ally who inflicted the most {bleed} this turn gets {pierce-dmg-up} next turn."
+      }
+    ]
+  },
+  {
+    "id": "shi-assoc-south-section-5-director-don-quixote",
+    "passives": [
+      {
+        "name": "Prepared Mind",
+        "text": "Gains {haste} next turn equal to Wrath Resonance divided by 3."
+      },
+      {
+        "name": "Divide in Two",
+        "text": "The fastest ally deals +10% Slash damage."
+      }
+    ]
+  },
+  {
+    "id": "shi-assoc-south-section-5-heathcliff",
+    "passives": [
+      {
+        "name": "Self-neglect",
+        "text": "The ally with the least HP deals and takes +20% damage."
+      },
+      {
+        "name": "Respiration",
+        "text": "Deals 10% more damage after taking damage from attacks this turn."
+      }
+    ]
+  },
+  {
+    "id": "shi-assoc-south-section-5-ishmael",
+    "passives": [
+      {
+        "name": "Walking the Line of Death",
+        "text": "Below 50% HP, this unit's skills give 1 extra {poise}."
+      },
+      {
+        "name": "Strife",
+        "text": "The ally with the least HP gains +2 Final Power on counter skills."
+      }
+    ]
+  },
+  {
+    "id": "t-corp-class-2-collection-staff-rodion",
+    "passives": [
+      {
+        "name": "Golden Time - Standoff",
+        "text": "Ending a turn at 16–20% HP heals to 60% and clears Stagger. +2 Clash Power and less damage taken vs {time-moratorium} enemies."
+      },
+      {
+        "name": "T Corp. Martial Arts",
+        "text": "The fastest ally gets +1 Clash Power when Clashing enemies with 5+ {tremor}."
+      }
+    ]
+  },
+  {
+    "id": "t-corp-class-3-collection-staff-don-quixote",
+    "passives": [
+      {
+        "name": "Golden Time - Extracting",
+        "text": "Ending a turn at 10–20% HP heals 80% HP and clears Stagger. Losing {borrowed-time} grants +8 {aggro} next turn."
+      },
+      {
+        "name": "T Corp. Physics Distortion Field",
+        "text": "The slowest ally takes 10% less damage from enemies with {tremor}."
+      }
+    ]
+  },
+  {
+    "id": "t-corp-class-3-vdcu-staff-outis",
+    "passives": [
+      {
+        "name": "Golden Time - Microcavity",
+        "text": "At turn end with 10-20% HP, heals 80% HP and recovers from Stagger. With {borrowed-time}, skills gain +1 Final Power."
+      },
+      {
+        "name": "Expeditious Execution of Official Duties",
+        "text": "The fastest ally deals +10% damage to Staggered enemies."
+      }
+    ]
+  },
+  {
+    "id": "the-barber-of-la-manchaland-outis",
+    "passives": [
+      {
+        "name": "Bloodfeast",
+        "text": "While this unit is in play, all {bleed} damage taken by any unit builds up {bloodfeast}."
+      },
+      {
+        "name": "WRONG COSTUME!!!",
+        "text": "+1 Clash Power against {sewing-target-ally}. Deals more damage based on {bloodfeast-consumed} and the target's {bleed}."
+      },
+      {
+        "name": "Don Quixote Hardblood Arts 8: Scissors",
+        "text": "When the fastest ally kills an enemy, they heal 10 HP and inflict +1 extra {bleed} Count next turn."
+      }
+    ]
+  },
+  {
+    "id": "the-house-of-spiders-the-index-nursefather-yi-sang",
+    "passives": [
+      {
+        "name": "Prescript Delivered on a Device",
+        "text": "Each turn, gains a {prescript} based on {unlock}, marks a random enemy with {the-prescript-s-target}, and puts {mark-of-the-prescript} on two skills."
+      },
+      {
+        "name": "The Oracle's Proxy / Unlock",
+        "text": "Completing a {prescript} heals SP and grants {grace-of-the-prescript}; failing gives {karmic-consequence}. At 3/6/9 {grace-of-the-prescript}, gains Unlock stages; {unlock-iii} grants {shin-fate}."
+      },
+      {
+        "name": "The Index Nursefather",
+        "text": "Starts with {wound-casing-mask}. Its first Stagger is undone, turning the mask into {sizzling-wound}. Buffs Index Proxy Don Quixote with {desire-for-acknowledgement-sated}."
+      },
+      {
+        "name": "Oracle Device [Caduceus]",
+        "text": "Each base attack coin gets a random weapon with its own effect. Marked skills give {procuration-hermes}; using S3.2 turns {wound-casing-mask} into {sizzling-wound}."
+      },
+      {
+        "name": "Imitation of a Life",
+        "text": "Skills with {mark-of-the-prescript} deal +2% damage per {grace-of-the-prescript}. {unbreakable-coin}s build {procuration-hermes}; at 9 stacks, a base skill becomes S3."
+      },
+      {
+        "name": "Grace of God",
+        "text": "Each turn, the first Slash, Pierce, and Blunt base attack used by allies deals +5% damage, or +10% for The Index."
+      }
+    ]
+  },
+  {
+    "id": "the-house-of-spiders-the-middle-apprentice-ishmael",
+    "passives": [
+      {
+        "name": "The Middle Never Forgets, Y'know?",
+        "text": "Gains {the-middle-grudge-ishmael} when it or Middle allies are hit; spending it builds {the-middle-styled-augmentation-tattoos-ishmael}. Marks the top attacker with {vengeance-mark} and gains {thermal-blades}."
+      },
+      {
+        "name": "Hey, Are Ya Into Fixers, Too?",
+        "text": "The first-deployed ally gets +1 Clash Power on base attacks, plus +10% damage if the dashboard has Envy Absolute Resonance."
+      },
+      {
+        "name": "Thermal Weapon",
+        "text": "Counts as a {burn} and {bleed} unit. With {thermal-blades}, its {bleed} skills also count as {burn} skills."
+      }
+    ]
+  },
+  {
+    "id": "the-house-of-spiders-the-middle-nursefather-outis",
+    "passives": [
+      {
+        "name": "Smell of Blood and Fire",
+        "text": "Counts as a {burn} and {bleed} user. Once its sword is unsealed, its {bleed} skills also count as {burn} skills."
+      },
+      {
+        "name": "Sealed Sword [Lævateinn]",
+        "text": "Starts with {sealed-sword-outis} and {rising-fever}; when {rising-fever} hits 0, uses S3.3 to break a seal. Recovers from its first Stagger, gaining {the-middle-grudge-ishmael}."
+      },
+      {
+        "name": "Parenting",
+        "text": "With Middle Apprentice Ishmael present, this unit gains {check-this-out-kiddo-outis} and Ishmael gains {i-got-praised-ishmael} from their own clash wins and hits."
+      },
+      {
+        "name": "Saikai [再会] - The Middle",
+        "text": "If this unit dies, Blade of the House of Spiders (Ryōshū) gains {entanglement}, takes -20% damage, and gains {offense-level-up} when hit."
+      },
+      {
+        "name": "Thanks… Kiddo.",
+        "text": "With {l-vateinn-outis}, when a low-HP ally loses a clash, uses S3.4 on that enemy and ally. Killing a Middle ally grants {envy-dmg-up}."
+      },
+      {
+        "name": "The Book of Vengeance - The House of Spiders Special Clause",
+        "text": "Marks top damage dealers with {vengeance-mark}. Gains {the-middle-grudge-ishmael} each combat and when it or allies are hit; every 5 spent grants {the-middle-vengeance-tattoo-great-sister}."
+      },
+      {
+        "name": "Someone Mess With the Family?",
+        "text": "At combat start, allies with Counter skills gain {damage-up} and {protection}; Middle allies gain 2 {envy-dmg-up} and 2 {protection} instead."
+      }
+    ]
+  },
+  {
+    "id": "the-house-of-spiders-the-pinky-apprentice-sinclair",
+    "passives": [
+      {
+        "name": "Singular Focus of the Mind",
+        "text": "Extra {poise} Potency above 25 becomes {moonlit-azure-blade}. If it equips no attack skills, heals 5 SP and gains {slash-power-up} next turn."
+      },
+      {
+        "name": "The Orthodox Blade [整劍]",
+        "text": "Gains {poise} at the start of each combat, more with higher Pride Resonance. At 20+ {poise}, gains +1 {poise} Count after combat."
+      },
+      {
+        "name": "Tranquility [靜念]",
+        "text": "The fastest ally heals 5 SP and gains 5 Shield when it starts combat with a Defense skill equipped."
+      }
+    ]
+  },
+  {
+    "id": "the-house-of-spiders-the-ring-apprentice-faust",
+    "passives": [
+      {
+        "name": "Fascia, My Precious Artwork",
+        "text": "Builds {corpus-ingredient-ally} Count by dealing damage and killing. Spending 10 Count raises its Potency; at 2+ Potency, gains {artwork-fascia-faust}."
+      },
+      {
+        "name": "Armor of Protection and Repression",
+        "text": "Starts with {iron-maiden}. Once it has {artwork-fascia-faust}, trades {iron-maiden} for {the-self-unbound-flow-state}, recovering from Stagger if needed."
+      },
+      {
+        "name": "Inspired by Critique",
+        "text": "Doubles the Speed, Clash Power, and damage bonuses from {somatic-frisson-inspiring-melody}. Inflicting negative effects heals 4 SP; at max SP, also gains {slash-dmg-up}."
+      },
+      {
+        "name": "Iron Maiden - Spikes",
+        "text": "Allies with a Defense skill equipped inflict 4 {bleed} on enemies that hit them, or +2 {bleed} Count if already bleeding."
+      }
+    ]
+  },
+  {
+    "id": "the-house-of-spiders-the-ring-nursefather-hong-lu",
+    "passives": [
+      {
+        "name": "Magnum Opus: Tibia",
+        "text": "Gains {corpus-ingredient-ally} Count when its skills deal damage or kill. Every 10 Count spent adds Potency; at 2+ Potency, gains {artwork-tibia-hong-lu}."
+      },
+      {
+        "name": "Transcend the Corpus",
+        "text": "Starts with 21 {viewing-the-tableau-hong-lu}, losing 1 when Ring allies use skills; once empty, gains S3.2. Recovers from its first Stagger."
+      },
+      {
+        "name": "A Maestro's Critique",
+        "text": "Uses S1.2 on Ring Apprentice Faust before her S3. Heals 4 SP when hits inflict debuffs; at max SP, gains {slash-dmg-up}."
+      },
+      {
+        "name": "Please, Do Stop Running and Be Seated",
+        "text": "At the end of each turn, the fastest enemy gets 2 {offense-level-down} and +1 {bleed} Count next turn."
+      }
+    ]
+  },
+  {
+    "id": "the-house-of-spiders-the-thumb-apprentice-heathcliff",
+    "passives": [
+      {
+        "name": "Duello Disperato",
+        "text": "Base skills inflict {the-duel-escalates-heathcliff} on surviving targets; killing a marked target grants {maturing-textbook}. Heals SP when clashing marked enemies."
+      },
+      {
+        "name": "Desperate Struggle",
+        "text": "With Thumb Nursefather Rodion present, follows up her base skill hits with S1 and can gain {assist-defense} to protect her."
+      },
+      {
+        "name": "Saikai [再会] - The Thumb",
+        "text": "If this unit dies, Blade of the House of Spiders (Ryōshū) gains {entanglement} and inflicts {tremor} and triggers {tremor-burst} on clash wins."
+      },
+      {
+        "name": "Palermitan Style",
+        "text": "Combined {maturing-textbook} and the target's {the-duel-escalates-heathcliff} stacks give base skills more damage and power, and reduce damage it takes."
+      },
+      {
+        "name": "In One-on-one Duels…",
+        "text": "The fastest ally inflicts +1 {burn} Count on base-attack clash wins; Thumb allies also add {tremor} Count. Stronger against a lone enemy."
+      }
+    ]
+  },
+  {
+    "id": "the-house-of-spiders-the-thumb-nursefather-rodion",
+    "passives": [
+      {
+        "name": "The Eye of Precognition",
+        "text": "Starts with 30 {eye-of-precognition-rodion}, used up by clashing; while it lasts, losing clashes or unopposed hits auto-use D2. Recovers from first Stagger."
+      },
+      {
+        "name": "The Shame of Famiglia Bognatelli",
+        "text": "Gains 2 {poise} Potency and Count per {acceleration-round} spent. With S3.2 on hand, marks its last target with {game-target-rodion} each turn."
+      },
+      {
+        "name": "Saikai [再会] - The Thumb",
+        "text": "If defeated, Blade of the House of Spiders (Ryōshū) gains 1 {entanglement}, a stronger Defense skill, and +10% damage against Shielded enemies."
+      },
+      {
+        "name": "La Spada di Palermo",
+        "text": "With any {acceleration-round}, S3 gains +1 Coin Power and +25% damage. Skills gain bonus damage from target's {burn}, tripled against Shielded targets."
+      },
+      {
+        "name": "Weaklings, Not Worth Shit",
+        "text": "When the fastest ally triggers {tremor-burst}, it gains 2 {offense-level-up} next turn, plus 1 {haste} if it's a Thumb identity."
+      }
+    ]
+  },
+  {
+    "id": "the-index-proselyte-paper-slip-faust",
+    "passives": [
+      {
+        "name": "Prescript Delivered on Paper Slips",
+        "text": "Each turn, gains a {prescript} based on {grace-of-the-prescript}, marks a random enemy with {the-prescript-s-target}, and puts {mark-of-the-prescript} on two skills."
+      },
+      {
+        "name": "Will of the Prescript",
+        "text": "At turn end, completing a {prescript} heals SP and grants {grace-of-the-prescript}, more against {the-prescript-s-target}. Failing it gives {karmic-consequence}."
+      },
+      {
+        "name": "Proselyte's Blade",
+        "text": "Skills with {mark-of-the-prescript} deal +2% damage per {grace-of-the-prescript}. Hitting an enemy with {the-prescript-s-target} gives {poise} and inflicts {sinking}."
+      },
+      {
+        "name": "As the Prescript Orders…",
+        "text": "The first-deployed ally, preferring The Index, gets +5% damage on its leftmost skill for each other ally targeting the same enemy."
+      }
+    ]
+  },
+  {
+    "id": "the-index-proxy-effloresced-e-g-o-procuration-don-quixote",
+    "passives": [
+      {
+        "name": "Prescript Delivered on a Device",
+        "text": "Each turn, gains a {prescript}, marks a random enemy with {the-prescript-s-target}, and puts {mark-of-the-prescript} on two skills. {unlock-iii} grants {shin-procuration}."
+      },
+      {
+        "name": "Will of the Prescript",
+        "text": "At turn end, completing a {prescript} heals SP and grants {grace-of-the-prescript}, more against {the-prescript-s-target}. Failing it gives {karmic-consequence}."
+      },
+      {
+        "name": "Unlock / Effloresced E.G.O::Procuration",
+        "text": "At 3/6/9 {grace-of-the-prescript}, gains Unlock I/II/III. With {unlock-i}, spends 15 SP to enter a powered-up E.G.O state until SP hits 0."
+      },
+      {
+        "name": "The Great Magicked Beeper Knoweth My Desire!",
+        "text": "Skills with {mark-of-the-prescript} deal +2% damage per {grace-of-the-prescript}. Hitting an enemy with {the-prescript-s-target} heals SP, more at higher {unlock} stages."
+      },
+      {
+        "name": "This, too, is the Grace of the Great Magicked Beeper!",
+        "text": "At the start of each combat, the ally with the lowest SP heals 15 SP. The Index allies also gain {damage-up}."
+      }
+    ]
+  },
+  {
+    "id": "the-lord-of-hongyuan-hong-lu",
+    "passives": [
+      {
+        "name": "The Heishou Lord",
+        "text": "Allies swapping in heal SP and get an unopposed attack (S3 for Heishou/Jia). Heishou deaths grant {life-from-death}; +5% damage per {heishou-bolus-contamination}."
+      },
+      {
+        "name": "Embrace the Tarnished Blood and Exsanguinate Others For the Cause.",
+        "text": "Survives a lethal hit once at 1 HP, gaining {tarnished-blood} (+3% damage each). Its E.G.O 'The End' heals instead of killing it."
+      },
+      {
+        "name": "Please be traceless in your deeds.",
+        "text": "The ally with the lowest HP% deals +3% damage per Deathrite type on the target."
+      }
+    ]
+  },
+  {
+    "id": "the-manager-of-la-manchaland-don-quixote",
+    "passives": [
+      {
+        "name": "Bloodfeast",
+        "text": "{bleed} damage taken by any unit builds {bloodfeast}; this unit draws on it first. {bleed} can't kill it while using S1.2."
+      },
+      {
+        "name": "Variant Sancho Hardblood Arts",
+        "text": "Gains {hardblood-ally} when allies take {bleed} damage. At 15+, empowers its leftmost skill if matching La Manchaland allies are present or defeated."
+      },
+      {
+        "name": "Bearer of the Blood Kin",
+        "text": "Once another La Manchaland ally falls, base skills give +1 {hardblood-ally}. With 3+ fallen, gains extra {hardblood-ally} plus 1 {responsibility} each turn."
+      },
+      {
+        "name": "Armadura de Sangre",
+        "text": "Kills add 10% of the target's max HP to {bloodfeast}. Gains {damage-up} as HP drops. Stops {bleed} from killing allies, once each."
+      },
+      {
+        "name": "‘Feed your repressed hunger, my Family’",
+        "text": "Each turn, the lowest-HP ally gains 1 {damage-up} per 20% missing HP, or per 15% if they're a Bloodfiend."
+      }
+    ]
+  },
+  {
+    "id": "the-middle-big-brother-heathcliff",
+    "passives": [
+      {
+        "name": "The Book of Vengeance",
+        "text": "Marks enemies that hit it or Middle allies with {vendetta-mark}, gaining {book-of-vengeance-heathcliff}. Unlocks S3.2 at 15+ {vengeance-tattoo} and uses S3 upon entering."
+      },
+      {
+        "name": "Vengeance Tattoo Resonance",
+        "text": "Middle allies with Defense skills take -20% damage from unopposed attacks. With enough Envy, adjacent Middle allies holding Counters can't be Staggered."
+      },
+      {
+        "name": "The Big Brother",
+        "text": "Gains {vengeance-tattoo} each combat based on Envy Resonance. When an enemy attacks it or a Middle ally, strikes back with S1."
+      },
+      {
+        "name": "Chains of Loyalty",
+        "text": "When a Middle ally dies in combat, all Middle allies gain {attack-power-up} this turn and next."
+      }
+    ]
+  },
+  {
+    "id": "the-middle-little-brother-meursault",
+    "passives": [
+      {
+        "name": "Loyalty",
+        "text": "Marks whoever hurts allies most with {vengeance-mark} (+1 Final Power against them). It and a Middle ally heal 6 SP each turn."
+      },
+      {
+        "name": "One Family",
+        "text": "At turn end, the ally with the lowest SP heals 10 SP if they have a teammate from the same faction."
+      }
+    ]
+  },
+  {
+    "id": "the-middle-little-brother-sinclair",
+    "passives": [
+      {
+        "name": "The Middle Never Forgets",
+        "text": "Enemies that hit it or its allies get {vendetta-mark}. Its attacks consume the marks and turn them into {book-of-vengeance-sinclair}."
+      },
+      {
+        "name": "We've Got Your Back",
+        "text": "At combat start, the lowest-HP ally gains 2 {defense-level-up}, plus 2 {offense-level-up} if they're from The Middle."
+      }
+    ]
+  },
+  {
+    "id": "the-middle-little-sister-don-quixote",
+    "passives": [
+      {
+        "name": "Vengeance Tattoo",
+        "text": "Gains 1 {envy-dmg-up} per 3 enemy hits on allies. Marks the enemy hurting allies most with {vengeance-mark} (+1 Coin Power against it)."
+      },
+      {
+        "name": "Favoritism",
+        "text": "The ally with the lowest Max HP gains 1 {blunt-dmg-up} next turn for every 6 enemy hits on allies."
+      }
+    ]
+  },
+  {
+    "id": "the-one-who-grips-faust",
+    "passives": [
+      {
+        "name": "Whistles",
+        "text": "At combat start, heals the 2 allies with the least SP for 15 SP. N Corp. allies also gain 2 {fanatic}."
+      },
+      {
+        "name": "Whispers",
+        "text": "At combat start, heals the ally with the least SP for 15 SP. N Corp. allies also gain 2 {fanatic}."
+      }
+    ]
+  },
+  {
+    "id": "the-one-who-shall-grip-sinclair",
+    "passives": [
+      {
+        "name": "Mad Flame",
+        "text": "Gains half as much SP from clash wins and kills. With 5+ living N Corp. Fanatics (including itself), they deal +10% damage."
+      },
+      {
+        "name": "Cornering",
+        "text": "The ally with the lowest SP deals +10% Blunt damage, and even more the further their SP drops below 0."
+      }
+    ]
+  },
+  {
+    "id": "the-pequod-captain-ishmael",
+    "passives": [
+      {
+        "name": "Hour of the Hunt",
+        "text": "Deals +10% damage to Lake Entity enemies."
+      },
+      {
+        "name": "Captain of the Pequod",
+        "text": "On a kill, gains {poise} and {overheated-gas-harpoon}. The 2 lowest-SP allies heal 7 SP and gain {poise}; Pequod allies get more."
+      },
+      {
+        "name": "Captain's Orders",
+        "text": "When the ally with the most SP defeats a target, they gain 2 {poise} and +2 {poise} Count."
+      }
+    ]
+  },
+  {
+    "id": "the-pequod-first-mate-yi-sang",
+    "passives": [
+      {
+        "name": "The First Mate's Harpoon",
+        "text": "On critical hits, its skills inflict +2 {bleed} Potency."
+      },
+      {
+        "name": "The First Mate's Acumen",
+        "text": "On critical hits, the ally with the most {poise} inflicts +2 {bleed} Potency with their skills."
+      }
+    ]
+  },
+  {
+    "id": "the-pequod-harpooneer-heathcliff",
+    "passives": [
+      {
+        "name": "Mutilated Tattoos",
+        "text": "Gains {offense-level-up} and {defense-level-up} next turn whenever an ally is attacked (double for Pequod allies). Deals more damage the lower its HP."
+      },
+      {
+        "name": "Desperation",
+        "text": "The ally with the highest Max HP deals more Pierce damage the lower their HP, up to +30%."
+      }
+    ]
+  },
+  {
+    "id": "the-priest-of-la-manchaland-gregor",
+    "passives": [
+      {
+        "name": "Bloodfeast",
+        "text": "While this unit is in play, all {bleed} damage taken by any unit builds up {bloodfeast}."
+      },
+      {
+        "name": "Self-destructive Dedication",
+        "text": "At turn end, the lowest-SP ally heals 10 SP minus {ailing-heart-ally}. Once per fight, survives a lethal hit at 1 HP."
+      },
+      {
+        "name": "Don Quixote Hardblood Arts 6: Whip",
+        "text": "The lowest-HP ally heals 3 HP when they hit an enemy, or 6 HP if it has {bleed}."
+      }
+    ]
+  },
+  {
+    "id": "the-prince-of-la-manchaland-meursault",
+    "passives": [
+      {
+        "name": "Bloodfeast",
+        "text": "While this unit is present, all {bleed} damage taken by anyone adds to {bloodfeast}."
+      },
+      {
+        "name": "Responsibility of a Former Prince",
+        "text": "La Manchaland units at max {hardblood-armor} gain {focused-performance} and shake off one Stagger. With Princess Rodion fielded, both deal +15% S3 damage."
+      },
+      {
+        "name": "'Bloodied, Masked, and as Blood Commands'",
+        "text": "At 3+ {hardblood-armor}, gains {offense-level-up} and {defense-level-up}; at 4+, also {haste}. With {focused-performance}, hits inflict {la-mancha-parade}. Heals 30% HP once when low."
+      },
+      {
+        "name": "Flood the Chalice",
+        "text": "Multiplies {bloodfeast} generated during the turn by 1.5."
+      }
+    ]
+  },
+  {
+    "id": "the-princess-of-la-manchaland-rodion",
+    "passives": [
+      {
+        "name": "Bloodfeast",
+        "text": "While this unit is in play, all {bleed} damage taken by any unit builds up {bloodfeast}."
+      },
+      {
+        "name": "Hardblood Thorn",
+        "text": "Gains {blooming-thorn-ally} when other allies take {bleed} damage or use {bloodfeast}. Heals 20% of damage dealt; overflow heals the lowest-HP ally."
+      },
+      {
+        "name": "\"Blossom with Blood…\"",
+        "text": "At turn end, the ally with the most {bleed} loses up to 6 Potency and gains half that as {blooming-thorn-ally}."
+      }
+    ]
+  },
+  {
+    "id": "the-ring-fauvist-docent-rodion",
+    "passives": [
+      {
+        "name": "Mentorship",
+        "text": "At the first turn's start, gains {l-hommage} per Ring Student ally and gives two Ring Students {offense-level-up} or {defense-level-up}."
+      },
+      {
+        "name": "Le Fauvisme - Couleurs Sauvages",
+        "text": "Enemies with {mauled-color-rouge}, {mauled-color-bleu} and {touche-hardie} get {palette-vibrante} after combat. Inflicting it 3 times, using D2 twice, or using S3.2 grants {le-fauvisme-masque-de-loup}."
+      },
+      {
+        "name": "Needs a Rougher Touch for this Part…!",
+        "text": "Inflicts +1 more {mauled-color-rouge}, {mauled-color-bleu} and {touche-hardie}."
+      },
+      {
+        "name": "Nice and Slow, Don't Let It Break…",
+        "text": "The first-deployed ally inflicts +1 {bleed} or {sinking} Potency, depending on Lust Resonance. That ally, if Ring, also gains {offense-level-up} or {defense-level-up}."
+      }
+    ]
+  },
+  {
+    "id": "the-ring-fauvist-student-meursault",
+    "passives": [
+      {
+        "name": "The Ring Fauvist Student",
+        "text": "Base skill hits inflict {mauled-color-rouge}. After inflicting 10+ in a fight, gains {le-fauvisme-masque-de-chien}. Gains {imperfections-addressed} when Fauvist Docent Rodion uses Critique."
+      },
+      {
+        "name": "Welling Inspiration",
+        "text": "With {le-fauvisme-masque-de-chien}, inflicts +1 more {mauled-color-rouge}. Every 4 inflicted heals 5 SP; at max SP, gains {blunt-dmg-up} next turn."
+      },
+      {
+        "name": "Impastoed Scar",
+        "text": "The fastest ally inflicts {defense-level-down} on hit: 1 for every 2 types of debuffs on the target."
+      }
+    ]
+  },
+  {
+    "id": "the-ring-pointillist-student-outis",
+    "passives": [
+      {
+        "name": "Sanguine Pointillist",
+        "text": "For team synergies, this identity counts only as a {bleed} inflicter, even though its skills randomly apply other statuses."
+      },
+      {
+        "name": "Multitude of Dots",
+        "text": "Each turn, applies 2 Potency of a random status ({burn}, {bleed}, {tremor}, {rupture} or {sinking}) to the 2 least-debuffed enemies."
+      },
+      {
+        "name": "Rough Sketch",
+        "text": "The lowest-SP ally heals 4 SP when defeating an enemy with {bleed}, plus 1 SP per debuff type on it."
+      }
+    ]
+  },
+  {
+    "id": "the-ring-pointillist-student-yi-sang",
+    "passives": [
+      {
+        "name": "Sanguine Pointillist",
+        "text": "For team synergies, this identity counts only as a {bleed} inflicter, even though its skills randomly apply other statuses."
+      },
+      {
+        "name": "Assignment Evaluation",
+        "text": "Hitting a target with 4+ {bleed} heals 2 SP, plus more per debuff type. At full SP, gains 2 {offense-level-up} next turn."
+      },
+      {
+        "name": "Practices on Aesthetics",
+        "text": "The lowest-SP ally heals 2 SP per debuff type on targets they hit, plus 3 SP if the target has {bleed}."
+      }
+    ]
+  },
+  {
+    "id": "the-thumb-east-capo-iiii-meursault",
+    "passives": [
+      {
+        "name": "Chachihu [揷翅虎]",
+        "text": "Starts fights with 12 {tigermark-round}. Running out, defending, or getting Staggered reloads 8 {savage-tigermark-round}, grants {unrelenting-spirit}, and clears Stagger."
+      },
+      {
+        "name": "Tiantui Star's Blade [天退星刀]",
+        "text": "Coins spending {tigermark-round} gain +1 Power, +10% damage; {savage-tigermark-round} coins gain +2 Power, +30% damage and more {burn}. Attack coins become {unbreakable-coin}."
+      },
+      {
+        "name": "Savage Tiger's Lunge",
+        "text": "When the fastest ally spends {ammo} while 3+ Speed faster than the target, they deal up to +15% damage."
+      }
+    ]
+  },
+  {
+    "id": "the-thumb-east-soldato-ii-sinclair",
+    "passives": [
+      {
+        "name": "Bayonets",
+        "text": "Starts fights with 15 {scorch-propellant-ammo} and gains {damage-up} when spending it. Out of ammo, attacks still hit but skip {burn} effects."
+      },
+      {
+        "name": "Ammunition Tribute",
+        "text": "When the first ally using {ammo} falls below half, this unit spends {scorch-propellant-ammo} to refill their {ammo}."
+      },
+      {
+        "name": "Reloader",
+        "text": "When the first ally using {ammo} falls below half after attacking, they reload half their max {ammo}."
+      }
+    ]
+  },
+  {
+    "id": "tingtang-gang-gangleader-hong-lu",
+    "passives": [
+      {
+        "name": "Gaiety",
+        "text": "Heals SP next turn equal to twice the Gluttony Resonance."
+      },
+      {
+        "name": "Gambit",
+        "text": "The ally with the most SP deals +20% damage with Heads coins."
+      }
+    ]
+  },
+  {
+    "id": "twinhook-pirates-first-mate-gregor",
+    "passives": [
+      {
+        "name": "Bullets are Pricey",
+        "text": "Starts with 7 {ammo}. Heads hits on {bleed} targets give {unjust-enrichment}, which Coins using {ammo} spend for bonus damage."
+      },
+      {
+        "name": "New Breathing Hole",
+        "text": "When the ally with the most {poise} defeats an enemy, they gain 1 {pierce-dmg-up} next turn."
+      }
+    ]
+  },
+  {
+    "id": "w-corp-l2-cleanup-agent-faust",
+    "passives": [
+      {
+        "name": "Self-charging",
+        "text": "After each attack, this unit and a random ally both gain +1 {charge} Count."
+      },
+      {
+        "name": "Radio Comms",
+        "text": "The ally with the lowest Max HP gains +1 {charge} Count."
+      }
+    ]
+  },
+  {
+    "id": "w-corp-l2-cleanup-agent-hong-lu",
+    "passives": [
+      {
+        "name": "Cleanup Mastery",
+        "text": "At combat start with 5+ {charge} Count, gains 2 {haste}; with 10+ Count, gains 3 instead."
+      },
+      {
+        "name": "Train Cleanup Manual",
+        "text": "If the slowest ally has 5+ {charge} Count at combat start, they gain 2 {haste} next turn."
+      }
+    ]
+  },
+  {
+    "id": "w-corp-l2-cleanup-agent-meursault",
+    "passives": [
+      {
+        "name": "Enduring Spirit",
+        "text": "Gains +1 {charge} Count when hit and when losing a clash."
+      },
+      {
+        "name": "Taciturn",
+        "text": "The slowest ally inflicts +1 extra {rupture}."
+      }
+    ]
+  },
+  {
+    "id": "w-corp-l3-cleanup-agent-don-quixote",
+    "passives": [
+      {
+        "name": "Quick Recharge",
+        "text": "At combat start, gains {charge} Count equal to Gloom Resonance divided by 3."
+      },
+      {
+        "name": "Broken Spirit",
+        "text": "The fastest ally gains +1 Final Power on their first skill."
+      }
+    ]
+  },
+  {
+    "id": "w-corp-l3-cleanup-agent-ryoshu",
+    "passives": [
+      {
+        "name": "Dimensional Demon Edge",
+        "text": "Gains +3 {charge} Count each time it kills an enemy."
+      },
+      {
+        "name": "Dimensional Refraction Edge - Type: Blade Mk7",
+        "text": "When the ally with the lowest Max HP kills an enemy, they gain +3 {charge} Count."
+      }
+    ]
+  },
+  {
+    "id": "w-corp-l3-cleanup-agent-yi-sang",
+    "passives": [
+      {
+        "name": "Emptied Thought",
+        "text": "Gains 1 {haste} next turn per 5 {charge} Count. Its skills that spend {charge} give 3 {charge-barrier} to the lowest-HP ally."
+      },
+      {
+        "name": "Cleanup Demonstration",
+        "text": "The ally with the most {charge} Count deals +1.5% damage per {rupture} on the target, up to +15%."
+      }
+    ]
+  },
+  {
+    "id": "w-corp-l3-cleanup-captain-outis",
+    "passives": [
+      {
+        "name": "Overcharge / Cleanup Order",
+        "text": "Gains 1 {charge} for every 10 {charge} Count spent. At turn end, gives {clash-power-up} next turn to W Corp. allies, including itself."
+      },
+      {
+        "name": "Refraction",
+        "text": "The ally with the most {charge} Count deals +10% damage with skills that spend 7+ {charge} Count."
+      }
+    ]
+  },
+  {
+    "id": "w-corp-l4-cleanup-agent-cca-heathcliff",
+    "passives": [
+      {
+        "name": "Defence-Oriented Charge",
+        "text": "Gains 1 {charge} Potency per 10 {charge} Count spent. At turn start, gains {defense-level-up} equal to its {charge} Potency."
+      },
+      {
+        "name": "Congestion Cleaning Armour",
+        "text": "Gains Shield based on {charge} Potency when low on HP and before hits. Excess {charge} Count past the cap boosts skill damage."
+      },
+      {
+        "name": "One day I'll wear me Armour for Cancelled Trains",
+        "text": "When the first-deployed ally goes past the {charge} Count cap with a skill, it gains {charge-barrier} next turn per extra Count."
+      }
+    ]
+  },
+  {
+    "id": "wild-hunt-heathcliff",
+    "passives": [
+      {
+        "name": "Dullahan",
+        "text": "If it has {dullahan}, mounts it at turn start, costing 5 SP. Kills grant {coffin}; 3+ allied deaths also grant {dullahan}."
+      },
+      {
+        "name": "Call of the Erlking",
+        "text": "Deals +1% damage per {sinking} on the target. When an ally would die, spends {coffin} to give them {wild-hunt} and {damage-up}."
+      },
+      {
+        "name": "Endless Lamentation",
+        "text": "The highest-SP ally deals more damage to enemies below 0 SP, and inflicts +1 {sinking} Potency and Count on enemies without SP."
+      }
+    ]
+  },
+  {
+    "id": "wuthering-heights-butler-faust",
+    "passives": [
+      {
+        "name": "Butler Style Response",
+        "text": "Winning a clash inflicts 1 {sinking} on the target, or 3 if it has {echoes-of-the-manor}."
+      },
+      {
+        "name": "Anticipatory Training",
+        "text": "When the ally with the lowest SP hits an enemy with 5+ {sinking}, they heal 3 SP."
+      }
+    ]
+  },
+  {
+    "id": "wuthering-heights-chief-butler-outis",
+    "passives": [
+      {
+        "name": "The Mistress's Voice...!",
+        "text": "+1 Clash Power and +20% damage against enemies below 0 SP; +30% damage to {echoes-of-the-manor} targets. Flawless clash wins heal 10 SP."
+      },
+      {
+        "name": "Butler Training",
+        "text": "The ally with the most SP gets +1 Clash Power when clashing with enemies below -25 SP."
+      }
+    ]
+  },
+  {
+    "id": "zwei-assoc-south-section-4-faust",
+    "passives": [
+      {
+        "name": "Territory Protection",
+        "text": "At combat start, the 2 allies next to this unit gain 2 {defense-level-up}, or 4 if below 50% HP."
+      },
+      {
+        "name": "Protection Request Received",
+        "text": "At combat start, the ally with the lowest HP percentage gains 2 {defense-level-up}, or 4 if below 50% HP."
+      }
+    ]
+  },
+  {
+    "id": "zwei-assoc-south-section-4-gregor",
+    "passives": [
+      {
+        "name": "Combat Shield",
+        "text": "At combat start, gains 2 {defense-level-up} if targeted by 2+ attacks, plus 3 if at half HP or less."
+      },
+      {
+        "name": "Your Shield",
+        "text": "If the ally with the highest Max HP is targeted by 2+ attacks, they gain 3 {defense-level-up}."
+      }
+    ]
+  },
+  {
+    "id": "zwei-assoc-south-section-5-rodion",
+    "passives": [
+      {
+        "name": "Designated Protection",
+        "text": "At combat start, the ally with the lowest HP percentage gains 1 Shield per {poise} Count next turn."
+      },
+      {
+        "name": "Defensive Breathing",
+        "text": "Gains Shield at the start of combat based on its {poise} Count."
+      }
+    ]
+  },
+  {
+    "id": "zwei-assoc-south-section-6-sinclair",
+    "passives": [
+      {
+        "name": "Your Shield",
+        "text": "At combat start, gives 2 {defense-power-up} and 1 {protection} to the allies next to this unit."
+      },
+      {
+        "name": "Stubbornness",
+        "text": "The ally with the lowest HP takes 10% less damage."
+      }
+    ]
+  },
+  {
+    "id": "zwei-assoc-west-section-3-ishmael",
+    "passives": [
+      {
+        "name": "Shock-nullifying Greatsword",
+        "text": "Each turn, gains {defense-level-up} equal to its own {tremor} Count, doubled while in {defensive-stance}."
+      },
+      {
+        "name": "Emergency Protection",
+        "text": "Each turn, the ally whose HP changed most since last turn gains 2 {defense-level-up}."
+      }
+    ]
+  },
+  {
+    "id": "zwei-assoc-west-section-3-sinclair",
+    "passives": [
+      {
+        "name": "Begin Protection Mission",
+        "text": "Each turn, gains {defense-level-up} equal to its own {tremor} Count."
+      },
+      {
+        "name": "Contract Target Protection",
+        "text": "At turn end, the lowest-HP ally gets 1 {haste} and 3 {defense-level-up} for next turn."
+      }
+    ]
+  }
+]

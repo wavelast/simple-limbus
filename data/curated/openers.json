@@ -1,0 +1,795 @@
+[
+  {
+    "id": "blade-lineage-mentor-meursault",
+    "opener": false
+  },
+  {
+    "id": "blade-lineage-salsu-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "blade-lineage-salsu-faust",
+    "opener": false
+  },
+  {
+    "id": "blade-lineage-salsu-outis",
+    "opener": false
+  },
+  {
+    "id": "blade-lineage-salsu-sinclair",
+    "opener": false
+  },
+  {
+    "id": "blade-lineage-salsu-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "blade-of-the-house-of-spiders-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "cinq-assoc-east-section-3-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "cinq-assoc-east-section-3-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "cinq-assoc-south-section-4-director-sinclair",
+    "opener": false
+  },
+  {
+    "id": "cinq-assoc-south-section-4-outis",
+    "opener": false
+  },
+  {
+    "id": "cinq-assoc-south-section-5-director-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "cinq-assoc-west-section-3-meursault",
+    "opener": false
+  },
+  {
+    "id": "dawn-office-fixer-faust",
+    "opener": false
+  },
+  {
+    "id": "dawn-office-fixer-sinclair",
+    "opener": false
+  },
+  {
+    "id": "dawn-office-rep-gregor",
+    "opener": false
+  },
+  {
+    "id": "dead-rabbits-boss-meursault",
+    "opener": false
+  },
+  {
+    "id": "devyat-assoc-north-section-3-rodion",
+    "opener": false
+  },
+  {
+    "id": "devyat-assoc-north-section-3-sinclair",
+    "opener": false
+  },
+  {
+    "id": "dieci-assoc-south-section-4-director-meursault",
+    "opener": false
+  },
+  {
+    "id": "dieci-assoc-south-section-4-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "dieci-assoc-south-section-4-rodion",
+    "opener": false
+  },
+  {
+    "id": "dieci-assoc-south-section-4-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "district-20-yurodivy-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "district-20-yurodivy-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "drifting-blade-of-hongyuan-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "edgar-family-butler-ishmael",
+    "opener": false
+  },
+  {
+    "id": "edgar-family-chief-butler-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "edgar-family-heir-gregor",
+    "opener": false
+  },
+  {
+    "id": "effloresced-e-g-o-spicebush-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "family-hierarch-candidate-ishmael",
+    "opener": false
+  },
+  {
+    "id": "fanghunt-office-fixer-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "firefist-office-survivor-gregor",
+    "opener": false
+  },
+  {
+    "id": "full-stop-office-fixer-heathcliff",
+    "opener": false,
+    "note": "D1 gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "full-stop-office-rep-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "g-corp-head-manager-outis",
+    "opener": false
+  },
+  {
+    "id": "g-corp-manager-corporal-gregor",
+    "opener": false
+  },
+  {
+    "id": "haute-couture-alteration-shop-rodion",
+    "opener": false,
+    "note": "D only gives 5 Inertia of Drifting Count and small Shields; S2 gives 6 Count plus ally Offense Level Up and Shields, and S1 starts her S1.2 follow-ups, so attacking sets up more"
+  },
+  {
+    "id": "haute-couture-boutique-du-rouge-ishmael",
+    "opener": false
+  },
+  {
+    "id": "haute-couture-le-noir-footwear-hall-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "heishou-pack-mao-branch-adept-faust",
+    "opener": false,
+    "note": "D1 gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "heishou-pack-mao-branch-outis",
+    "opener": false
+  },
+  {
+    "id": "heishou-pack-mao-branch-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "heishou-pack-si-branch-gregor",
+    "opener": false
+  },
+  {
+    "id": "heishou-pack-si-branch-rodion",
+    "opener": false
+  },
+  {
+    "id": "heishou-pack-wei-branch-don-quixote",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "heishou-pack-wu-branch-adept-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "heishou-pack-you-branch-adept-heathcliff",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "heishou-pack-you-branch-sinclair",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "hook-office-fixer-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "jeong-s-office-rep-ishmael",
+    "opener": false
+  },
+  {
+    "id": "k-corp-class-3-excision-staff-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "kurokumo-clan-captain-gregor",
+    "opener": false
+  },
+  {
+    "id": "kurokumo-clan-captain-ishmael",
+    "opener": false
+  },
+  {
+    "id": "kurokumo-clan-wakashu-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "kurokumo-clan-wakashu-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "kurokumo-clan-wakashu-rodion",
+    "opener": false
+  },
+  {
+    "id": "kurokumo-clan-wakashu-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "lca-udjat-vanguard-team-3-leader-outis",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-faust",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-gregor",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-ishmael",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-meursault",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-outis",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-rodion",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-sinclair",
+    "opener": false
+  },
+  {
+    "id": "lcb-sinner-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "lccb-assistant-manager-ishmael",
+    "opener": false
+  },
+  {
+    "id": "lccb-assistant-manager-rodion",
+    "opener": false
+  },
+  {
+    "id": "lccb-assistant-manager-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "lcd-osir-team-ishmael",
+    "opener": false
+  },
+  {
+    "id": "lce-e-g-o-aedd-gregor",
+    "opener": false
+  },
+  {
+    "id": "lce-e-g-o-ardor-blossom-star-faust",
+    "opener": false
+  },
+  {
+    "id": "lce-e-g-o-dimension-shredder-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "lce-e-g-o-lantern-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "liu-assoc-south-section-3-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "liu-assoc-south-section-4-director-rodion",
+    "opener": false
+  },
+  {
+    "id": "liu-assoc-south-section-4-ishmael",
+    "opener": false
+  },
+  {
+    "id": "liu-assoc-south-section-4-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "liu-assoc-south-section-5-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "liu-assoc-south-section-6-gregor",
+    "opener": false
+  },
+  {
+    "id": "liu-assoc-south-section-6-meursault",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-corp-remnant-faust",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-faint-aroma-solitude-ryoshu",
+    "opener": false,
+    "note": "D gives Petals every time it is used, not just on turn 1, so this is a defense note instead"
+  },
+  {
+    "id": "lobotomy-e-g-o-hornet-alteration-meursault",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-lamp-gregor",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "lobotomy-e-g-o-lantern-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-magic-bullet-outis",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-red-eyes-penitence-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-red-sheet-sinclair",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-regret-faust",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "lobotomy-e-g-o-sloshing-ishmael",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-solemn-lament-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-sunshower-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+    "opener": false,
+    "note": "D1 gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "los-mariachis-jefe-sinclair",
+    "opener": false
+  },
+  {
+    "id": "molar-boatworks-fixer-ishmael",
+    "opener": false
+  },
+  {
+    "id": "molar-boatworks-fixer-sinclair",
+    "opener": false
+  },
+  {
+    "id": "molar-office-fixer-outis",
+    "opener": false
+  },
+  {
+    "id": "molar-office-fixer-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "multicrack-office-fixer-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "multicrack-office-rep-faust",
+    "opener": false
+  },
+  {
+    "id": "n-corp-e-g-o-contempt-awe-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "n-corp-e-g-o-fell-bullet-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "n-corp-gro-hammer-meursault",
+    "opener": false
+  },
+  {
+    "id": "n-corp-kleinhammer-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "n-corp-mittelhammer-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "n-corp-mittelhammer-rodion",
+    "opener": false
+  },
+  {
+    "id": "night-awls-capitano-gregor",
+    "opener": false
+  },
+  {
+    "id": "oufi-assoc-south-section-3-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "r-b-chef-de-cuisine-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "r-b-sous-chef-gregor",
+    "opener": false
+  },
+  {
+    "id": "r-corp-4th-pack-rabbit-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "r-corp-4th-pack-reindeer-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "r-corp-4th-pack-reindeer-ishmael",
+    "opener": false
+  },
+  {
+    "id": "r-corp-4th-pack-reindeer-rodion",
+    "opener": false
+  },
+  {
+    "id": "r-corp-4th-pack-rhino-meursault",
+    "opener": false
+  },
+  {
+    "id": "rosespanner-workshop-fixer-gregor",
+    "opener": false
+  },
+  {
+    "id": "rosespanner-workshop-fixer-meursault",
+    "opener": false
+  },
+  {
+    "id": "rosespanner-workshop-rep-rodion",
+    "opener": false
+  },
+  {
+    "id": "s-corp-ch-unokkun-hong-lu",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "seven-assoc-south-section-4-faust",
+    "opener": false
+  },
+  {
+    "id": "seven-assoc-south-section-4-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "seven-assoc-south-section-6-director-outis",
+    "opener": false
+  },
+  {
+    "id": "seven-assoc-south-section-6-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "seven-assoc-south-section-6-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "shi-assoc-east-section-3-faust",
+    "opener": false,
+    "note": "D1 gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "shi-assoc-south-section-5-director-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "shi-assoc-south-section-5-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "shi-assoc-south-section-5-ishmael",
+    "opener": false
+  },
+  {
+    "id": "t-corp-class-2-collection-staff-rodion",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "t-corp-class-3-collection-staff-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "t-corp-class-3-vdcu-staff-outis",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "the-barber-of-la-manchaland-outis",
+    "opener": false
+  },
+  {
+    "id": "the-house-of-spiders-the-index-nursefather-yi-sang",
+    "opener": true,
+    "skill": "D",
+    "gains": [
+      "unlock-ii",
+      "grace-of-the-prescript"
+    ],
+    "note": "reaches Unlock - II immediately, so its skills are empowered from turn 2",
+    "plain": "to jump to {unlock-ii|his second power stage}: stronger skills from turn 2, but lower defense."
+  },
+  {
+    "id": "the-house-of-spiders-the-middle-apprentice-ishmael",
+    "opener": false
+  },
+  {
+    "id": "the-house-of-spiders-the-middle-nursefather-outis",
+    "opener": false
+  },
+  {
+    "id": "the-house-of-spiders-the-pinky-apprentice-sinclair",
+    "opener": false,
+    "note": "D1 gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "the-house-of-spiders-the-ring-apprentice-faust",
+    "opener": false
+  },
+  {
+    "id": "the-house-of-spiders-the-ring-nursefather-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "the-house-of-spiders-the-thumb-apprentice-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "the-house-of-spiders-the-thumb-nursefather-rodion",
+    "opener": false,
+    "note": "D1 gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "the-index-proselyte-paper-slip-faust",
+    "opener": false
+  },
+  {
+    "id": "the-index-proxy-effloresced-e-g-o-procuration-don-quixote",
+    "opener": true,
+    "skill": "D1",
+    "gains": [
+      "unlock-i",
+      "grace-of-the-prescript"
+    ],
+    "note": "gains Unlock - I, entering Effloresced E.G.O::Procuration state with its empowered alt skills",
+    "plain": "to enter {unlock-i|her empowered state}, which swaps in stronger skills."
+  },
+  {
+    "id": "the-lord-of-hongyuan-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "the-manager-of-la-manchaland-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "the-middle-big-brother-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "the-middle-little-brother-meursault",
+    "opener": false
+  },
+  {
+    "id": "the-middle-little-brother-sinclair",
+    "opener": false
+  },
+  {
+    "id": "the-middle-little-sister-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "the-one-who-grips-faust",
+    "opener": false
+  },
+  {
+    "id": "the-one-who-shall-grip-sinclair",
+    "opener": false
+  },
+  {
+    "id": "the-pequod-captain-ishmael",
+    "opener": false
+  },
+  {
+    "id": "the-pequod-first-mate-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "the-pequod-harpooneer-heathcliff",
+    "opener": false
+  },
+  {
+    "id": "the-priest-of-la-manchaland-gregor",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "the-prince-of-la-manchaland-meursault",
+    "opener": false
+  },
+  {
+    "id": "the-princess-of-la-manchaland-rodion",
+    "opener": false
+  },
+  {
+    "id": "the-ring-fauvist-docent-rodion",
+    "opener": false
+  },
+  {
+    "id": "the-ring-fauvist-student-meursault",
+    "opener": false
+  },
+  {
+    "id": "the-ring-pointillist-student-outis",
+    "opener": false
+  },
+  {
+    "id": "the-ring-pointillist-student-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "the-thumb-east-capo-iiii-meursault",
+    "opener": true,
+    "skill": "D",
+    "gains": [
+      "savage-tigermark-round",
+      "unrelenting-spirit"
+    ],
+    "note": "first defense reloads 8 Savage Tigermark Rounds, unlocking S3 and stronger coins",
+    "plain": "to reload {savage-tigermark-round|~}, which [S3] needs and which makes his coins stronger."
+  },
+  {
+    "id": "the-thumb-east-soldato-ii-sinclair",
+    "opener": false
+  },
+  {
+    "id": "tingtang-gang-gangleader-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "twinhook-pirates-first-mate-gregor",
+    "opener": false
+  },
+  {
+    "id": "w-corp-l2-cleanup-agent-faust",
+    "opener": false
+  },
+  {
+    "id": "w-corp-l2-cleanup-agent-hong-lu",
+    "opener": false
+  },
+  {
+    "id": "w-corp-l2-cleanup-agent-meursault",
+    "opener": false
+  },
+  {
+    "id": "w-corp-l3-cleanup-agent-don-quixote",
+    "opener": false
+  },
+  {
+    "id": "w-corp-l3-cleanup-agent-ryoshu",
+    "opener": false
+  },
+  {
+    "id": "w-corp-l3-cleanup-agent-yi-sang",
+    "opener": false
+  },
+  {
+    "id": "w-corp-l3-cleanup-captain-outis",
+    "opener": false
+  },
+  {
+    "id": "w-corp-l4-cleanup-agent-cca-heathcliff",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "wild-hunt-heathcliff",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "wuthering-heights-butler-faust",
+    "opener": false
+  },
+  {
+    "id": "wuthering-heights-chief-butler-outis",
+    "opener": false
+  },
+  {
+    "id": "zwei-assoc-south-section-4-faust",
+    "opener": false
+  },
+  {
+    "id": "zwei-assoc-south-section-4-gregor",
+    "opener": false
+  },
+  {
+    "id": "zwei-assoc-south-section-5-rodion",
+    "opener": false
+  },
+  {
+    "id": "zwei-assoc-south-section-6-sinclair",
+    "opener": false
+  },
+  {
+    "id": "zwei-assoc-west-section-3-ishmael",
+    "opener": false,
+    "note": "D gives this on every use, not just turn 1, so it's in the defense note instead"
+  },
+  {
+    "id": "zwei-assoc-west-section-3-sinclair",
+    "opener": false
+  }
+]

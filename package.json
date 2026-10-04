@@ -1,0 +1,27 @@
+{
+  "name": "simple-limbus",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simplified guides for every playable Limbus Company identity, built from the Limbus Company Wiki.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/build-pages.mjs",
+    "preview": "vite preview",
+    "data": "node scripts/update-data.mjs",
+    "data:offline": "node scripts/update-data.mjs --offline",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "sharp": "^0.35.4",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3"
+  }
+}
