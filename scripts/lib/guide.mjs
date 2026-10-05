@@ -905,9 +905,9 @@ function buildPlan({ skills, analysis, passiveAnalysis, passiveLines, condsBySki
     if (u?.mode === 'transform' || replaced) {
       const from = replaced || (g.replaces.find((l) => l.startsWith('S')) ?? g.replaces[0] ?? `S${g.slot}`);
       if (from.startsWith('D')) return ['defend with ', sk(from), ...when, ' and it turns into ', sk(g.label), '.'];
-      return [sk(from), ' turns into ', sk(g.label), ...when, '; use it right away.'];
+      return [sk(from), ' turns into ', sk(g.label), ...when, '.'];
     }
-    return [sk(g.label), ' is added to your skills', ...when, '; use it right away.'];
+    return [sk(g.label), ' is added to your skills', ...when, '.'];
   };
   const explained = new Set(goals.flatMap(({ g, u }) => (u?.conds[0] && sourcesFor(u.conds[0], g.label).length ? u.conds[0].statuses : [])));
 
@@ -1044,7 +1044,10 @@ function buildPlan({ skills, analysis, passiveAnalysis, passiveLines, condsBySki
     if (named(s.label)) continue;
     const c = s.unlock.find((u) => u.conds.length)?.conds[0];
     const when = c && !c.key.includes('|') ? plainCond(c) : [];
-    if (when.length && !/special condition/.test(when.filter((x) => typeof x === 'string').join(''))) bullet([sk(s.label), ' fires on its own ', ...when, '.']);
+    if (!when.length || /special condition/.test(when.filter((x) => typeof x === 'string').join(''))) continue;
+    const sources = [...new Set(s.unlock.flatMap((u) => u.from))].filter((l) => /^[SD]\d?(\.\d)?$/.test(l) && l !== s.label);
+    const who = sources.length ? list(sources, ' and ') : [pr.he];
+    bullet([...who, sources.length > 1 ? ' follow up with ' : ' follows up with ', sk(s.label), ' ', ...when, '.']);
   }
 
   const aoe = skills.filter((s) => s.aoe);

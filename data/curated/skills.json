@@ -341,8 +341,10 @@
         "name": "Disposal",
         "text": "Unbreakable coins inflict {burn} and {tremor}; spends {acceleration-round} for more damage and {tremor-burst}. +50% damage against targets below half HP.",
         "how": [
-          "Clashing drains {eye-of-precognition-rodion|~}; at 0 she overheats (more offense, less defense).",
-          "Next turn one skill becomes [S3.2]; a kill with it gives her another."
+          "With {eye-of-precognition-rodion|~} she auto-dodges and clashes harder; clashing, dodging and her skills drain it, so it takes at least 3 turns to run out.",
+          "At 0 she overheats for 3 turns (much more offense, much less defense, no auto-dodge), then {eye-of-precognition-rodion|~} comes back full.",
+          "The turn after she overheats, a skill becomes [S3.2]; a kill with it gives her another.",
+          "The Thumb Apprentice Heathcliff takes unopposed hits for her while she's overheated."
         ],
         "unlock": "Replaces one skill the turn after {eye-of-precognition-rodion|~} runs out."
       },
@@ -578,7 +580,7 @@
         "text": "Inflicts {bleed}, {sinking}, {mauled-color-rouge}, {mauled-color-bleu} and {touche-hardie}. Stronger for each debuff type and against {palette-vibrante}.",
         "how": [
           "Enemies with all three of her debuffs get {palette-vibrante|~} (more damage taken from The Ring).",
-          "[S3] turns into [S3.2] against targets with 6+ debuff types; use it right away."
+          "[S3] turns into [S3.2] against targets with 6+ debuff types."
         ]
       },
       {
@@ -1240,7 +1242,7 @@
         "text": "Inflicts {bleed}, {rupture} and {la-mancha-parade}, healing from damage; two coins can't break. Gives allies {hardblood-armor} but uses up his own.",
         "how": [
           "His skills build {hardblood-armor|~} (offense, defense and speed at 3+); [S1] and [S2] spend {bloodfeast|~} (the fight's Bleed damage) for it, or make him Bleed.",
-          "At 5, [S3] turns into [S3.2]; use it right away."
+          "At 5, [S3] turns into [S3.2]."
         ]
       },
       {
@@ -1628,7 +1630,7 @@
         "text": "Five coins inflict {tremor} and {burn}, spending 3 {savage-tigermark-round}. Turns {tremor} into {tremor-scorch} and triggers {tremor-burst} three times.",
         "how": [
           "Using [D] once, running out of regular rounds, or getting Staggered loads {savage-tigermark-round|~} (stronger coins).",
-          "With it, [S3] turns into [S3.2]; use it right away."
+          "With it, [S3] turns into [S3.2]."
         ]
       },
       {
@@ -2264,7 +2266,7 @@
         "text": "Inflicts {bleed} and {rupture}; gives herself and allies {festive-fever-ally} and {blooming-thorn-ally}. Stronger with more {bloodfeast-consumed}; uses up her {blooming-thorn-ally}.",
         "how": [
           "Her skills and allies' Bleed damage build {blooming-thorn-ally|~} (defense; Bleeds attackers); [S1] and [S2] also spend {bloodfeast|~} (the fight's Bleed damage) for it.",
-          "At 25, [S3] turns into [S3.2]; use it right away."
+          "At 25, [S3] turns into [S3.2]."
         ]
       },
       {
@@ -2483,7 +2485,7 @@
         "text": "Spends all {red-eyes} and {penitence} for huge power and damage, heals allies' HP and SP, inflicts {bind}. Loses 15 SP.",
         "how": [
           "Her coins build {red-eyes|~} (more Bleed and damage) and {penitence|~} (a Shield and SP healing each turn).",
-          "Once both reach 15, [S3] turns into [S3.2], which spends them for big damage and heals the team; use it right away."
+          "Once both reach 15, [S3] turns into [S3.2], which spends them for big damage and heals the team."
         ]
       },
       {
