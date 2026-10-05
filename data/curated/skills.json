@@ -66,6 +66,47 @@
     ]
   },
   {
+    "id": "haute-couture-le-noir-brand-manager-don-quixote",
+    "skills": [
+      {
+        "label": "S1",
+        "name": "Cometh the Nail",
+        "text": "Inflicts {tremor} Count and builds {preservation}; gives itself and a Le Noir ally {charge} Count. Stronger against {tremor} and {promised-nail-don-quixote}, and at 3+ {preservation} Potency."
+      },
+      {
+        "label": "S1.2",
+        "name": "Judgment!",
+        "text": "Can't be clashed and can't kill. Inflicts {tremor} and {promised-nail-don-quixote}; stronger at 3+ {preservation} Potency.",
+        "how": "Before a Le Noir ally attacks, she hits its target with [S1.2] first."
+      },
+      {
+        "label": "S2",
+        "name": "Summoneth the Nail",
+        "text": "Inflicts {tremor} and {promised-nail-don-quixote}, builds {preservation}, and triggers {tremor-burst}. Stronger with Resonance and at 3+ {preservation} Potency."
+      },
+      {
+        "label": "S3",
+        "name": "I Sever Thine Advent!",
+        "text": "Gains {sanctum-of-conservation-don-quixote} and gives itself and a Le Noir ally {offense-level-up} and {defense-level-up}. Inflicts {tremor} and {promised-nail-don-quixote}, turns Tremor into {tremor-conservation}, and triggers {tremor-burst}.",
+        "how": "[S3] and [D] give {sanctum-of-conservation-don-quixote|~}, which Shields all allies, buffs Le Noir allies and slows enemies."
+      },
+      {
+        "label": "S3.2",
+        "name": "With Each Smite, I Sever Thine Advent!",
+        "text": "Gives all Le Noir allies {offense-level-up} and {defense-level-up}. Inflicts {tremor} and {promised-nail-don-quixote}, triggers {tremor-burst}, then spends all {promised-nail-don-quixote} for bonus damage.",
+        "how": [
+          "[S1.2], [S2], [S3] and [D] inflict {promised-nail-don-quixote|~}, spending {preservation|~}, which builds {blessing-of-the-obsidian-god-don-quixote|~}; allies taking hits while Shielded add more.",
+          "She can't be Staggered once {blessing-of-the-obsidian-god-don-quixote|~} reaches 40, and at 100, [D] becomes [S3.2], which spends all {promised-nail-don-quixote|~} for bonus damage."
+        ]
+      },
+      {
+        "label": "D",
+        "name": "Witness Ye in Silence",
+        "text": "Strikes back when attacked. Gains {sanctum-of-conservation-don-quixote} and {preservation}, heals SP for itself and a Le Noir ally, and gains a Shield from {blessing-of-the-obsidian-god-don-quixote}; at 100 {blessing-of-the-obsidian-god-don-quixote} it becomes S3.2."
+      }
+    ]
+  },
+  {
     "id": "haute-couture-le-noir-footwear-hall-ryoshu",
     "skills": [
       {
@@ -89,7 +130,7 @@
         "text": "Inflicts {tremor} and triggers {tremor-burst} up to 3 times. Spends {armure-eveillee} and {preservation} for extra power and damage.",
         "how": [
           "Taking hits while Shielded builds {le-noir-gabardine-overcoat|~}; at 60, [D] turns it into {armure-eveillee|~} (offense and speed).",
-          "With {armure-eveillee|~}, [S3] becomes [S3.2] and [D] fires it too; she switches back once it's spent."
+          "With {armure-eveillee|~}, [S3] and [D] both become [S3.2]; she switches back once it's spent."
         ]
       },
       {
@@ -410,7 +451,7 @@
         "name": "Stamp of Vengeance",
         "text": "Inflicts {bleed}; stronger against {burn} and {bleed} and with more {the-middle-vengeance-tattoo-great-sister}. Consumes all {the-middle-grudge-outis}.",
         "how": [
-          "Using [S3] (or having 6+ Envy A-Resonance) breaks her sword's seals over 5 turns, firing [S3.3] at each break.",
+          "Using [S3] (or having 6+ Envy A-Resonance) breaks her sword's seals over 5 turns, and each break becomes a free [S3.3].",
           "The last break gives {l-vateinn-outis|~}: stronger skills, but it Burns everyone each turn, allies too.",
           "Getting hit builds {the-middle-grudge-outis|~}; at 15 a skill becomes [S3], which spends it for a lasting damage boost."
         ]
@@ -461,7 +502,7 @@
         "name": "Inevitable Termination [必然殺]",
         "text": "Can't be clashed. Inflicts {bladetrail-afterimage}, triggers {burn}, and crits inflict {slash-fragility}. Removes the target's {phantom-trace}.",
         "how": [
-          "Attacking the enemy with {phantom-trace|~} fires [S2.2] first, makes her coins unbreakable and builds {entanglement|~}.",
+          "Attacking the enemy with {phantom-trace|~} becomes a double hit ([S2.2] first, then her skill with unbreakable coins) and builds {entanglement|~}.",
           "{entanglement|~} adds crit damage and {bladetrail-afterimage|~} to her hits and makes [S3] hit harder and hit more targets; [S3.2] spends it on a stronger last coin, then resets it but raises its cap."
         ]
       },
@@ -474,7 +515,7 @@
         "label": "S3.2",
         "name": "Rend Space - Echoshear [空間斬 - 殘]",
         "text": "Consumes all {bladetrail-afterimage} for bonus damage and triggers {burn} and {bleed} on crit. Gains extra coins per {string-severance}.",
-        "how": "Her hits build {bladetrail-afterimage|~}; at 50 she fires [S3.3] at turn end, then gets [S3.2] each time she's back at 50."
+        "how": "Her hits build {bladetrail-afterimage|~}; at 50, she gets a free [S3.3] at turn end, then a skill becomes [S3.2] each time she's back at 50."
       },
       {
         "label": "S3.3",
@@ -725,7 +766,7 @@
         "label": "S1.2",
         "name": "Stories that Never Cease",
         "text": "Can't be clashed. Inflicts {sinking} Count, {tremor} and {solitude}; if {solitude} is already there, triggers {tremor-burst} instead.",
-        "how": "When [S1] and [S2] run out of {bullet-solitude|~}, she fires [S1.2] on her own and reloads for 10 SP."
+        "how": "When [S1] and [S2] run out of {bullet-solitude|~}, she follows up with [S1.2] and reloads for 10 SP."
       },
       {
         "label": "S2",
@@ -741,7 +782,7 @@
         "label": "S3.2",
         "name": "Magnificent End",
         "text": "Can't be clashed. Inflicts {faint-aroma}, {sinking} and {tremor}, triggers {tremor-burst}, and grows stronger with more {faint-aroma} on enemies.",
-        "how": "Sinking damage, {faint-aroma|~} and Tremor Bursts build {petals|~}; at 30 she fires [S3.2] on her own."
+        "how": "Sinking damage, {faint-aroma|~} and Tremor Bursts build {petals|~}; at 30, she follows up her next attack with [S3.2]."
       },
       {
         "label": "D",
@@ -1131,7 +1172,7 @@
         "label": "S3.2",
         "name": "Kōzan [光斬]",
         "text": "Can't be clashed. Hits more times and harder with more {bright} Potency, adding {tremor} and {sinking} Count; uses up {bright}.",
-        "how": "Build {bright|~} by using a leftmost-slot skill that matches her Hand, or [S3]; [S3.2] fires on its own at 5, or once Bright runs out."
+        "how": "Build {bright|~} by using a leftmost-slot skill that matches her Hand, or [S3]; she uses [S3.2] on her own at 5, or once Bright runs out."
       },
       {
         "label": "D",
@@ -1257,7 +1298,7 @@
         "name": "Bow's Glimmer [閃弓]",
         "text": "Can't be clashed. Gains {poise} and inflicts {lodged-arrow}; damage and crits grow hugely with {target-aim}.",
         "how": [
-          "[D1] readies her bow: next turn a skill becomes [S3.2] and fires first.",
+          "[D1] readies her bow: next turn a skill becomes [S3.2] and goes first.",
           "Keep using [D1] instead of attacking to charge {target-aim|~} for a much stronger shot (up to 4 turns); she can't be Staggered meanwhile."
         ]
       },
@@ -2471,7 +2512,7 @@
         "text": "Spends all {the-living-the-departed} for big damage and {butterfly}, then deals Gloom damage per {butterfly} and triggers {reload-solemn-lament}.",
         "how": [
           "Each coin spends {the-living-the-departed|his special ammo} to inflict {butterfly|~}; running out cancels the skill and reloads (costs SP).",
-          "[S3] and [D] reload; [S3]'s last coin hits harder the more {butterfly|~} the target has."
+          "[S3] and [D] reload; [S3]'s last coin hits harder against targets with lots of {butterfly|~}."
         ]
       },
       {

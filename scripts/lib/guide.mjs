@@ -4,6 +4,7 @@ import { wikiToLines } from './wikitext.mjs';
 let statusFamily = (id) => id;
 let currentStatusName = (id) => id;
 let currentStatusKind = () => 'other';
+let currentKeywordOf = () => null;
 const SHE = new Set(['faust', 'don quixote', 'ryoshu', 'ishmael', 'rodion', 'outis']);
 const HE = new Set(['yi sang', 'mersault', 'hong lu', 'heathcliff', 'sinclair', 'gregor']);
 let pr = { he: 'it', him: 'it', his: 'its' };
@@ -134,7 +135,8 @@ export function buildGuide(model, ctx) {
   statusFamily = ctx.statusFamily ?? ((id) => id);
   currentStatusName = statusName;
   currentStatusKind = ctx.statusKind ?? (() => 'other');
-  pr = SHE.has(model.sinner) ? { he: 'she', him: 'her', his: 'her' } : HE.has(model.sinner) ? { he: 'he', him: 'him', his: 'his' } : { he: 'it', him: 'it', his: 'its' };
+  currentKeywordOf = ctx.keywordOf ?? (() => null);
+  pr =SHE.has(model.sinner) ? { he: 'she', him: 'her', his: 'her' } : HE.has(model.sinner) ? { he: 'he', him: 'him', his: 'his' } : { he: 'it', him: 'it', his: 'its' };
   const id = model.id;
   const text = (raw, coin = null) => wikiToLines(raw, ctx, coin);
 
@@ -674,6 +676,8 @@ function stateNoun(id) {
 }
 
 function plainNoun(id, kind) {
+  const unique = currentKeywordOf(id);
+  if (unique) return `${pr.his} Unique ${unique.charAt(0).toUpperCase()}${unique.slice(1)}`;
   const name = bareName(currentStatusName(id) ?? '');
   if (name && !/\s/.test(name)) return name;
   if (/\b(?:rounds?|ammo|bullets?|arrows?)\b/i.test(name)) return `${pr.his} special ammo`;
@@ -1031,12 +1035,13 @@ function buildPlan({ skills, analysis, passiveAnalysis, passiveLines, condsBySki
   }
 
   const named = (label) => summary.some((b) => b.some((x) => Array.isArray(x) && x[0] === 'sk' && x[1] === label));
-  for (const s of skills.filter((x) => x.auto && !named(x.label))) {
+  for (const s of skills.filter((x) => x.auto && !shownFollowUps.some((f) => f.label === x.label))) {
     const how = howFor?.(s.label);
     if (how) {
       for (const h of how) bullet(h);
       continue;
     }
+    if (named(s.label)) continue;
     const c = s.unlock.find((u) => u.conds.length)?.conds[0];
     const when = c && !c.key.includes('|') ? plainCond(c) : [];
     if (when.length && !/special condition/.test(when.filter((x) => typeof x === 'string').join(''))) bullet([sk(s.label), ' fires on its own ', ...when, '.']);

@@ -172,6 +172,9 @@ export default function Browse({ identities, statuses }: { identities: IndexEntr
               </button>
             ))}
           </div>
+        </div>
+
+        <div className="filter-row">
           <div className="seg" role="group" aria-label="Keyword">
             {KEYWORDS.map((k) => (
               <button key={k} type="button" className={f.keyword === k ? 'on' : ''} onClick={() => update({ keyword: f.keyword === k ? null : k })}>

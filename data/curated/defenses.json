@@ -13,7 +13,7 @@
   },
   {
     "id": "dawn-office-rep-gregor",
-    "note": "[D1] {assist-defense|protects allies} with [D2]. Once {light-of-daybreak|~} reaches 30, it fires [S3.2] instead."
+    "note": "[D1] {assist-defense|protects allies} with [D2]. Once {light-of-daybreak|~} reaches 30, it becomes [S3.2]."
   },
   {
     "id": "devyat-assoc-north-section-3-rodion",
@@ -38,6 +38,10 @@
   {
     "id": "haute-couture-boutique-du-rouge-ishmael",
     "note": "[D1] costs HP each turn but draws attacks, inflicts {bleed} and builds {pulsation-ally|~}. Near death she switches to [D2], which fully heals."
+  },
+  {
+    "id": "haute-couture-le-noir-brand-manager-don-quixote",
+    "note": "[D] heals SP for her and a Le Noir ally and gives her a Shield that grows with {blessing-of-the-obsidian-god-don-quixote|~}."
   },
   {
     "id": "heishou-pack-mao-branch-adept-faust",
@@ -117,7 +121,7 @@
   },
   {
     "id": "the-house-of-spiders-the-thumb-nursefather-rodion",
-    "note": "[D1] reloads {acceleration-round|~} but drains {eye-of-precognition-rodion|~}. [D2] fires on its own, dodging unopposed and unbreakable attacks and lost clashes."
+    "note": "[D1] reloads {acceleration-round|~} but drains {eye-of-precognition-rodion|~}. Unopposed and unbreakable attacks on her, and her lost clashes, become [D2] dodges with no slot needed."
   },
   {
     "id": "the-lord-of-hongyuan-hong-lu",

@@ -583,6 +583,31 @@
     ]
   },
   {
+    "id": "haute-couture-le-noir-brand-manager-don-quixote",
+    "passives": [
+      {
+        "name": "Malleus Promissionis",
+        "text": "Starts with {preservation} and gives other Le Noir allies {charge} Count. Inflicting {promised-nail-don-quixote} spends {preservation} (an extra Nail at 12+, none when empty), and spending raises its Potency."
+      },
+      {
+        "name": "Mission of Conservation",
+        "text": "Starts with 25 {blessing-of-the-obsidian-god-don-quixote}. Spending {preservation} builds more, and so do allies getting hit while Shielded (more for {charge} allies)."
+      },
+      {
+        "name": "The Lord's Will and Values Be With Us…",
+        "text": "Before another Le Noir ally attacks, uses Judgment! on its target. Final coins gain power from {preservation} Potency and {promised-nail-don-quixote}; {sanctum-of-conservation-don-quixote} adds Clash Power."
+      },
+      {
+        "name": "Obsidian Covenant",
+        "text": "With {sanctum-of-conservation-don-quixote}, gains {haste} next turn. Base attacks deal more damage the higher its {preservation} Potency."
+      },
+      {
+        "name": "Formation Conservation",
+        "text": "All allies with {charge} take less damage, more so the more {charge} allies are on the field."
+      }
+    ]
+  },
+  {
     "id": "haute-couture-le-noir-footwear-hall-ryoshu",
     "passives": [
       {
@@ -1287,7 +1312,7 @@
     "passives": [
       {
         "name": "A Void that Cannot be Filled",
-        "text": "Starts with 6 {bullet-solitude}. Fires S1 as a bonus attack on low-SP or Staggered enemies; when empty, uses S1.2 and reloads."
+        "text": "Starts with 6 {bullet-solitude}. Uses S1 as a bonus attack on low-SP or Staggered enemies; when empty, uses S1.2 and reloads."
       },
       {
         "name": "Unwithering Flower",
@@ -1919,7 +1944,7 @@
     "passives": [
       {
         "name": "Snipe - Archery",
-        "text": "With {ready-to-loose}, converts its leftmost attack skill into S3.2 and fires it at combat start; converting S3 gives the biggest boost."
+        "text": "With {ready-to-loose}, its leftmost attack skill becomes S3.2 and goes off at combat start; converting S3 gives the biggest boost."
       },
       {
         "name": "Shi-no-Yumi",
