@@ -197,7 +197,7 @@
       },
       {
         "name": "Seonbae",
-        "text": "Gives Dawn Office Fixer Sinclair {high-noon}. If this unit is defeated, Sinclair's {high-noon} turns into {loneliness-at-high-noon}."
+        "text": "Gives {@dawn-office-fixer-sinclair} {high-noon}. If this unit is defeated, Sinclair's {high-noon} turns into {loneliness-at-high-noon}."
       },
       {
         "name": "Feuerfalter [Stigma Workshop]",
@@ -235,7 +235,7 @@
       },
       {
         "name": "Dawn Office",
-        "text": "With 2+ Dawn Office allies, each gains {dawn-office}. Dawn Office Fixer Sinclair gets {from-dawnbreak-to-sunset}, which becomes {blazing-sunset} if this unit dies."
+        "text": "With 2+ Dawn Office allies, each gains {dawn-office}. {@dawn-office-fixer-sinclair} gets {from-dawnbreak-to-sunset}, which becomes {blazing-sunset} if this unit dies."
       },
       {
         "name": "Morgenfeuer [Stigma Workshop]",
@@ -514,7 +514,7 @@
       },
       {
         "name": "Tactical Fire Support",
-        "text": "S2 and S3 get stronger while Full-Stop Office Fixer Heathcliff is on {overwatch-assignment} or backup. At 20+ {poise}, gains +1 {poise} Count."
+        "text": "S2 and S3 get stronger while {@full-stop-office-fixer-heathcliff} is on {overwatch-assignment} or backup. At 20+ {poise}, gains +1 {poise} Count."
       },
       {
         "name": "Suppressing Fire",
@@ -1616,7 +1616,7 @@
       },
       {
         "name": "Let me show everyone something very interesting",
-        "text": "Pairs with Fell Bullet Yi Sang: before his 'Target Readjustment Fire', Ryōshū hits his target with S1, or uses S4 with {contempt-of-the-gaze}."
+        "text": "Pairs with {@n-corp-e-g-o-fell-bullet-yi-sang|Fell Bullet Yi Sang}: before his 'Target Readjustment Fire', Ryōshū hits his target with S1, or uses S4 with {contempt-of-the-gaze}."
       },
       {
         "name": "@#$'s Hand I Let Slip",
@@ -1749,7 +1749,7 @@
       },
       {
         "name": "Culinary Aid",
-        "text": "At combat start, the lowest-HP ally heals 5 HP. Also boosts R.B. Chef de Cuisine Ryōshū's healing passive by 5."
+        "text": "At combat start, the lowest-HP ally heals 5 HP. Also boosts {@r-b-chef-de-cuisine-ryoshu}'s healing passive by 5."
       }
     ]
   },
@@ -2110,7 +2110,7 @@
       },
       {
         "name": "Parenting",
-        "text": "With Middle Apprentice Ishmael present, this unit gains {check-this-out-kiddo-outis} and Ishmael gains {i-got-praised-ishmael} from their own clash wins and hits."
+        "text": "With {@the-house-of-spiders-the-middle-apprentice-ishmael|Middle Apprentice Ishmael} present, this unit gains {check-this-out-kiddo-outis} and Ishmael gains {i-got-praised-ishmael} from their own clash wins and hits."
       },
       {
         "name": "Saikai [再会] - The Middle",
@@ -2181,7 +2181,7 @@
       },
       {
         "name": "A Maestro's Critique",
-        "text": "Uses S1.2 on Ring Apprentice Faust before her S3. Heals 4 SP when hits inflict debuffs; at max SP, gains {slash-dmg-up}."
+        "text": "Uses S1.2 on {@the-house-of-spiders-the-ring-apprentice-faust|Ring Apprentice Faust} before her S3. Heals 4 SP when hits inflict debuffs; at max SP, gains {slash-dmg-up}."
       },
       {
         "name": "Please, Do Stop Running and Be Seated",
@@ -2198,7 +2198,7 @@
       },
       {
         "name": "Desperate Struggle",
-        "text": "With Thumb Nursefather Rodion present, follows up her base skill hits with S1 and can gain {assist-defense} to protect her."
+        "text": "With {@the-house-of-spiders-the-thumb-nursefather-rodion|Thumb Nursefather Rodion} present, follows up her base skill hits with S1 and can gain {assist-defense} to protect her."
       },
       {
         "name": "Saikai [再会] - The Thumb",
@@ -2588,7 +2588,7 @@
     "passives": [
       {
         "name": "Chachihu [揷翅虎]",
-        "text": "Starts fights with 12 {tigermark-round}. Running out, defending, or getting Staggered reloads 8 {savage-tigermark-round}, grants {unrelenting-spirit}, and clears Stagger."
+        "text": "Starts fights with 12 {tigermark-round}. Once per fight, running out, defending, or getting Staggered swaps any left for 8 {savage-tigermark-round}, grants {unrelenting-spirit}, and clears Stagger."
       },
       {
         "name": "Tiantui Star's Blade [天退星刀]",

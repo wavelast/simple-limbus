@@ -176,7 +176,8 @@ export function buildGuide(model, ctx) {
 
   const labels = new Set(skills.map((s) => s.label));
   const checkedSegs = (what, text) => {
-    for (const m of text.matchAll(/\{([^{}\s|]+)(?:\|[^{}]+)?\}/g)) if (!ctx.statusId(m[1])) console.warn(`  ${what}: ${id} has unknown status {${m[1]}}`);
+    for (const m of text.matchAll(/\{(?!@)([^{}\s|]+)(?:\|[^{}]+)?\}/g)) if (!ctx.statusId(m[1])) console.warn(`  ${what}: ${id} has unknown status {${m[1]}}`);
+    for (const m of text.matchAll(/\{@([^{}\s|]+)(?:\|[^{}]+)?\}/g)) if (!ctx.identityName?.(m[1])) console.warn(`  ${what}: ${id} has unknown identity {@${m[1]}}`);
     for (const m of text.matchAll(/\[([SD]\d?(?:\.\d)?)\]/g)) if (!labels.has(m[1])) console.warn(`  ${what}: ${id} has no skill [${m[1]}]`);
     return curatedSegs(text, ctx, labels);
   };
@@ -615,18 +616,21 @@ function explain(lines, info) {
 function curatedSegs(text, ctx, skillLabels = null) {
   const segs = [];
   let last = 0;
-  for (const m of text.matchAll(/\{([^{}\s|]+)(?:\|([^{}]+))?\}|\[([SD]\d?(?:\.\d)?)\]/g)) {
+  for (const m of text.matchAll(/\{(@?)([^{}\s|]+)(?:\|([^{}]+))?\}|\[([SD]\d?(?:\.\d)?)\]/g)) {
     if (m.index > last) segs.push(text.slice(last, m.index));
-    if (m[3]) {
-      segs.push(!skillLabels || skillLabels.has(m[3]) ? ['sk', m[3]] : m[3]);
+    if (m[4]) {
+      segs.push(!skillLabels || skillLabels.has(m[4]) ? ['sk', m[4]] : m[4]);
+    } else if (m[1]) {
+      const name = ctx.identityName?.(m[2]);
+      segs.push(name ? ['i', m[2], m[3] ?? name] : m[3] ?? m[2]);
     } else {
-      const sid = ctx.statusId(m[1]);
-      if (m[2] === '~') {
-        const noun = sid ? plainNoun(sid) : m[1];
+      const sid = ctx.statusId(m[2]);
+      if (m[3] === '~') {
+        const noun = sid ? plainNoun(sid) : m[2];
         const start = /(^|[.!?:]\s+)$/.test(text.slice(0, m.index));
         segs.push(sid ? ['g', sid, start ? noun.charAt(0).toUpperCase() + noun.slice(1) : noun] : noun);
-      } else if (m[2]) segs.push(sid ? ['g', sid, m[2]] : m[2]);
-      else segs.push(sid ? ['s', sid] : m[1].replace(/([a-z])([A-Z])/g, '$1 $2'));
+      } else if (m[3]) segs.push(sid ? ['g', sid, m[3]] : m[3]);
+      else segs.push(sid ? ['s', sid] : m[2].replace(/([a-z])([A-Z])/g, '$1 $2'));
     }
     last = m.index + m[0].length;
   }
@@ -655,7 +659,7 @@ function condPhrase(c) {
   if ((m = L.match(/^(\d+)\+ faster than target$/))) return [`when ${pr.he} is `, b(`${m[1]}+ Speed faster than the target`)];
   if (L === 'Faster than target') return [`when ${pr.he} is `, b('faster than the target')];
   if ((m = L.match(/^Speed (\d+)\+$/))) return ['at ', b(`${m[1]}+ Speed`)];
-  if (/^\d/.test(L)) return ['at ', b(L)];
+  if (/^\d/.test(L)) return c.subject === 'self' && c.statuses?.some((id) => DIRECT.has(id)) ? ['at ', b(L), ` on ${pr.him}self`] : ['at ', b(L)];
   if ((m = L.match(/^Has (.+)$/))) return [`while ${pr.he} has `, b(m[1])];
   if ((m = L.match(/^No (.+)$/))) return [`when ${pr.he} has no `, b(m[1])];
   if ((m = L.match(/^Target has (.+)$/))) return ['when the target has ', b(m[1])];

@@ -76,6 +76,7 @@ async function main() {
     .filter(Boolean)
     .sort((a, b) => a.title.localeCompare(b.title));
   const titleToId = new Map(models.map((m) => [m.title, m.id]));
+  const idToTitle = new Map(models.map((m) => [m.id, m.title]));
 
   const SINNER_ORDER = ['yi sang', 'faust', 'don quixote', 'ryoshu', 'mersault', 'hong lu', 'heathcliff', 'ishmael', 'rodion', 'sinclair', 'outis', 'gregor'];
   const isLcb = (m) => m.id.startsWith('lcb-sinner-');
@@ -103,6 +104,7 @@ async function main() {
     },
     statusId: (u) => byName.get(slug(u)) ?? null,
     identityId: (title) => titleToId.get(String(title).split('#')[0].trim()) ?? null,
+    identityName: (id) => idToTitle.get(id) ?? null,
   };
   ctx.openers = await loadOpeners(ctx);
   ctx.passiveNotes = await loadNotes('passives.json', 'passives', (p) => p.name);
@@ -165,9 +167,14 @@ async function main() {
   const liveDir = path.join(OUT, 'guides');
   await fs.rm(nextDir, { recursive: true, force: true });
   const strip = (lines) => lines.map(({ coin, segs }) => ({ coin, segs }));
+  const unlinkSelf = (v, id) => {
+    if (Array.isArray(v)) return v[0] === 'i' && v[1] === id && typeof v[2] === 'string' ? v[2] : v.map((x) => unlinkSelf(x, id));
+    if (v && typeof v === 'object') return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, unlinkSelf(x, id)]));
+    return v;
+  };
   for (const { model, guide: g } of guides) {
     const file = `${g.id}.json`;
-    await writeJson(path.join(nextDir, file), {
+    await writeJson(path.join(nextDir, file), unlinkSelf({
       id: g.id,
       num: numbers.get(g.id),
       name: g.name,
@@ -193,7 +200,7 @@ async function main() {
       passives: g.passives.map((p) => ({ kind: p.kind, name: p.name, req: p.req, simple: p.simple, lines: strip(p.lines) })),
       plan: g.plan,
       teammates: g.teammates,
-    }, { compareWith: path.join(liveDir, file) });
+    }, g.id), { compareWith: path.join(liveDir, file) });
   }
   const kept = new Set(guides.map(({ guide: g }) => `${g.id}.json`));
   if ((await fs.readdir(liveDir).catch(() => [])).some((f) => !kept.has(f))) siteChanged = true;

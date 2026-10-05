@@ -73,7 +73,7 @@
   },
   {
     "id": "lobotomy-e-g-o-lamp-gregor",
-    "note": "[D] fills {lamp|~} at once and gives slow allies {haste}; full Lamp draws attacks and inflicts {dazzle}. It costs some HP and gives him {bind} next turn."
+    "note": "[D] fills {lamp|~} at once and gives slow allies {haste}, but it costs some HP and gives him {bind} next turn."
   },
   {
     "id": "lobotomy-e-g-o-regret-faust",
@@ -117,7 +117,7 @@
   },
   {
     "id": "the-house-of-spiders-the-thumb-apprentice-heathcliff",
-    "note": "[D2] protects Thumb Nursefather Rodion once Rodion {eye-of-precognition-overheat-rodion|overheats}."
+    "note": "[D2] protects {@the-house-of-spiders-the-thumb-nursefather-rodion|Thumb Nursefather Rodion} once Rodion {eye-of-precognition-overheat-rodion|overheats}."
   },
   {
     "id": "the-house-of-spiders-the-thumb-nursefather-rodion",
@@ -162,5 +162,9 @@
   {
     "id": "zwei-assoc-west-section-3-ishmael",
     "note": "[D] puts her in {defensive-stance|~} and gives {tremor} Count: she draws attacks with much more defense, but her Speed drops to its minimum."
+  },
+  {
+    "id": "t-corp-class-3-collection-staff-don-quixote",
+    "note": "[D] gives {borrowed-time|~}: {haste} and Clash Power Up for a few turns, but {fragile}, then {bind} when it ends."
   }
 ]

@@ -344,7 +344,7 @@
           "With {eye-of-precognition-rodion|~} she auto-dodges and clashes harder; clashing, dodging and her skills drain it, so it takes at least 3 turns to run out.",
           "At 0 she overheats for 3 turns (much more offense, much less defense, no auto-dodge), then {eye-of-precognition-rodion|~} comes back full.",
           "The turn after she overheats, a skill becomes [S3.2]; a kill with it gives her another.",
-          "The Thumb Apprentice Heathcliff takes unopposed hits for her while she's overheated."
+          "{@the-house-of-spiders-the-thumb-apprentice-heathcliff|The Thumb Apprentice Heathcliff} takes unopposed hits for her while she's overheated."
         ],
         "unlock": "Replaces one skill the turn after {eye-of-precognition-rodion|~} runs out."
       },
@@ -453,7 +453,7 @@
         "name": "Stamp of Vengeance",
         "text": "Inflicts {bleed}; stronger against {burn} and {bleed} and with more {the-middle-vengeance-tattoo-great-sister}. Consumes all {the-middle-grudge-outis}.",
         "how": [
-          "Using [S3] (or having 6+ Envy A-Resonance) breaks her sword's seals over 5 turns, and each break becomes a free [S3.3].",
+          "Using [S3] (or having 6+ Envy A-Resonance) breaks her sword's seals over 5 turns (the first breaks at once if she drops below 80% HP), and each break becomes a free [S3.3].",
           "The last break gives {l-vateinn-outis|~}: stronger skills, but it Burns everyone each turn, allies too.",
           "Getting hit builds {the-middle-grudge-outis|~}; at 15 a skill becomes [S3], which spends it for a lasting damage boost."
         ]
@@ -579,7 +579,7 @@
         "name": "Le Fauvisme - Déchaînement Brutal",
         "text": "Inflicts {bleed}, {sinking}, {mauled-color-rouge}, {mauled-color-bleu} and {touche-hardie}. Stronger for each debuff type and against {palette-vibrante}.",
         "how": [
-          "Enemies with all three of her debuffs get {palette-vibrante|~} (more damage taken from The Ring).",
+          "Her skills inflict both Mauled Colors and Touche Hardie; enemies with all three get {palette-vibrante|~} (more damage taken from The Ring).",
           "[S3] turns into [S3.2] against targets with 6+ debuff types."
         ]
       },
@@ -692,7 +692,8 @@
       {
         "label": "S1.2",
         "name": "My, How We Love the Flesh and the Blood",
-        "text": "Can target allies and can't be clashed. It doesn't hit; it just gives the target 6 {offense-level-up}."
+        "text": "Can target allies and can't be clashed. It doesn't hit; it just gives the target 6 {offense-level-up}.",
+        "how": "Before {@the-house-of-spiders-the-ring-apprentice-faust} uses her S3, he gives her a big Offense Level Up boost with [S1.2] (it deals no damage)."
       },
       {
         "label": "S2",
@@ -712,7 +713,8 @@
       {
         "label": "S3.2",
         "name": "Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats",
-        "text": "Unbreakable coins inflict {bleed}, {burn} and {corpus-theater-hong-lu}, strongest on one target. Heals The Ring allies' SP and grants them {somatic-frisson-inspiring-melody}."
+        "text": "Unbreakable coins inflict {bleed}, {burn} and {corpus-theater-hong-lu}, strongest on one target. Heals The Ring allies' SP and grants them {somatic-frisson-inspiring-melody}.",
+        "how": "{viewing-the-tableau-hong-lu|~} starts high and drops each turn and whenever a Ring ally uses a skill; once it's gone, one skill becomes [S3.2] (once per fight)."
       },
       {
         "label": "D1",
@@ -844,7 +846,10 @@
         "label": "S3.2",
         "name": "Furioso-Replica",
         "text": "Spreads unbreakable hits across enemies, gaining {poise} or inflicting {sinking}. Afterward inflicts {burn}, {bind} and {fragile} on all hit.",
-        "how": "Build {procuration-hermes|~} with {mark-of-the-prescript|Prescript-marked} skills and Unbreakable coin hits (more coins turn Unbreakable at higher {unlock|Unlock stages})."
+        "how": [
+          "Build {procuration-hermes|~} with {mark-of-the-prescript|Prescript-marked} skills and Unbreakable coin hits (more coins turn Unbreakable at higher {unlock|Unlock stages}).",
+          "Missing a turn's Prescript or skipping ahead with [D] builds {karmic-consequence|~}, which lowers his defense, later adds {fragile}, and weakens his skills."
+        ]
       },
       {
         "label": "D",
@@ -869,7 +874,11 @@
       {
         "label": "S3",
         "name": "Salvation for those Enchanted by the Lamp",
-        "text": "Inflicts {burn} and {sinking}. Against {dazzle} targets, coins become unbreakable and deal big extra damage; also stronger when slower."
+        "text": "Inflicts {burn} and {sinking}. Against {dazzle} targets, coins become unbreakable and deal big extra damage; also stronger when slower.",
+        "how": [
+          "His {lamp|~} fills each turn ([D] fills it at once); when full, the next turn he draws attacks and gives the healthiest enemy 3 {dazzle}, which wears off over 3 turns.",
+          "Use [S3] on the Dazzled enemy: its coins can't break and it hits much harder."
+        ]
       },
       {
         "label": "D",
@@ -966,7 +975,10 @@
         "label": "S3",
         "name": "T-the Prescript Must be Fulfilled Anon…",
         "text": "Gains {poise} and inflicts {sinking}. Much stronger at higher {unlock} stages; at stage 2+, coins become unbreakable.",
-        "how": "Hit with {mark-of-the-prescript|Prescript-marked} skills each turn (best on {the-prescript-s-target|the Prescript's Target}) to build {grace-of-the-prescript|~}; {unlock|~} goes up a stage at 3, 6 and 9."
+        "how": [
+          "Hit with {mark-of-the-prescript|Prescript-marked} skills each turn (best on {the-prescript-s-target|the Prescript's Target}) to build {grace-of-the-prescript|~}; {unlock|~} goes up a stage at 3, 6 and 9.",
+          "Missing a turn's Prescript or skipping ahead with [D1] or [D2] builds {karmic-consequence|~}, which lowers her defense and later adds {fragile}."
+        ]
       },
       {
         "label": "S3.2",
@@ -1268,7 +1280,8 @@
       {
         "label": "S3",
         "name": "Rip Space - CCA Overdrive",
-        "text": "Spends lots of {charge} Count for big power and inflicts {rupture}. Coins can't break at 3+ {charge} or low HP."
+        "text": "Spends lots of {charge} Count for big power and inflicts {rupture}. Coins can't break at 3+ {charge} or low HP.",
+        "how": "Use [S3] at 10+ {charge} Count, which it spends for much more power; at 3+ {charge} Potency or below 50% HP, its coins can't break."
       },
       {
         "label": "D",
@@ -1345,7 +1358,7 @@
         "name": "I Shall Fire / Anytime",
         "text": "First unbreakable coin hits the main target; the second hits other targets hard, inflicting {bleed}. Scales with {torn-memory}. Costs SP.",
         "how": [
-          "With N Corp. E.G.O::Fell Bullet Yi Sang, she adds an [S1] hit before his Target Readjustment Fire.",
+          "With {@n-corp-e-g-o-fell-bullet-yi-sang}, she adds an [S1] hit before his Target Readjustment Fire.",
           "With {contempt-of-the-gaze|her buff} (from [D] at 7 total Gaze), he shoots [S4] through her into the enemies."
         ]
       },
@@ -1403,7 +1416,8 @@
       {
         "label": "S3",
         "name": "Bloodflame Massacre [血炎亂舞]",
-        "text": "Hits several targets with {burn} and {rupture}, and gains {bloodflame}. Coins can't break with {bloodflame} or below 50% HP."
+        "text": "Hits several targets with {burn} and {rupture}, and gains {bloodflame}. Coins can't break with {bloodflame} or below 50% HP.",
+        "how": "Use [S3] once he has {bloodflame|~} (from [D]) or is below 50% HP, when its coins can't break."
       },
       {
         "label": "D",
@@ -1622,16 +1636,17 @@
       {
         "label": "S3",
         "name": "Tanglecleaver [快刀亂麻]",
-        "text": "Spends 3 {tigermark-round} to inflict {tremor} and {burn}. Last coin turns {tremor} into {tremor-scorch} and triggers {tremor-burst} three times."
+        "text": "Spends 3 {tigermark-round} to inflict {tremor} and {burn}. Last coin turns {tremor} into {tremor-scorch} and triggers {tremor-burst} three times.",
+        "how": [
+          "Once per fight, his first [D], running out of regular rounds, or getting Staggered swaps his remaining regular rounds for 8 rounds of {savage-tigermark-round|~}, which strengthens his coins and upgrades [S3].",
+          "When that runs out, he has {overheat|~} for the rest of the fight: faster but much weaker in clashes, with comeback bonuses that grow with the rounds he spent (strongest at 20)."
+        ]
       },
       {
         "label": "S3.2",
         "name": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]",
         "text": "Five coins inflict {tremor} and {burn}, spending 3 {savage-tigermark-round}. Turns {tremor} into {tremor-scorch} and triggers {tremor-burst} three times.",
-        "how": [
-          "Using [D] once, running out of regular rounds, or getting Staggered loads {savage-tigermark-round|~} (stronger coins).",
-          "With it, [S3] turns into [S3.2]."
-        ]
+        "unlock": "[S3] turns into this while he has {savage-tigermark-round|~}."
       },
       {
         "label": "D",
@@ -2012,7 +2027,7 @@
       {
         "label": "D",
         "name": "Rules of the Backstreets",
-        "text": "Strikes back when attacked; inflicts {bleed}, reusing a coin with {dark-cloud-blade} or {cumulus-wall}. Stronger with Kurokumo Clan Captain Ishmael."
+        "text": "Strikes back when attacked; inflicts {bleed}, reusing a coin with {dark-cloud-blade} or {cumulus-wall}. Stronger with {@kurokumo-clan-captain-ishmael}."
       }
     ]
   },
@@ -2119,7 +2134,7 @@
         "label": "S1.2",
         "name": "Melee Support",
         "text": "Gains {poise} and {poise} Count; deals +20% damage on crits.",
-        "unlock": "Follow-up when Full-Stop Office Fixer Heathcliff defends, against his attacker."
+        "unlock": "Follow-up when {@full-stop-office-fixer-heathcliff} defends, against his attacker."
       },
       {
         "label": "S2",
@@ -2130,7 +2145,7 @@
         "label": "S2.2",
         "name": "Combo: Target Marked",
         "text": "Spends up to 3 {ammo} for power, gains {poise}, and inflicts {bind} and {attack-power-down}. Its last coin can't break.",
-        "unlock": "Replaces [S2] while Full-Stop Office Fixer Heathcliff is on overwatch or in backup."
+        "unlock": "Replaces [S2] while {@full-stop-office-fixer-heathcliff} is on overwatch or in backup."
       },
       {
         "label": "S3",
@@ -2142,10 +2157,10 @@
         "name": "Combo: Full-Stop to Life",
         "text": "Spends up to 3 {ammo} for power and inflicts {bind} and {pierce-fragility}. Its last coin can't break and hits hard.",
         "how": [
-          "With Full-Stop Office Fixer Heathcliff, Hong Lu follows up Heathcliff's defense with [S1.2], and [S3] makes Heathcliff follow up with his S2.",
+          "With {@full-stop-office-fixer-heathcliff}, Hong Lu follows up Heathcliff's defense with [S1.2], and [S3] makes Heathcliff follow up with his S2.",
           "While Heathcliff is on overwatch or in backup, [S2] and [S3] upgrade to [S2.2] and [S3.2]."
         ],
-        "unlock": "Replaces [S3] while Full-Stop Office Fixer Heathcliff is on overwatch or in backup."
+        "unlock": "Replaces [S3] while {@full-stop-office-fixer-heathcliff} is on overwatch or in backup."
       },
       {
         "label": "D1",
@@ -2171,7 +2186,7 @@
         "label": "S1.2",
         "name": "Variant Sancho Hardblood Arts 6 - Whip",
         "text": "Gives itself 20 {bleed} but heals HP from damage dealt. Unbreakable coins inflict and trigger {bleed}; spends 10 {hardblood-ally}.",
-        "unlock": "Upgrade of [S1] in her leftmost slot at 15+ {hardblood-ally|~}, with The Priest of La Manchaland Gregor on the team."
+        "unlock": "Upgrade of [S1] in her leftmost slot at 15+ {hardblood-ally|~}, with {@the-priest-of-la-manchaland-gregor} on the team."
       },
       {
         "label": "S2",
@@ -2182,7 +2197,7 @@
         "label": "S2.2",
         "name": "Variant Sancho Hardblood Arts 8 - Split Apart",
         "text": "Inflicts {bleed} and heals HP from damage dealt. Spends {hardblood-ally} to hit extra targets; last coin is unbreakable.",
-        "unlock": "Upgrade of [S2] in her leftmost slot at 15+ {hardblood-ally|~}, with The Barber of La Manchaland Outis on the team."
+        "unlock": "Upgrade of [S2] in her leftmost slot at 15+ {hardblood-ally|~}, with {@the-barber-of-la-manchaland-outis} on the team."
       },
       {
         "label": "S3",
@@ -2190,7 +2205,7 @@
         "text": "Inflicts {bleed} and heals HP from damage dealt. Much stronger against targets with lots of {bleed}; turns {bloodfeast} into {hardblood-ally}.",
         "how": [
           "Her skills spend {bloodfeast|~} (the fight's Bleed damage) for {hardblood-ally|~}, and allies taking Bleed damage add more.",
-          "At 15+ {hardblood-ally|~}, her leftmost skill upgrades at turn start: [S3] always, [S1] with The Priest, [S2] with The Barber and [D1] with The Princess of La Manchaland."
+          "At 15+ {hardblood-ally|~}, her leftmost skill upgrades at turn start: [S3] always, [S1] with {@the-priest-of-la-manchaland-gregor|The Priest}, [S2] with {@the-barber-of-la-manchaland-outis|The Barber} and [D1] with {@the-princess-of-la-manchaland-rodion|The Princess of La Manchaland}."
         ]
       },
       {
@@ -2208,7 +2223,7 @@
         "label": "D2",
         "name": "Variant Sancho Hardblood Arts 15 - Buildup to Finale",
         "text": "Strikes back when attacked, adding {bleed} Count. Gives several low-HP allies {shimmering-bloodfiend-ally}, spending half its {hardblood-ally}.",
-        "unlock": "Upgrade of [D1] in her leftmost slot at 15+ {hardblood-ally|~}, with The Princess of La Manchaland Rodion on the team."
+        "unlock": "Upgrade of [D1] in her leftmost slot at 15+ {hardblood-ally|~}, with {@the-princess-of-la-manchaland-rodion} on the team."
       }
     ]
   },
@@ -2321,7 +2336,8 @@
       {
         "label": "S3",
         "name": "A Cheerful Hunt's End",
-        "text": "Inflicts {rupture} and {rupture} Count. Reuses its last coin against 15+ {rupture} or targets under 30% HP."
+        "text": "Inflicts {rupture} and {rupture} Count. Reuses its last coin against 15+ {rupture} or targets under 30% HP.",
+        "how": "Use [S3] on targets with 15+ {rupture} or under 30% HP, when its last coin hits twice."
       },
       {
         "label": "D",
@@ -2699,7 +2715,8 @@
       {
         "label": "S3",
         "name": "I Command Thee, Halt!",
-        "text": "Inflicts {tremor}, triggers {tremor-burst}, and inflicts {time-moratorium} on 10+ {tremor} targets. Spends own {tremor} Count for power."
+        "text": "Inflicts {tremor}, triggers {tremor-burst}, and inflicts {time-moratorium} on 10+ {tremor} targets. Spends own {tremor} Count for power.",
+        "how": "Use [S3] at 10+ {tremor} Count on herself (from [S1] and [S2]); against a target with 10+ {tremor} it also adds {time-moratorium|~}: the enemy takes no damage for a while, then all of it at once, boosted."
       },
       {
         "label": "D",
@@ -3331,7 +3348,8 @@
       {
         "label": "S1",
         "name": "Remise",
-        "text": "Gains {poise} Count and {haste} next turn. Stronger when 2+ Speed faster than the target."
+        "text": "Gains {poise} Count and {haste} next turn. Stronger when 2+ Speed faster than the target.",
+        "how": "His attacks get stronger the faster he is than the target, and more Poise Count makes him faster; [S3] marks its target with {declared-duel-sinclair|~} for extra Clash Power against it."
       },
       {
         "label": "S2",
@@ -3416,7 +3434,8 @@
       {
         "label": "S3",
         "name": "Recording",
-        "text": "Against targets with {vengeance-mark}, inflicts {plus-coin-drop} and {envy-fragility} next turn. Stronger with high Envy Resonance."
+        "text": "Against targets with {vengeance-mark}, inflicts {plus-coin-drop} and {envy-fragility} next turn. Stronger with high Envy Resonance.",
+        "how": "At turn end, the enemy that dealt the most damage to an ally gets {vengeance-mark|~}; his attacks are stronger against it, and [S3] also weakens its coins and makes it take more Envy damage."
       },
       {
         "label": "D",
@@ -3994,7 +4013,8 @@
       {
         "label": "S3",
         "name": "Rupturing Talisman",
-        "text": "Spends 5 {talisman} to place 5 {talisman} on the target, then inflicts {rupture} Count."
+        "text": "Spends 5 {talisman} to place 5 {talisman} on the target, then inflicts {rupture} Count.",
+        "how": "[S1] and [S2] hits build {talisman|~} on her (at 6 she takes damage at turn end); use [S3] at 5+ to pass them to the target, which then gains {rupture} whenever it's hit."
       },
       {
         "label": "D",
@@ -4385,7 +4405,8 @@
       {
         "label": "S1",
         "name": "Devoted Hammering",
-        "text": "Inflicts {bleed}, plus more {nails} on targets that already have {nails}."
+        "text": "Inflicts {bleed}, plus more {nails} on targets that already have {nails}.",
+        "how": "[S2] and [D] put {nails} on enemies and [S1] adds more; [S2] clash wins and her kills make her {fanatic} (more power against Nailed enemies)."
       },
       {
         "label": "S2",
