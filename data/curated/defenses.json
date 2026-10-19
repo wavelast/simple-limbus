@@ -44,6 +44,10 @@
     "note": "[D] heals SP for her and a Le Noir ally and gives her a Shield that grows with {blessing-of-the-obsidian-god-don-quixote|~}."
   },
   {
+    "id": "haute-couture-the-crimson-god-of-le-rouge-sinclair",
+    "note": "Le Rouge allies protect him from unopposed hits with copies of [D2]."
+  },
+  {
     "id": "heishou-pack-mao-branch-adept-faust",
     "note": "[D1] lets her {assist-defense|protect allies} with [D2] (or [S3.2] at 10 {tianjiu-star-s-blade|~}); taking their hits builds {tianjiu-star-s-blade|~}."
   },

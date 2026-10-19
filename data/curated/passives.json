@@ -629,6 +629,31 @@
     ]
   },
   {
+    "id": "haute-couture-the-crimson-god-of-le-rouge-sinclair",
+    "passives": [
+      {
+        "name": "La Fin de l'Enfance",
+        "text": "Spending {pulsation-ally}, healing allies, allies losing HP and Le Rouge hits build {relentless-hunger}. At 100, a skill becomes La Voracité; using it gives {noble-dignity} for good."
+      },
+      {
+        "name": "La Moisson",
+        "text": "HP his skills take from allies can't Stagger or kill them. At 3+ Lust Resonance, allies get {desperate-hunger}; before {noble-dignity}, he follows up Charge allies' attacks."
+      },
+      {
+        "name": "La Jouissance phallique",
+        "text": "Gains {pulsation-ally} Count whenever {bleed} goes off. Ending a turn at 15+ Count spends it all for {uncontrollable-rampage-sinclair}; every 10 Count spent raises its Potency."
+      },
+      {
+        "name": "Les Pouvoirs de la vie",
+        "text": "Uses Le Manque-á-être on Staggered Le Rouge allies. With {noble-dignity}, Le Rouge allies survive one lethal hit and heal half their HP."
+      },
+      {
+        "name": "Voracious Overindulgence",
+        "text": "The lowest-HP ally gets 2 {offense-level-up} and heals 5% HP after attacking."
+      }
+    ]
+  },
+  {
     "id": "heishou-pack-mao-branch-adept-faust",
     "passives": [
       {

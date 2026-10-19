@@ -48,7 +48,7 @@ export default function Teammates({
                   <li key={i.id} className="mate">
                     <a className="mate-link" href={guideHref(e.id)}>
                       <span className="mate-art">
-                        <FramedChibi e={e} ratio={1} body={1.6} pad={0.04} className="mate-img" />
+                        <FramedChibi e={e} ratio={1} body={1.6} pad={0.04} fromHead className="mate-img" />
                       </span>
                       <span className="mate-text">
                         <span className="mate-sinner">{mateName}</span>

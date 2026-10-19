@@ -65,7 +65,7 @@ export interface Guide {
   teammates?: TeamGroup[];
 }
 
-export type Frame = [number, number, number, number];
+export type Frame = [number, number, number, number, number?];
 
 export interface TeamGroup {
   kind: 'named' | 'faction' | 'keyword';

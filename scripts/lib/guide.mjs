@@ -5,6 +5,7 @@ let statusFamily = (id) => id;
 let currentStatusName = (id) => id;
 let currentStatusKind = () => 'other';
 let currentKeywordOf = () => null;
+let currentStates = new Set();
 const SHE = new Set(['faust', 'don quixote', 'ryoshu', 'ishmael', 'rodion', 'outis']);
 const HE = new Set(['yi sang', 'mersault', 'hong lu', 'heathcliff', 'sinclair', 'gregor']);
 let pr = { he: 'it', him: 'it', his: 'its' };
@@ -291,6 +292,7 @@ export function buildGuide(model, ctx) {
     s.auto = !isBase && s.unlock.length > 0 && s.unlock.every((u) => u.mode === 'auto');
   });
 
+  currentStates = new Set(skills.flatMap((s) => s.unlock.filter((u) => u.mode === 'exclusive' && u.status).map((u) => u.status)));
   for (const s of skills) {
     const unlock = ctx.skillUnlock?.get(`${id}::${s.label.toLowerCase()}`)?.[0];
     if (!unlock) continue;
@@ -680,6 +682,7 @@ function stateNoun(id) {
 }
 
 function plainNoun(id, kind) {
+  if (currentStates.has(id)) return stateNoun(id);
   const unique = currentKeywordOf(id);
   if (unique) return `${pr.his} Unique ${unique.charAt(0).toUpperCase()}${unique.slice(1)}`;
   const name = bareName(currentStatusName(id) ?? '');
@@ -737,8 +740,15 @@ const isAllyLine = (t) => ALLY_LINE.some((re) => re.test(t.replace(/⟦[^⟧]+�
 const GIVE_VERB = /\b(?:apply|applies|give|gives|grant|grants|gain|gains)\b([^.:;]*)/gi;
 function givenStatuses(t) {
   const out = [];
-  for (const m of t.replace(/\([^()]*\)/g, '').matchAll(GIVE_VERB)) {
-    const phrase = m[1].split(/\b(?:if|that have|that has|with the)\b/i)[0];
+  const text = t.replace(/\([^()]*\)/g, '');
+  for (const m of text.matchAll(GIVE_VERB)) {
+    let given = m[1];
+    if (/^gains?$/i.test(m[0].split(/\s/)[0]) && !/\b(?:target|ally|allies|identity|identities|they)\s+$/i.test(text.slice(0, m.index))) {
+      const next = given.search(/\b(?:apply|applies|give|gives|grant|grants)\b/i);
+      if (next < 0) continue;
+      given = given.slice(next);
+    }
+    const phrase = given.split(/\b(?:if|that have|that has|with the)\b/i)[0];
     for (const s of phrase.matchAll(/⟦([^⟧]+)⟧/g)) out.push(s[1]);
   }
   return out;

@@ -546,7 +546,7 @@ select {
 .hero-art.framed {
   --h: 300px;
   position: relative;
-  height: var(--h);
+  height: calc(var(--h) + 2px);
   max-width: 100%;
   overflow: hidden;
   background: var(--panel-2);

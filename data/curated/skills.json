@@ -167,6 +167,87 @@
     ]
   },
   {
+    "id": "haute-couture-the-crimson-god-of-le-rouge-sinclair",
+    "skills": [
+      {
+        "label": "S1",
+        "name": "La Pulsion",
+        "text": "Can target allies to heal their HP and SP (Le Rouge allies give up HP for {power-up} instead). Gains {pulsation-ally} Count; more {pulsation-ally} Potency hits more targets."
+      },
+      {
+        "label": "S1.2",
+        "name": "Je vous aide",
+        "text": "Can't be clashed. Inflicts {bleed} Count and {lust-fragility}; deals more damage the more HP the target is missing, and more during {uncontrollable-rampage-sinclair}.",
+        "unlock": "Used on its own before his special state, when a Charge ally's attack leaves its target alive."
+      },
+      {
+        "label": "S1.3",
+        "name": "Je m'expulse",
+        "text": "Inflicts {bleed} and {l-abject-sinclair}, and gains {pulsation-ally} Count."
+      },
+      {
+        "label": "S2",
+        "name": "L'Appétit",
+        "text": "Can target allies to give {clash-power-up} and {desperate-hunger} ({charge} Count for Charge allies; Le Rouge allies give up HP for {offense-level-up}). Against enemies, inflicts {bleed}."
+      },
+      {
+        "label": "S2.2",
+        "name": "Je m'abjecte",
+        "text": "Takes HP from 2 allies for extra damage. Inflicts {bleed}, {l-abject-sinclair} and {lust-fragility}."
+      },
+      {
+        "label": "S2.3",
+        "name": "La Demande",
+        "text": "Can't be clashed. Inflicts {bleed}, then removes the target's {l-abject-sinclair} for {lust-fragility} next turn.",
+        "unlock": "Used on its own in his special state, after he attacks an enemy with 5 {l-abject-sinclair}."
+      },
+      {
+        "label": "S3",
+        "name": "Le Baptême rouge",
+        "text": "Takes HP from 2 healthy allies to give them {offense-level-up}, then inflicts {bleed} and gains {relentless-hunger}. Coins can't break during {uncontrollable-rampage-sinclair}.",
+        "how": [
+          "Bleed going off builds {pulsation-ally|~}; at 15+ it's spent on a {uncontrollable-rampage-sinclair|rampage} (more offense and Speed, no Stagger, and [S3]'s coins can't break). [D1] tops it up with HP.",
+          "Healing allies and their lost HP build {relentless-hunger|~}; at 100 a skill becomes [S3.3], and using it puts him in {noble-dignity|~} for good (every skill attacks). At 150, [S3.3] becomes the much stronger [S3.4]."
+        ]
+      },
+      {
+        "label": "S3.2",
+        "name": "Le Manque-á-être",
+        "text": "Can't be clashed. Clears an ally's Stagger and heals them 15% HP.",
+        "unlock": "Used on its own when a Le Rouge ally is Staggered (before his special state, also once per fight for any other ally).",
+        "how": "When a Le Rouge ally is Staggered, he uses [S3.2] to clear it and heal them."
+      },
+      {
+        "label": "S3.3",
+        "name": "La Voracité",
+        "text": "Takes HP from 3 allies for extra damage. Inflicts {bleed} and {l-abject-sinclair}, and makes the target's {bleed} go off. Coins can't break during {uncontrollable-rampage-sinclair}.",
+        "unlock": "Replaces a skill at 100+ {relentless-hunger}; using it puts him in {noble-dignity}."
+      },
+      {
+        "label": "S3.4",
+        "name": "La Castration",
+        "text": "Halves his other Le Rouge allies' HP to give them {uncontrollable-rampage-sinclair}. Five unbreakable coins inflict {bleed} and {l-abject-sinclair}, then turn {l-abject-sinclair} into {lust-fragility}. Spends all {relentless-hunger}.",
+        "unlock": "Replaces [S3.3] in his special state at 150 {relentless-hunger}."
+      },
+      {
+        "label": "D1",
+        "name": "La Fuite",
+        "text": "Dodges hits and gains {pulsation-ally} Count. Below 15 Count (outside {uncontrollable-rampage-sinclair}), spends HP to fill it to 15."
+      },
+      {
+        "label": "D2",
+        "name": "La Garde",
+        "text": "Blocks damage and can clash with an unbreakable coin. Hits on it give him {relentless-hunger}.",
+        "unlock": "Le Rouge allies with {attending-the-divine} copy this to take unopposed hits for him."
+      },
+      {
+        "label": "D3",
+        "name": "Le Trait unaire",
+        "text": "Strikes back when attacked and can clash, inflicting {bleed} and {l-abject-sinclair}. Below 15 {pulsation-ally} Count, spends HP to fill it to 15."
+      }
+    ]
+  },
+  {
     "id": "lce-e-g-o-dimension-shredder-yi-sang",
     "skills": [
       {

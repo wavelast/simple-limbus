@@ -87,9 +87,12 @@ function bodyBox(mask, w, h) {
       fullBottom = y;
     }
   }
+  const coreTop = Math.max(0, best[0] - r);
+  const spanTall = fullBottom - fullTop >= best[1] - best[0] + 2 * r;
   return {
     left: Math.max(0, x0 - r),
-    top: Math.max(0, best[0] - r),
+    top: spanTall ? fullTop : coreTop,
+    head: coreTop,
     right: Math.min(w - 1, x1 + r),
     bottom: Math.min(h - 1, best[1] + r),
     fullHeight: Math.max(fullBottom - fullTop, best[1] - best[0] + 2 * r),
@@ -108,5 +111,5 @@ export async function bodyFrame(input, sharp) {
   const box = bodyBox(mask, w, h);
   if (!box) return null;
   const round = (v) => Math.round(v * 1000) / 1000;
-  return [round((box.left + box.right) / 2 / w), round(box.top / h), round(Math.min(1, box.fullHeight / h)), round(W / H)];
+  return [round((box.left + box.right) / 2 / w), round(box.top / h), round(Math.min(1, box.fullHeight / h)), round(W / H), round(box.head / h)];
 }
