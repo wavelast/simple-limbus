@@ -2,8 +2,11 @@ import type { CSSProperties } from 'react';
 import { artUrl } from '../data';
 import type { Frame } from '../types';
 
+const HAT = 0.08;
+
 export function frameStyle([cx, top, full, aspect, head = top]: Frame, ratio: number, body = 0.88, pad = 0.06, fromHead = false): CSSProperties {
-  const h = (body * ratio) / full;
+  const lid = fromHead ? top : Math.max(top, head - HAT);
+  const h = (body * ratio) / (full - (lid - top));
   const w = h * aspect;
   return {
     position: 'absolute',
@@ -11,7 +14,7 @@ export function frameStyle([cx, top, full, aspect, head = top]: Frame, ratio: nu
     height: 'auto',
     maxWidth: 'none',
     left: `${(0.5 - cx * w) * 100}%`,
-    top: `${((pad * ratio - (fromHead ? head : top) * h) / ratio) * 100}%`,
+    top: `${((pad * ratio - (fromHead ? head : lid) * h) / ratio) * 100}%`,
   };
 }
 

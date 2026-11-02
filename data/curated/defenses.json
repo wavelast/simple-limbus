@@ -170,5 +170,13 @@
   {
     "id": "t-corp-class-3-collection-staff-don-quixote",
     "note": "[D] gives {borrowed-time|~}: {haste} and Clash Power Up for a few turns, but {fragile}, then {bind} when it ends."
+  },
+  {
+    "id": "haute-couture-le-noir-3f-public-address-room-hong-lu",
+    "note": "[D1] counters and lets him {assist-defense|protect allies} with [D2], an unbreakable Guard that counts toward {time-to-listen|~}."
+  },
+  {
+    "id": "haute-couture-le-rouge-king-of-needleworks-heathcliff",
+    "note": "[D] costs 20% HP but gives {attack-power-up} and {pulsation-ally|~} next turn."
   }
 ]

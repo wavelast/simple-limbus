@@ -2896,5 +2896,43 @@
         "text": "At turn end, the lowest-HP ally gets 1 {haste} and 3 {defense-level-up} for next turn."
       }
     ]
+  },
+  {
+    "id": "haute-couture-le-noir-3f-public-address-room-hong-lu",
+    "passives": [
+      {
+        "name": "You Should Listen, You Know?",
+        "text": "Every 10 {preservation} Count spent raises its Potency. Two turns of {ready-to-narrate} give {time-to-listen}, inflict {auditive-punishment} on all enemies and let Customer Announcement become Horribly Infinite Replay again."
+      },
+      {
+        "name": "Le Noir: Worsted",
+        "text": "Defense skills gain Clash Power from {preservation} Potency. At 8+ {le-noir-worsted-overcoat}, Warning Announcement refunds the {preservation} it spends."
+      },
+      {
+        "name": "Tuck Them Under a Blanket",
+        "text": "The first ally to use an {assist-defense} skill each turn gains {protection}."
+      }
+    ]
+  },
+  {
+    "id": "haute-couture-le-rouge-king-of-needleworks-heathcliff",
+    "passives": [
+      {
+        "name": "Customer Complaints Haunting the Ears",
+        "text": "Every 10 {pulsation-ally} Count spent raises its Potency. With {@haute-couture-the-crimson-god-of-le-rouge-sinclair|Crimson God Sinclair}, gains {cry-of-the-cocoon-frail-heathcliff} each turn; at 5, or once Sinclair has {noble-dignity}, it becomes {cry-of-the-cocoon-vicious-heathcliff} and Sinclair gets {crimson-cradle}."
+      },
+      {
+        "name": "Handmade? You want me to hand-stitch this?! HAND-STITCH???!!!",
+        "text": "Losing HP builds {pulsation-ally} Count and {tiny-and-sharp-nails}. HP costs from his skills can't Stagger him or drop him below 1 HP. At 3 {needlekin}, follows up attacks with [S3.2]."
+      },
+      {
+        "name": "Too even, you say? Not pick-stitching, you say? Assemble!!!",
+        "text": "Gains 1 {needlekin} at each turn end."
+      },
+      {
+        "name": "20 stitches an inch, minimum!!!",
+        "text": "The fastest ally inflicts 2 {bleed} on a base attack hit once per turn, plus 1 {naildle-heathcliff} if it's a Le Rouge identity."
+      }
+    ]
   }
 ]

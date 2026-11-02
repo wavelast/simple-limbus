@@ -801,5 +801,15 @@
   {
     "id": "zwei-assoc-west-section-3-sinclair",
     "opener": false
+  },
+  {
+    "id": "haute-couture-le-noir-3f-public-address-room-hong-lu",
+    "opener": false,
+    "note": "D1 gives Assist Defense, Preservation and Overcoat on every use, so turn 1 has nothing special"
+  },
+  {
+    "id": "haute-couture-le-rouge-king-of-needleworks-heathcliff",
+    "opener": false,
+    "note": "D gives Attack Power Up and Pulsation on every use, so turn 1 has nothing special"
   }
 ]

@@ -5463,5 +5463,75 @@
         "text": "Blocks damage and gains {aggro} next turn."
       }
     ]
+  },
+  {
+    "id": "haute-couture-le-noir-3f-public-address-room-hong-lu",
+    "skills": [
+      {
+        "label": "S1",
+        "name": "Please Listen to Me",
+        "text": "Inflicts {tremor} and gains {preservation} Count, spending some for Coin Power. Deals more damage with higher {preservation} Potency.",
+        "how": "Spending {preservation|~} raises its Potency, which powers up all his skills; [S3] and [D1] also give {le-noir-worsted-overcoat|a Shield} that grows with it and raises Offense and Defense Level."
+      },
+      {
+        "label": "S2",
+        "name": "Repeat on Repeat",
+        "text": "Inflicts {tremor} Count and {auditive-punishment}, and gains {preservation} Count, spending some for Coin Power. With {time-to-listen}, reuses a coin for SP damage and {sloth-resist-down}."
+      },
+      {
+        "label": "S3",
+        "name": "Horribly Infinite Replay",
+        "text": "Inflicts {tremor} and {auditive-punishment} and triggers {tremor-burst}. Spends {preservation} for Coin Power and gains {le-noir-worsted-overcoat} and {ready-to-narrate}. With {time-to-listen}, reuses a coin.",
+        "unlock": "Also replaces [D1] once each time he gets {time-to-listen}.",
+        "how": [
+          "Use [S3] or [D2] on two separate turns to get {time-to-listen|~} for 2 turns, which inflicts {auditive-punishment|~} on all enemies (less offense, more damage taken from Le Noir allies).",
+          "During {time-to-listen|~}, [S2] and [S3] reuse a coin and [D1] becomes [S3] once."
+        ]
+      },
+      {
+        "label": "D1",
+        "name": "Customer Announcement",
+        "text": "Strikes back when attacked and can clash. Gains {assist-defense}, {preservation} Count and {le-noir-worsted-overcoat}; becomes S3 once with {time-to-listen}."
+      },
+      {
+        "label": "D2",
+        "name": "Warning Announcement",
+        "text": "Blocks damage with an unbreakable coin and can clash. Gains {ready-to-narrate} and spends {preservation} for {assist-defense} next turn; a clash win triggers {tremor-burst}."
+      }
+    ]
+  },
+  {
+    "id": "haute-couture-le-rouge-king-of-needleworks-heathcliff",
+    "skills": [
+      {
+        "label": "S1",
+        "name": "Bla Bla Warp Bla, Yap Yap Weft Yap",
+        "text": "Spends HP to top {pulsation-ally} up to 5 Count, then gains more and inflicts {bleed} Count and {naildle-heathcliff}. Each {needlekin} adds damage.",
+        "how": "With {@haute-couture-the-crimson-god-of-le-rouge-sinclair|Crimson God Sinclair} on the field, he gains power and heals on hits, getting stronger as the fight goes on."
+      },
+      {
+        "label": "S2",
+        "name": "Stitch! Per! Inch!",
+        "text": "Spends HP to top {pulsation-ally} up to 10 Count, then spends 7 for Final Power. Inflicts {bleed} and {naildle-heathcliff}; each {needlekin} adds damage.",
+        "how": "His skills and [D] spend HP but never drop him below 1, and losing HP builds {pulsation-ally|~}."
+      },
+      {
+        "label": "S3",
+        "name": "Pick stitch too obvious, you say?! I'll pick-stitch your bum!",
+        "text": "Spends up to 20 {pulsation-ally} Count for power and damage, and {tiny-and-sharp-nails} for extra targets. Inflicts {bleed}, {pierce-fragility} and {naildle-heathcliff}; at 5+, turns it into {taxidermized-heathcliff}.",
+        "how": "Use [S3] on targets with 5+ {naildle-heathcliff|~} for {taxidermized-heathcliff|~}, which makes them Bleed when they attack, then Binds them. Losing HP lets it hit more targets."
+      },
+      {
+        "label": "S3.2",
+        "name": "Double stitching past the side seam? Double-needle! Rejected!",
+        "text": "Hits random enemies, healing on each hit, and inflicts {naildle-heathcliff}. Spends all {needlekin} to give {pierce-dmg-up} to him and 2 allies (Le Rouge first).",
+        "how": "With 2+ Lust Resonance he gains a {needlekin|~} each turn (more offense); at 3, he follows up his attacks with [S3.2], which heals him and boosts Pierce damage for him and 2 Le Rouge allies."
+      },
+      {
+        "label": "D",
+        "name": "Gnnnngh…",
+        "text": "Strikes back when attacked and can clash, inflicting {naildle-heathcliff}. Costs 20% HP for {attack-power-up} and {pulsation-ally} Count next turn."
+      }
+    ]
   }
 ]
