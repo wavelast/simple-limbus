@@ -178,5 +178,17 @@
   {
     "id": "haute-couture-le-rouge-king-of-needleworks-heathcliff",
     "note": "[D] costs 20% HP but gives {attack-power-up} and {pulsation-ally|~} next turn."
+  },
+  {
+    "id": "wedge-office-fixer-don-quixote",
+    "note": "[D]'s dodges give {poise} and {haste} next turn."
+  },
+  {
+    "id": "wedge-office-fixer-sinclair",
+    "note": "[D]'s dodges give {poise} and {haste} next turn."
+  },
+  {
+    "id": "wedge-office-rep-outis",
+    "note": "[D1] dodges for {poise} and {haste}, and lets her {assist-defense|protect allies} with [D2], an unbreakable counter that heals SP for both and Shields her."
   }
 ]

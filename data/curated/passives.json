@@ -2934,5 +2934,84 @@
         "text": "The fastest ally inflicts 2 {bleed} on a base attack hit once per turn, plus 1 {naildle-heathcliff} if it's a Le Rouge identity."
       }
     ]
+  },
+  {
+    "id": "wedge-office-fixer-don-quixote",
+    "passives": [
+      {
+        "name": "Ho, Young Sinclair! Thou must keep pace!",
+        "text": "Equipping her also equips {@wedge-office-fixer-sinclair|Wedge Office Fixer Sinclair}. Each turn, if she is slower than him, she speeds up to match."
+      },
+      {
+        "name": "Wedge Drive",
+        "text": "Gains {field-analysis} each turn. Once per turn, her last coin hit on the main target or a full dodge inflicts {wedge-don-quixote}."
+      },
+      {
+        "name": "Back-to-back in Dawnbreak's Light",
+        "text": "When {@dawn-office-fixer-faust|Dawn Office Fixer Faust} uses Dismemberment at High Noon, it also inflicts {burn}, {tremor} and {wedge-don-quixote} and gives Wedge Office Rep Outis {dawn-s-camaraderie}."
+      },
+      {
+        "name": "Hunters of the City",
+        "text": "At 10+ {poise} Potency, gains {haste} next turn; at 20+, base skills deal more critical damage."
+      },
+      {
+        "name": "Reconnaissance",
+        "text": "When the fastest ally clashes, the target gets 3 {tremor} Potency (once per turn)."
+      }
+    ]
+  },
+  {
+    "id": "wedge-office-fixer-sinclair",
+    "passives": [
+      {
+        "name": "Don Quixote… Please focus on the task at hand.",
+        "text": "Equipping him also equips {@wedge-office-fixer-don-quixote|Wedge Office Fixer Don Quixote}. Each turn, if he is slower than her, he speeds up to match."
+      },
+      {
+        "name": "Wedge Drive",
+        "text": "Gains {field-analysis} each turn. Once per turn, his last coin hit on the main target or a full dodge inflicts {wedge-sinclair}."
+      },
+      {
+        "name": "Back-to-back in Dawnbreak's Light",
+        "text": "When {@dawn-office-fixer-faust|Dawn Office Fixer Faust} uses Dismemberment at High Noon, it also inflicts {burn}, {tremor} and {wedge-sinclair} and gives Wedge Office Rep Outis {dawn-s-camaraderie}."
+      },
+      {
+        "name": "Hunters of the City",
+        "text": "At 10+ {poise} Potency, gains {haste} next turn; above 20, base skills deal more critical damage."
+      },
+      {
+        "name": "Keeping Pace",
+        "text": "The slowest ally gets {haste} next turn; Fixer identities go first and also get {offense-level-up}."
+      }
+    ]
+  },
+  {
+    "id": "wedge-office-rep-outis",
+    "passives": [
+      {
+        "name": "Unrelenting",
+        "text": "Survives one lethal hit per fight, heals 50% HP at turn end, and takes 20% less damage for the rest of the fight."
+      },
+      {
+        "name": "Wedge Office",
+        "text": "With 2+ Wedge Office identities on the field, each gains {wedge-office} equal to their number."
+      },
+      {
+        "name": "Assistance of the Wedge",
+        "text": "Gains {momentum} when each ally uses a skill and when Wedge or Dawn Office allies win clashes. At 25+, follows up her attack with [S3.2]."
+      },
+      {
+        "name": "Dawn - Wedge",
+        "text": "{@dawn-office-rep-gregor|Dawn Office Rep Gregor}'s Crack of Dawn hits harder and gives her {dawn-s-camaraderie}. At 4 or 5, one of her skills becomes [S3.3] or [S3.4]."
+      },
+      {
+        "name": "Wedge-style Spearmanship",
+        "text": "Her {tremor-burst} raises the Stagger Threshold more. Gains {pierce-power-up} and {pierce-dmg-up} each turn."
+      },
+      {
+        "name": "Acceleration Lance",
+        "text": "All allies' Pierce skills deal 5% more damage."
+      }
+    ]
   }
 ]

@@ -811,5 +811,20 @@
     "id": "haute-couture-le-rouge-king-of-needleworks-heathcliff",
     "opener": false,
     "note": "D gives Attack Power Up and Pulsation on every use, so turn 1 has nothing special"
+  },
+  {
+    "id": "wedge-office-fixer-don-quixote",
+    "opener": false,
+    "note": "D gives Poise and Haste on every dodge, so turn 1 has nothing special"
+  },
+  {
+    "id": "wedge-office-fixer-sinclair",
+    "opener": false,
+    "note": "D gives Poise and Haste on every dodge, so turn 1 has nothing special"
+  },
+  {
+    "id": "wedge-office-rep-outis",
+    "opener": false,
+    "note": "D1 gives Assist Defense, Poise and Haste on every use, so turn 1 has nothing special"
   }
 ]

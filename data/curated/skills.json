@@ -5533,5 +5533,128 @@
         "text": "Strikes back when attacked and can clash, inflicting {naildle-heathcliff}. Costs 20% HP for {attack-power-up} and {pulsation-ally} Count next turn."
       }
     ]
+  },
+  {
+    "id": "wedge-office-fixer-don-quixote",
+    "skills": [
+      {
+        "label": "S1",
+        "name": "Collision",
+        "text": "Inflicts {tremor} and gains {poise}. Resonating with Sinclair's skills adds Clash Power and {field-analysis}, and reuses its last coin to inflict {wedge-sinclair}."
+      },
+      {
+        "label": "S2",
+        "name": "Gap Strike",
+        "text": "Gains {poise} and inflicts {tremor} Count; a clash win triggers {tremor-burst}. Its last coin gains power from {field-analysis}."
+      },
+      {
+        "label": "S3",
+        "name": "Speared Sweep",
+        "text": "Gains {poise}, inflicts {tremor} Count, triggers {tremor-burst} and turns Tremor into {tremor-decay}. Resonating with Sinclair's skills adds Clash Power, {field-analysis} and damage.",
+        "how": [
+          "Equipping her also equips {@wedge-office-fixer-sinclair|Wedge Office Fixer Sinclair}. Resonating [S1] and [S3] with his skills adds power, damage and {field-analysis|~}.",
+          "She gains {field-analysis|~} every turn; at 3+ her attacks get +1 Coin Power and an unbreakable last coin.",
+          "Sinclair marks the main target with {wedge-sinclair|his Wedge} once per turn; at 4+, her [D] becomes [S3.2], an unbreakable attack that hits harder the more Wedge the target has."
+        ]
+      },
+      {
+        "label": "S3.2",
+        "name": "My Spear Shall Puncture Thee True!",
+        "text": "Three unbreakable coins inflict {tremor} Count and trigger {tremor-burst} twice; stronger with more {wedge-sinclair} on the target, then removes it. Gives Wedge Office Rep Outis {momentum}.",
+        "unlock": "Replaces [D] against a target with 4+ {wedge-sinclair}, even against unopposed attacks."
+      },
+      {
+        "label": "D",
+        "name": "Catch Breath",
+        "text": "Dodges attacks; dodging gives {poise} and {haste} next turn. Becomes S3.2 against a target with 4+ {wedge-sinclair}."
+      }
+    ]
+  },
+  {
+    "id": "wedge-office-fixer-sinclair",
+    "skills": [
+      {
+        "label": "S1",
+        "name": "Collision",
+        "text": "Gains {poise} and inflicts {tremor}. Resonating with Don Quixote's skills adds Clash Power and {field-analysis}, and reuses its last coin to inflict {wedge-don-quixote}."
+      },
+      {
+        "label": "S2",
+        "name": "Riding the Tide of the Offensive",
+        "text": "Gains {poise} and inflicts {tremor} Count; deals more damage with more {field-analysis}."
+      },
+      {
+        "label": "S3",
+        "name": "Speared Sweep",
+        "text": "Gains {poise}, inflicts {tremor} Count, triggers {tremor-burst} and turns Tremor into {tremor-decay}. Deals more damage with {field-analysis} and when resonating with Don Quixote's skills.",
+        "how": [
+          "Equipping him also equips {@wedge-office-fixer-don-quixote|Wedge Office Fixer Don Quixote}. Resonating [S1] and [S3] with her skills adds power, damage and {field-analysis|~}.",
+          "He gains {field-analysis|~} every turn; at 3+ his attacks get +1 Coin Power and an unbreakable last coin.",
+          "Don Quixote marks the main target with {wedge-don-quixote|her Wedge} once per turn; at 4+, his [D] becomes [S3.2], an unbreakable attack that hits harder the more Wedge the target has."
+        ]
+      },
+      {
+        "label": "S3.2",
+        "name": "I'll Run You Through Quick & True",
+        "text": "Three unbreakable coins inflict {tremor} Count and trigger {tremor-burst} twice, reusing the last; stronger with more {wedge-don-quixote} on the target, then removes it. Gives Wedge Office Rep Outis {momentum}.",
+        "unlock": "Replaces [D] against a target with 4+ {wedge-don-quixote}, even against unopposed attacks."
+      },
+      {
+        "label": "D",
+        "name": "Catch Breath",
+        "text": "Dodges attacks; dodging gives {poise} and {haste} next turn. Becomes S3.2 against a target with 4+ {wedge-don-quixote}."
+      }
+    ]
+  },
+  {
+    "id": "wedge-office-rep-outis",
+    "skills": [
+      {
+        "label": "S1",
+        "name": "High-speed Stabbing",
+        "text": "Gains {poise} and inflicts {tremor}; stronger at 3 {wedge-office}."
+      },
+      {
+        "label": "S2",
+        "name": "Sparking Spear",
+        "text": "Gives all Wedge Office allies {pierce-dmg-up}. Gains {poise} and inflicts {tremor}; a crit triggers {tremor-burst}. Discards S1 if it shares the slot."
+      },
+      {
+        "label": "S3",
+        "name": "Transpierce",
+        "text": "One unbreakable coin that hits harder with more {tremor} and {poise}; inflicts {pierce-fragility}, triggers {tremor-burst} and turns Tremor into {tremor-decay}. Big Clash Power boost at 3 {wedge-office}.",
+        "how": "With {@wedge-office-fixer-don-quixote|Wedge Office Fixer Don Quixote} and {@wedge-office-fixer-sinclair|Sinclair} on the field, all three gain Offense Level and Pierce damage, and her [S3] gains a lot of Clash Power."
+      },
+      {
+        "label": "S3.2",
+        "name": "Assume Wedge Formation",
+        "text": "Can't be clashed. Inflicts {tremor} and triggers {tremor-burst}; gives other Wedge Office allies {pierce-power-up} next turn and gains {dawn-s-camaraderie}. Spends 25 {momentum}.",
+        "unlock": "Used on its own after her attack at 25+ {momentum}.",
+        "how": "Each ally's skills build {momentum|~}, and Wedge and Dawn Office clash wins add more; at 25, she follows up her attack with [S3.2], which can't be clashed and powers up her Wedge Office allies."
+      },
+      {
+        "label": "S3.3",
+        "name": "… All units, engage for collision.",
+        "text": "Hits more targets with more Wedge Office allies. Inflicts {tremor}, triggers {tremor-burst} and {amplitude-entanglement}; Dawn and Wedge Office allies add {burn} and more Tremor Burst. Spends all {dawn-s-camaraderie}.",
+        "unlock": "Replaces one of her skills at 4 {dawn-s-camaraderie}."
+      },
+      {
+        "label": "S3.4",
+        "name": "The Wedge in the Wake of Dawnbreak",
+        "text": "A stronger S3.3: hits more targets with more Wedge Office allies, inflicts {tremor} and triggers {tremor-burst}, with extra {burn} and damage from Dawn and Wedge Office allies. Spends all {dawn-s-camaraderie}.",
+        "unlock": "Replaces one of her skills at 5 {dawn-s-camaraderie}.",
+        "how": "She gets {dawn-s-camaraderie|~} from [S3.2] and, with {@dawn-office-rep-gregor|Dawn Office Rep Gregor} or {@dawn-office-fixer-faust|Dawn Office Fixer Faust} on the team, from their skills and her [S3]. At 4 one of her skills becomes [S3.3], and at 5 the stronger [S3.4]."
+      },
+      {
+        "label": "D1",
+        "name": "Catch Breath",
+        "text": "Dodges attacks and gains {assist-defense}; dodging gives {poise} and {haste} next turn."
+      },
+      {
+        "label": "D2",
+        "name": "Step Aside.",
+        "text": "Strikes back when attacked with unbreakable coins, stronger at low HP. Heals SP for her and the protected ally and gives her a Shield; inflicts {tremor} and gains {poise}."
+      }
+    ]
   }
 ]
